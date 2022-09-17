@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "BRITTLE_HOLLOW",
+	"Base": {
+		"gravityFallOff": "linear"
+	},
+	"Orbit": {},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {
+					"x": 140.177673,
+					"y": 209.928284,
+					"z": 157.977966
+				},
+				"rotation": {
+					"x": 27.305748,
+					"y": 331.988617,
+					"z": 313.0707
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"position": {
+					"x": 141.286026,
+					"y": 208.499176,
+					"z": 159.361374
+				},
+				"rotation": {
+					"x": 37.127903,
+					"y": 332.719421,
+					"z": 321.659
+				},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/BrittleHollowRecorder.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/HearthianRadio.wav",
+				"detectionRadius": 20.0,
+				"frequency": "Hearthian Radio",
+				"name": "Bridge's Radio",
+				"position": {
+					"x": 140.178162,
+					"y": 209.928268,
+					"z": 157.9794
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/BrittleHollow.xml"
+	}
+}

@@ -1,0 +1,66 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>TIMBER_HEARTH</ID>
+
+  <Entry> <!-- An Entry For This Planet -->
+    <ID>THE_MAGIC_BANJO</ID> <!-- The ID of this entry -->
+    <Name>The Magic Banjo</Name> <!-- The name to show for this entry both on the card and in map mode -->
+    <Curiosity>THE_MAGIC_BANJO</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+    <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+    <IgnoreMoreToExplore/> <!-- Don't show a "more to explore" icon -->
+
+    <RumorFact> <!-- A rumor fact that belongs to this entry -->
+      <ID>SPOKE_TO_FRET</ID> <!-- The ID of this fact -->
+      <RumorName>The Missing Banjo</RumorName> <!-- The name of the rumor this fact relates to -->
+      <Text>A Nomai in the Village named Fret is looking for his magic banjo.</Text> <!-- The Text to display for this fact -->
+    </RumorFact>
+
+    <RumorFact>
+      <ID>RIM_CONTRIBUTION</ID>
+      <RumorName>The Plan</RumorName>
+      <SourceID>RIM_CAMP</SourceID>
+      <Text>Rim said that they would need to be somewhere dark and secluded.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>BRIDGE_CONTRIBUTION</ID>
+      <RumorName>The Plan</RumorName>
+      <SourceID>BRIDGE_CAMP</SourceID>
+      <Text>Bridge said that they would need to be near quantum mechanics.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>RESON_CONTRIBUTION</ID>
+      <RumorName>The Plan</RumorName>
+      <SourceID>RIM_CAMP</SourceID>
+      <Text>Reson said that Giant's Deep is too far from the sun, making it way too cold.</Text>
+    </RumorFact>
+  </Entry>
+
+  <Entry>
+    <ID>FRET_VILLAGE</ID>
+    <Name>Fret in the Village</Name>
+    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+
+    <RumorFact>
+      <ID>VILLAGE_VISITOR_RUMOR</ID>
+      <RumorName>A Visitor</RumorName>
+      <Text>Gneiss has a visitor in the Timber Hearth Village.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>BACKSTORY_FROM_FRET</ID>
+      <Text>I met a Nomai named Fret in the Village. He said he is looking for his magic banjo that was stolen from him.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>BACKSTORY_FROM_FRET_2</ID>
+      <Text>Fret said that the banjo was not on Timber Hearth.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>RADIO_LISTENED_TO</ID>
+      <Text>The radio outside Gneiss's house is emitting a weird signal.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

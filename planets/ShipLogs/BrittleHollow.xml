@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>BRITTLE_HOLLOW</ID>
+
+  <Entry>
+    <ID>BRIDGE_CAMP</ID>
+    <Name>Bridge's Camp</Name>
+    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+
+    <RumorFact>
+      <ID>WONDER_BH</ID>
+      <RumorName>Strange Signal 2</RumorName>
+      <SourceID>FRET_VILLAGE</SourceID>
+      <Text>I wonder if the magic banjo is on Brittle Hollow.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>BRIDGE_RECORDER</ID>
+      <Text>I found Bridge's camp on Brittle Hollow. He said that they would need to be near quantum mechanics.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

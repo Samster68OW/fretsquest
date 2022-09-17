@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>TIMBER_MOON</ID>
+
+  <Entry>
+    <ID>RIM_CAMP</ID>
+    <Name>Rim's Camp</Name>
+    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+
+    <RumorFact>
+      <ID>WONDER_AR</ID>
+      <RumorName>Strange Signal 1</RumorName>
+      <SourceID>FRET_VILLAGE</SourceID>
+      <Text>I wonder if the magic banjo is on the Attlerock.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>RIM_RECORDER</ID>
+      <Text>I found Rim's camp on the Attlerock. He said that they would need to be somewhere dark and secluded.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

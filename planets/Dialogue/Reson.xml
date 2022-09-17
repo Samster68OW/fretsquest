@@ -1,0 +1,96 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Reson</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello. I didn't expect to see anyone else here.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>I'm sure you have questions.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What is this place?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What does the banjo do?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What lies beyond this planet?</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to look around.</Text>
+				<DialogueTarget>6</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>You are standing in the newly-created <![CDATA[<color=orange>Banjo Galaxy</color>]]>.</Page>
+			<Page>At least, I think you are. My tracking technology doesn't seem to be working here.</Page>
+			<Page>This place was created by my cohorts and I using the magic banjo. However, I did not anticipate that plucking the strings would cost my friends their lives.</Page>
+			<Page>In this universe, <![CDATA[<color=orange>playing god will always cost you</color>]]>.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>My name is <![CDATA[<color=orange>Reson</color>]]>. I am a member of an advanced species known as the Nomai. I am an explorer, just like you.</Page>
+			<Page>My guild and I were exploring a solar system not too far from your own when we discovered the banjo.</Page>
+			<Page>The planet had been stipped of its resources. The grass wouldn't grow and the rivers had all dried up. There wasn't a tree in sight.</Page>
+			<Page>But, somehow, there sat the banjo. Peacefully lying against a tree.</Page>
+			<Page>Like someone had just used it.</Page>
+			<Page>After studying it at our camp, Fret determined that it had the power to solve the problem that no Nomai could: avoiding the <![CDATA[<color=orange>End of the Universe</color>]]>.</Page>
+			<Page>Fret thought it was too dangerous to use. Rim, Bridge, and I disagreed. If there was a chance to save our species, why not take it?</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>The magic banjo is very powerful, and I regret not taking the time to study it further.</Page>
+			<Page>When we studied it at our camp, we determined that it has <![CDATA[<color=orange>space-altering properties</color>]]>.</Page>
+			<Page>A few chords played on the banjo are enough to create entire galaxies. We are standing in the result of a simple G chord.</Page>
+			<Page>I wanted to play it more once I arrived on this world, but the banjo disappeared as I stepped through the singularity.</Page>
+			<Page>I'm not too concerned, though. I have a feeling it is close by.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>I am not sure. The skies above us are cloudy, and I did not bring the proper equipment to travel off-world.</Page>
+			<Page>Interestingly, it looks like a <![CDATA[<color=orange>Hearthian vessel</color>]]> appeared here moments before you did.</Page>
+			<Page>It seems that fate has chosen you to be the first to see what's beyond the fog.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>6</Name>
+		<Dialogue>
+			<Page>Fair well on your exploration.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+</DialogueTree>

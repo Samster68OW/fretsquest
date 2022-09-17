@@ -1,0 +1,24 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>GIANTS_DEEP</ID>
+
+  <Entry>
+    <ID>RESON_CAMP</ID>
+    <Name>Reson's Camp</Name>
+    
+    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+
+    <RumorFact>
+      <ID>WONDER_GD</ID>
+      <RumorName>Strange Signal 3</RumorName>
+      <SourceID>FRET_VILLAGE</SourceID>
+      <Text>I wonder if the magic banjo is on Giant's Deep.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>RESON_RECORDER</ID>
+      <Text>I found Reson's camp on Giant's Deep. He said that Giant's Deep is too far from the sun, making it way too cold.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

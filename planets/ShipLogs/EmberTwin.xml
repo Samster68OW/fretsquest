@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>CAVE_TWIN</ID>
+
+  <Entry>
+    <ID>RITUAL_PORTAL</ID>
+    <Name>The Ritual</Name>
+    
+    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+
+    <ExploreFact>
+      <ID>RITUAL_RECORDER</ID>
+      <Text>I found the bodies of Rim and Bridge in the Lakebed Cave on Ember Twin. Rim said that the ritual was complete, and a singularity has opened within the cave.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>
