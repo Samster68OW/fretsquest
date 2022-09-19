@@ -4,6 +4,6 @@
   "name": "Fret's Quest",
   "uniqueName": "Samster68.FretsQuest",
   "version": "0.0.0",
-  "owmlVersion": "2.6.0",
+  "owmlVersion": "2.7.0",
   "dependencies": [ "xen.NewHorizons" ]
 }

@@ -49,13 +49,9 @@
 				"type": "scroll",
 				"seed": 10,
 				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "adult"},
-					{"position": {"x": -0.7676, "y": 1.4533}, "zRotation": 160, "type": "adult"},
-					{"position": {"x": -1.0676, "y": 2.086}, "zRotation": 80, "type": "adult"},
-					{"position": {"x": -0.85, "y":  2.1}, "zRotation": 320, "type": "adult"},
-					{"position": {"x": 0.9988, "y": 1.7824}, "zRotation": 240, "type": "adult"}
+					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "stranger"},
+					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger"},
+					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "stranger"}
 				]
 			}
 		]

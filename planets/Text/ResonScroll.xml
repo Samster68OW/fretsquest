@@ -2,42 +2,18 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>FRED: Do you want to <![CDATA[<color=lightblue>duo</color>]]> in <![CDATA[<color=red>Fortnite</color>]]>.</Text>
+		<Text>SAMSTER68: Thank you for playing Fret's Quest! I hope you had a good time exploring the Outer Wilds once more.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<LocationB />
-		<Text>BOB: No, I'd really rather not.</Text>
+		<Text>Created by Samster68 with music by Smuffy</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<LocationA />
-		<Text>FRED: Okay well does anyone want to play <![CDATA[<color=pink>Among Us</color>]]>.</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<LocationB />
-		<Text>Ernesto: Yeah I'm down.</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>5</ID>
-		<ParentID>3</ParentID>
-		<LocationB />
-		<Text>Geswaldo: Sure thing.</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>6</ID>
-		<ParentID>3</ParentID>
-		<LocationB />
-		<Text>Slate: Who even are you people?</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<ParentID>6</ParentID>
-		<LocationA />
-		<Text>FRED: My name is Bob.</Text>
+		<Text>Hint: There is one more secret to be found.</Text>
 	</TextBlock>
 </NomaiObject>

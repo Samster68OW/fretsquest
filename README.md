@@ -1,5 +1,5 @@
 # Fret's Quest
-This mod is a short unofficial story mod for Outer Wilds. The adventure begins with a new entry in your ship log!
+This mod is a short unofficial story mod for Outer Wilds. It is about one "Attlerock's worth" of content. The adventure begins with a new entry in your ship log!
 Note: This is an addon mod for [New Horizons](https://outerwildsmods.com/mods/newhorizons/).
 
 Spoilers:
@@ -19,6 +19,7 @@ If you record/stream yourself playing this mod, I would love to see it! You can 
 - [xen](https://github.com/xen-42)
 - Trifid
 - CrypticBird
+- Fixxion's Lair
 - The rest of the Outer Wilds Modding community
 
 # Disclaimer

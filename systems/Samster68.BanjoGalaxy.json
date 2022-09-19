@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
-	"canEnterViaWarpDrive": true,
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
 	"travelAudioFilePath": "planets/Audio/HearthianRadio.wav",
-	"startHere": true,
-	"mapRestricted": false
+	"startHere": false,
+	"mapRestricted": false,
+	"factRequiredForWarp": "RITUAL_RECORDER"
 }

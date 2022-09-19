@@ -59,6 +59,20 @@
 					"y": 354.5054,
 					"z": 0
 				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_WarpReceiver/Geometry_WarpReceiver/OtherComponentsGroup/Prefab_NOM_Arch_B",
+				"position": {
+					"x": 35.3102,
+					"y": 77.4185,
+					"z": -99.4057
+				},
+				"rotation": {
+					"x": 6.9268,
+					"y": 80.8743,
+					"z": 305.09
+				},
+				"scale": 0.6
 			}
 		],
 		"nomaiText": [
