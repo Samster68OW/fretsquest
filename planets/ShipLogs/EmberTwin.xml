@@ -4,14 +4,12 @@
   <Entry>
     <ID>RITUAL_PORTAL</ID>
     <Name>The Ritual</Name>
-    
-    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+    <Curiosity>FRETS_QUEST</Curiosity>
 
     <ExploreFact>
       <ID>RITUAL_RECORDER</ID>
-      <Text>I found the bodies of Rim and Bridge in the Lakebed Cave on Ember Twin. Rim said that the ritual was complete, and a singularity has opened within the cave.</Text>
+      <Text>I found the bodies of Rim and Bridge inside the Quantum Caves on Ember Twin. A black hole has formed within the cave.</Text>
     </ExploreFact>
 
   </Entry>
-
 </AstroObjectEntry>

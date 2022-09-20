@@ -1,0 +1,81 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Fret</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hi! I'm Fret.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Nice to meet you.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Are you a Nomai?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>It's nice to meet you, too! Your village is quite cute, I must say.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thanks...?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Yes, I am! I'm just passing through.</Page>
+			<Page>Actually, I could use your help with something.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Unfortunately, I'm not here on vacation.</Page>
+			<Page>I'm looking for my magic banjo.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Your magic... banjo?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>That's right! A group of rogue Nomai stole it from me and fled to this solar system.</Page>
+			<Page>I only just started searching, but I've determined that it is not on <![CDATA[<color=orange>Timber Hearth</color>]]>.</Page>
+			<Page>I tried using the radio at the house behind me to locate it, but I can't get it to work. It doesn't seem to be making any <![CDATA[<color=orange>sound</color>]]>.</Page>
+			<Page>It's a bit more analog than I'm used to.</Page>
+			<Page>Anyway, I'm going to rest here for a moment before continuing. If you wouldn't mind, keep an eye out for my magic banjo.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>BACKSTORY_FROM_FRET</FactID>
+			<FactID>BACKSTORY_FROM_FRET_2</FactID>
+			<FactID>RIM_RUMOR</FactID>
+			<FactID>BRIDGE_RUMOR</FactID>
+			<FactID>RESON_RUMOR</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+</DialogueTree>

@@ -27,8 +27,8 @@
 	</ShipLogConditions>
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>BRIDGE_CONTRIBUTION</FactID>
-			<Condition>3</Condition>
+			<FactID>BRIDGE_RUMOR</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

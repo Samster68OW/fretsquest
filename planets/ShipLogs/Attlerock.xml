@@ -4,20 +4,23 @@
   <Entry>
     <ID>RIM_CAMP</ID>
     <Name>Rim's Camp</Name>
-    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+    <Curiosity>FRETS_QUEST</Curiosity>
 
     <RumorFact>
-      <ID>WONDER_AR</ID>
+      <ID>RIM_RUMOR</ID>
+      <SourceID>FRETS_QUEST</SourceID>
       <RumorName>Strange Signal 1</RumorName>
-      <SourceID>FRET_VILLAGE</SourceID>
-      <Text>I wonder if the magic banjo is on the Attlerock.</Text>
+      <Text>I wonder where that signal is coming from?</Text>
     </RumorFact>
 
     <ExploreFact>
+      <ID>RIM_RADIO</ID>
+      <Text>I followed one of the strange signals to a radio on the Attlerock.</Text>
+    </ExploreFact>
+    <ExploreFact>
       <ID>RIM_RECORDER</ID>
-      <Text>I found Rim's camp on the Attlerock. He said that they would need to be somewhere dark and secluded.</Text>
+      <Text>Rim said that they need to be somewhere dark and secluded.</Text>
     </ExploreFact>
 
   </Entry>
-
 </AstroObjectEntry>

@@ -1,0 +1,16 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Lost Strings</ID>
+
+  <Entry>
+    <ID>LOST_STRINGS</ID>
+    <Name>New Galaxy</Name>
+    <Curiosity>LOST_STRINGS</Curiosity>
+    <IsCuriosity/>
+
+    <ExploreFact>
+      <ID>NEW_GALAXY</ID>
+      <Text>I discovered a new galaxy.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

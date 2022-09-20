@@ -4,21 +4,23 @@
   <Entry>
     <ID>RESON_CAMP</ID>
     <Name>Reson's Camp</Name>
-    
-    <Curiosity>THE_MAGIC_BANJO</Curiosity>
+    <Curiosity>FRETS_QUEST</Curiosity>
 
     <RumorFact>
-      <ID>WONDER_GD</ID>
+      <ID>RESON_RUMOR</ID>
+      <SourceID>FRETS_QUEST</SourceID>
       <RumorName>Strange Signal 3</RumorName>
-      <SourceID>FRET_VILLAGE</SourceID>
-      <Text>I wonder if the magic banjo is on Giant's Deep.</Text>
+      <Text>I wonder where that signal is coming from?</Text>
     </RumorFact>
 
     <ExploreFact>
+      <ID>RESON_RADIO</ID>
+      <Text>I followed one of the strange signals to a radio on Giant's Deep.</Text>
+    </ExploreFact>
+    <ExploreFact>
       <ID>RESON_RECORDER</ID>
-      <Text>I found Reson's camp on Giant's Deep. He said that Giant's Deep is too far from the sun, making it way too cold.</Text>
+      <Text>Reson said that Giant's Deep is too far from the sun, making it way too cold for their plans.</Text>
     </ExploreFact>
 
   </Entry>
-
 </AstroObjectEntry>

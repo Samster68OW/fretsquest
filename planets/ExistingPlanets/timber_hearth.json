@@ -44,7 +44,7 @@
 					"z": 192.649231
 				},
 				"radius": 1.2,
-				"xmlFile": "planets/Dialogue/Fret01.xml"
+				"xmlFile": "planets/Dialogue/Fret.xml"
 			}
 		],
 		"signals": [

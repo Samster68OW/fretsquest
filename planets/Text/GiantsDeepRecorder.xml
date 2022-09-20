@@ -32,8 +32,8 @@
 	</ShipLogConditions>
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>RESON_CONTRIBUTION</FactID>
-			<Condition>4</Condition>
+			<FactID>RESON_RUMOR</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

@@ -1,60 +1,59 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"startHere": true,
 	"entryPositions": [
 		{
-			"id": "FRET_VILLAGE",
-			"position": {
-				"x": 1240.364,
-				"y": 1450.169
-			}
+		  "id": "FRETS_QUEST",
+		  "position": {
+			"x": 1200,
+			"y": 1300
+		  }
 		},
 		{
 			"id": "RIM_CAMP",
 			"position": {
-				"x": 870,
-				"y": 1647.714
+				"x": 800,
+				"y": 1600
 			}
 		},
 		{
 			"id": "BRIDGE_CAMP",
 			"position": {
-				"x": 870,
-				"y": 1450.169
+				"x": 800,
+				"y": 1300
 			}
 		},
 		{
 			"id": "RESON_CAMP",
 			"position": {
-				"x": 870,
-				"y": 1246.787
+				"x": 800,
+				"y": 1000
 			}
 		},
 		{
-			"id": "THE_MAGIC_BANJO",
+			"id": "RITUAL_PORTAL",
 			"position": {
-				"x": 506.5648,
-				"y": 1490.365
+				"x": 400,
+				"y": 1300
 			}
 		}
 	],
 	"curiosities": [
-	  {
-		"color": {
-		  "r": 106,
-		  "g": 108,
-		  "b": 109,
-		  "a": 255
-		},
-		"highlightColor": {
-		  "r": 238,
-		  "g": 239,
-		  "b": 231,
-		  "a": 255
-		},
-		"id": "THE_MAGIC_BANJO"
-	  }
+		{
+			"color": {
+				"r": 55,
+				"g": 117,
+				"b": 148,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 102,
+				"g": 133,
+				"b": 148,
+				"a": 255
+			},
+			"id": "FRETS_QUEST"
+		}
 	],
-	"initialReveal": [
-	  "VILLAGE_VISITOR_RUMOR"
-	]
+	"initialReveal": ["VILLAGE_VISITOR_RUMOR"]
 }

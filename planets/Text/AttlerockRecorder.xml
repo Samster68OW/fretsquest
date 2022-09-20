@@ -37,8 +37,8 @@
 	</ShipLogConditions>
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>RIM_CONTRIBUTION</FactID>
-			<Condition>4</Condition>
+			<FactID>RIM_RUMOR</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

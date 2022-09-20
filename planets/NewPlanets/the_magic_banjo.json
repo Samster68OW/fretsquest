@@ -12,12 +12,12 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 2000,
-		"primaryBody" : "Lost Strings",
-		"isMoon" : true,
-        "siderealPeriod": 5,
+		"semiMajorAxis" : 4500,
+		"primaryBody" : "White Sun",
+        "siderealPeriod": 7,
 		"isTidallyLocked": true,
-		"showOrbitLine" : false
+		"showOrbitLine" : true,
+		"trueAnomaly": 90
 	},
 	"HeightMap": {
 		"heightMap": "planets/Assets/custom_HeightMap.png",
@@ -35,9 +35,9 @@
 					"z": 0
 				},
 				"rotation": {
-					"x": 81.7649,
-					"y": 219.4834,
-					"z": 270
+					"x": 90,
+					"y": 150,
+					"z": 0
 				},
 				"scale": 2000
 			}

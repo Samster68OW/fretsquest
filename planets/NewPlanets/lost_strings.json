@@ -12,9 +12,11 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 5000,
+		"semiMajorAxis" : 3000,
 		"primaryBody" : "White Sun",
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"trueAnomaly": 180,
+        "siderealPeriod": 6
 	},
 	"HeightMap": {
 		"heightMap": "planets/Assets/custom_HeightMap.png",
@@ -198,7 +200,7 @@
 		  "z": 105
 		},
 		"playerSpawnRotation": {
-			"x": -90,
+			"x": 20,
 			"y": 0,
 			"z": 0
 		},
@@ -212,14 +214,10 @@
 			"y": 50,
 			"z": 0
 		},
-		"startWithSuit" : true
+		"startWithSuit": false
 	},
-	"Volumes": {
-		"audioVolumes": [
-			{
-				"audio": "planets/Audio/HearthianRadio.wav",
-				"radius": 120
-			}
-		]
-	}
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/LostStrings.xml"
+    }
 }

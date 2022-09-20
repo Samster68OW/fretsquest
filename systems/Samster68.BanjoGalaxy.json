@@ -2,8 +2,11 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
-	"travelAudioFilePath": "planets/Audio/HearthianRadio.wav",
+	"travelAudio": "planets/Audio/HearthianRadio.wav",
 	"startHere": false,
 	"mapRestricted": false,
-	"factRequiredForWarp": "RITUAL_RECORDER"
+	"factRequiredForWarp": "NEW_GALAXY",
+	"initialReveal": [
+		"NEW_GALAXY"
+	]
 }
