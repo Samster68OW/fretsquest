@@ -1,0 +1,10 @@
+To-Do List
+
+Changes
+- Fix Nomai scroll positions
+- Player spawn location (ask)
+- Warping is messed up: dup galaxies and no images
+
+Playtester List
+- Smuffy
+- JohnCorby
