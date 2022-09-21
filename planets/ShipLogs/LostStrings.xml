@@ -13,4 +13,46 @@
     </ExploreFact>
 
   </Entry>
+  <Entry>
+    <ID>RESON</ID>
+    <Name>Reson</Name>
+    <Curiosity>LOST_STRINGS</Curiosity>
+
+    <ExploreFact>
+      <ID>RESON_NEW_GALAXY</ID>
+      <Text>I met Reson on the north pole of Lost Strings. He said that we are standing in a brand-new galaxy formed by the magic banjo.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>RESON_BACKSTORY</ID>
+      <Text>Reson said that the magic banjo was found by his guild and realized it had incredible power. Fret didn't want to use it, so Reson, Rim, and Bridge stole it.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>RESON_BANJO_MISSING</ID>
+      <Text>Reson brought the magic banjo with him, but it seems to have disappeared.</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>CLAYS_WALL</ID>
+    <Name>Clay's Wall</Name>
+    <Curiosity>LOST_STRINGS</Curiosity>
+
+    <RumorFact>
+      <ID>MORE_OUTSIDE_RUMOR</ID>
+      <SourceID>RESON</SourceID>
+      <RumorName>What else?</RumorName>
+      <Text>What else is in this strange galaxy?</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>RESON_SCROLL</ID>
+      <Text>According to a Nomai scroll found near Reson, the story has plans to be continued.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SECRET_SCROLL</ID>
+      <Text>I found a Nomai Scroll inside the Magic Banjo that features a conversation between Fret and a researcher named Beck.</Text>
+    </ExploreFact>
+
+  </Entry>
 </AstroObjectEntry>

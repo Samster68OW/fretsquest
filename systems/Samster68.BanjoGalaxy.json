@@ -6,6 +6,29 @@
 	"startHere": false,
 	"mapRestricted": false,
 	"factRequiredForWarp": "NEW_GALAXY",
+	"entryPositions": [
+		{
+		  "id": "LOST_STRINGS",
+		  "position": {
+			"x": 1000,
+			"y": 1000
+		  }
+		},
+		{
+			"id": "RESON",
+			"position": {
+				"x": 700,
+				"y": 700
+			}
+		},
+		{
+			"id": "CLAYS_WALL",
+			"position": {
+				"x": 1300,
+				"y": 700
+			}
+		}
+	],
 	"curiosities": [
 		{
 			"color": {

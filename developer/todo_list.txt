@@ -4,11 +4,7 @@ To-Do List
 
 
 CURRENT PROCESS
-1. Finish Ship Log
-    - Banjo Galaxy, Reson, Clay's Wall
-2. Push
-3. Send 0.0.1 to JohnCorby
-4. Create thread and post promo image
+- Create thread and post promos
 
 
 
@@ -18,6 +14,7 @@ CURRENT PROCESS
 
 BUGS & IMPROVEMENTS
 - Fix Nomai scroll positions
+- Add more music from Smuffy
 
 
 UPCOMING FEATURES

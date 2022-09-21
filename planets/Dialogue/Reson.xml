@@ -48,6 +48,9 @@
 			<Page>In this universe, <![CDATA[<color=orange>playing god will always cost you</color>]]>.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>RESON_NEW_GALAXY</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -62,6 +65,9 @@
 			<Page>Fret thought it was too dangerous to use. Rim, Bridge, and I disagreed. If there was a chance to save our species, why not take it?</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>RESON_BACKSTORY</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -74,6 +80,9 @@
 			<Page>I'm not too concerned, though. I have a feeling it is close by.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>RESON_BANJO_MISSING</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -84,6 +93,9 @@
 			<Page>It seems that fate has chosen you to be the first to see what's beyond the fog.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>MORE_OUTSIDE_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>

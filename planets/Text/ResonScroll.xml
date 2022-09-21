@@ -18,4 +18,11 @@
 		<ParentID>3</ParentID>
 		<Text>Hint: There is one more Nomai scroll to be found.</Text>
 	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>RESON_SCROLL</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>
