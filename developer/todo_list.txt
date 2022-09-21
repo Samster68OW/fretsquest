@@ -1,10 +1,24 @@
 To-Do List
 
-Changes
-- Fix Nomai scroll positions
-- Player spawn location (ask)
-- Warping is messed up: dup galaxies and no images
 
-Playtester List
-- Smuffy
-- JohnCorby
+
+
+CURRENT PROCESS
+1. Finish Ship Log
+    - Banjo Galaxy, Reson, Clay's Wall
+2. Push
+3. Send 0.0.1 to JohnCorby
+4. Create thread and post promo image
+
+
+
+
+### Version 0.0.2 Pipeline ###
+
+
+BUGS & IMPROVEMENTS
+- Fix Nomai scroll positions
+
+
+UPCOMING FEATURES
+- ?

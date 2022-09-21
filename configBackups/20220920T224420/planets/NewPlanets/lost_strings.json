@@ -166,36 +166,6 @@
 					"y": -1.928362E-21,
 					"z": 180.0
 				}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": -4.4842, "y": 5.2594, "z": 96.9993},
-				"rotation": {"x": 22.8654, "y": 86.3589, "z": 85.4572}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": -4.0884, "y": 1.6861, "z": 97.3447},
-				"rotation": {"x": 324.3167, "y": 91.3935, "z": 82.7382}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": -1.4646, "y": -0.5227, "z": 97.7366},
-				"rotation": {"x": 296.9642, "y": 109.4266, "z": 66.316}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": 2.6379, "y": -0.6296, "z": 97.6331},
-				"rotation": {"x": 317.8779, "y": 271.1919, "z": 278.8984}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": 5.8267, "y": 2.2024, "z": 97.0639},
-				"rotation": {"x": 13.2353, "y": 273.1469, "z": 278.42}
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
-				"position": {"x": 5.9229, "y": 7.3392, "z": 96.4406},
-				"rotation": {"x": 59.793, "y": 295.3257, "z": 291.5226}
 			}
 		],
 		"dialogue": [
@@ -211,16 +181,46 @@
 		],
 		"nomaiText": [
 			{
-				"position": {"x": -1.2083, "y": 100.5, "z": 0.5}, 
-				"xmlFile": "planets/Text/ResonScroll.xml",
-				"type": "scroll",
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "stranger",
+						"variation": 5,
+						"zRotation": 340.0
+					},
+					{
+						"position": {
+							"x": 0.3127,
+							"y": 1.2733
+						},
+						"type": "stranger",
+						"variation": 0,
+						"zRotation": 140.0
+					},
+					{
+						"position": {
+							"x": -0.2968,
+							"y": 1.7341
+						},
+						"type": "stranger",
+						"variation": 5,
+						"zRotation": 100.0
+					}
+				],
+				"position": {
+					"x": -1.2083,
+					"y": 100.5,
+					"z": 0.5927
+				},
+				"rotation": {
+					"x": 359.7566,
+					"y": 44.62623,
+					"z": 0.72759825
+				},
 				"seed": 10,
-				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"},
-					{"position": {"x": -0.7676, "y": 1.2533}, "zRotation": 160, "type": "adult"}
-				]
+				"type": "scroll",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/ResonScroll.xml"
 			}
 		],
 		"scatter": [
@@ -251,10 +251,9 @@
 	},
 	"Spawn": {
 		"playerSpawnPoint": {
-			"z": 100.0
+			"z": 105.0
 		},
 		"playerSpawnRotation": {},
-		"startWithSuit": true,
 		"shipSpawnPoint": {
 			"y": 105.0,
 			"z": -50.0

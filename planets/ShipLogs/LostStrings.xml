@@ -3,13 +3,13 @@
 
   <Entry>
     <ID>LOST_STRINGS</ID>
-    <Name>New Galaxy</Name>
+    <Name>Banjo Galaxy</Name>
     <Curiosity>LOST_STRINGS</Curiosity>
     <IsCuriosity/>
 
     <ExploreFact>
       <ID>NEW_GALAXY</ID>
-      <Text>I discovered a new galaxy.</Text>
+      <Text>I discovered a new galaxy with a giant banjo in it. Oddly enough, this is not the strangest thing I have seen in my travels.</Text>
     </ExploreFact>
 
   </Entry>

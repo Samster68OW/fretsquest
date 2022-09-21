@@ -37,20 +37,42 @@
 		],
 		"nomaiText": [
 			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "stranger",
+						"zRotation": 340.0
+					},
+					{
+						"position": {
+							"x": 0.3127,
+							"y": 1.2733
+						},
+						"type": "stranger",
+						"zRotation": 140.0
+					},
+					{
+						"position": {
+							"x": -0.2968,
+							"y": 1.7341
+						},
+						"type": "stranger",
+						"zRotation": 100.0
+					}
+				],
 				"position": {
 					"x": 2.12,
 					"y": 49.8109
 				},
+				"rotation": {
+					"x": 1.65935934,
+					"y": 42.8950424,
+					"z": 358.214844
+				},
 				"seed": 10,
 				"type": "scroll",
 				"location": "unspecified",
-				"xmlFile": "planets/Text/SecretScroll.xml",
-				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"},
-					{"position": {"x": -0.7676, "y": 1.2533}, "zRotation": 160, "type": "adult"}
-				]
+				"xmlFile": "planets/Text/SecretScroll.xml"
 			}
 		]
 	},

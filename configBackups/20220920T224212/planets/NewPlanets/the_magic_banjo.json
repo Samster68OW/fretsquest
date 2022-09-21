@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "The Magic Banjo",
+    "starSystem": "Samster68.BanjoGalaxy",
+	"canShowOnTitle": false,
+	"Base" :
+	{
+		"surfaceGravity" : 16,
+		"surfaceSize" : 50,
+		"hasMapMarker" : true,
+		"ambientLight": 2
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 4500,
+		"primaryBody" : "White Sun",
+        "siderealPeriod": 7,
+		"isTidallyLocked": true,
+		"showOrbitLine" : true,
+		"trueAnomaly": 90
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/custom_HeightMap.png",
+		"maxHeight": 50.0,
+		"minHeight": 47.5,
+		"textureMap": "planets/Assets/custom_TextureMap.jpg"
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 90,
+					"y": 150,
+					"z": 0
+				},
+				"scale": 2000
+			}
+		],
+		"nomaiText": [
+			{
+				"position": {"x": 2.12, "y": 49.8109, "z": 0},
+				"xmlFile": "planets/Text/SecretScroll.xml",
+				"type": "scroll",
+				"seed": 10,
+				"arcInfo":[
+					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "stranger"},
+					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger"},
+					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "stranger"}
+				]
+			}
+		]
+	}
+}
