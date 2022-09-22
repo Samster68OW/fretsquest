@@ -2,20 +2,19 @@ To-Do List
 
 
 
-
-CURRENT PROCESS
+TODAY'S TASKS
+- Plan out ship log
+TOMORROW'S TASKS
+- Implement new ship log plans
 - Fix Nomai scroll positions
-- Connect remaining ship log pieces
-- Send to Flatkat, clay, and Greenpixel
-- Plan out BG ship log with new planet ideas
-- Add Dry Tears
+- Send 0.0.2 out to playtest
 
 
 
-
-### Version 0.0.2 Notes ###
+### Version 0.0.2 Patch Notes ###
 - Fixed and improved the ship log
-- Banjo should now stay loaded
+- Rearranged and rewrote scrolls
+- Large prop should now stay loaded
 - Galaxy layout changes
 - Fixed some dialogue
 - Changed secret scroll a bit
@@ -23,16 +22,19 @@ CURRENT PROCESS
 
 
 
+### Version 0.1.0 Update Notes ###
+- None
+### Version 0.1.0 Plans ###
+- Add new planets and song sequence
+- This will be the first release, with promos and the Discord thread.
 
-### Pipeline ###
+
+
+### Random Ideas ###
 BUGS & IMPROVEMENTS
 - Add more music from Smuffy
 UPCOMING FEATURES
 - ?
-
-
-
-
 GREEN BASE
 - Orbit
 - Shape, size, texture, atmosphere

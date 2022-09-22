@@ -1,0 +1,18 @@
+Developer History
+(Unused, but fun to reflect back on.)
+
+
+
+2022 Timeline
+- Sept 9th: The mod creation begins!
+- Sept 10th: Original commit on GitHub
+- Sept 11th: Smuffy joins the team!
+- Sept 21st: v0.0.1 is playtested
+    - Smuffy
+    - ewo
+    - JohnCorby
+
+- ?: v0.0.2 is playtested
+    - Flatkat
+    - clay
+    - Greenpixel

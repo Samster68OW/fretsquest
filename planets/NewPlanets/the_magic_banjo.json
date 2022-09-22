@@ -7,13 +7,13 @@
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
 		"surfaceGravity": 16.0,
-		"surfaceSize": 50.0
+		"surfaceSize": 40.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/custom_HeightMap.png",
-		"maxHeight": 50.0,
-		"minHeight": 47.5,
+		"maxHeight": 40.0,
+		"minHeight": 38.5,
 		"textureMap": "planets/Assets/custom_TextureMap.jpg"
 	},
 	"Orbit": {
@@ -40,12 +40,12 @@
 			{
 				"position": {
 					"x": 2.12,
-					"y": 49.8109
+					"y": 39.8109
 				},
 				"seed": 10,
 				"type": "scroll",
 				"location": "unspecified",
-				"xmlFile": "planets/Text/SecretScroll.xml",
+				"xmlFile": "planets/Text/CreditsScroll.xml",
 				"arcInfo":[
 					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
 					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},

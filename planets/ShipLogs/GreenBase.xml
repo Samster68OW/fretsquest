@@ -1,0 +1,18 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Green Base</ID>
+
+  <Entry>
+    <ID>TUNERS_SONG</ID>
+    <Name>Tuner's Song</Name>
+    <Curiosity>TUNERS_SONG</Curiosity>
+    <IsCuriosity/>
+
+    <RumorFact>
+      <ID>BANJO_MAIN_QUEST_RUMOR</ID>
+      <SourceID>RESON</SourceID>
+      <RumorName>Main Quest</RumorName>
+      <Text>There is something I need to do here.</Text>
+    </RumorFact>
+
+  </Entry>
+</AstroObjectEntry>

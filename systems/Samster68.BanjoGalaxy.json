@@ -5,10 +5,10 @@
 	"travelAudio": "planets/Audio/HearthianRadio.wav",
 	"startHere": false,
 	"mapRestricted": false,
-	"factRequiredForWarp": "NEW_GALAXY_RUMOR",
+	"factRequiredForWarp": "RESON_LS_RUMOR",
 	"entryPositions": [
 		{
-		  "id": "LOST_STRINGS",
+		  "id": "TUNERS_SONG",
 		  "position": {
 			"x": 1000,
 			"y": 1000
@@ -43,10 +43,10 @@
 				"b": 7,
 				"a": 255
 			},
-			"id": "LOST_STRINGS"
+			"id": "TUNERS_SONG"
 		}
 	],
 	"initialReveal": [
-		"NEW_GALAXY_RUMOR"
+		"RESON_LS_RUMOR"
 	]
 }

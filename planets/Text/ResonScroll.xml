@@ -1,28 +1,26 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>SAMSTER68: Thank you for playing Fret's Quest! I hope you had a good time exploring the Outer Wilds once more.</Text>
+		<LocationA />
+		<Text>BECK: Thank you for showing this to us, Fret. We would love to study this further. I doubt TONE has ever had a chance to study an artifact like this.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>SAMSTER68: Don't be upset! I have many more ideas for this story, as well as the world it will be told in. We're only getting started.</Text>
+		<LocationB />
+		<Text>FRET: Hey, there is no one else I'd trust these relics than the two of you! The work you did on the <![CDATA[<color=pink>Fire Focuser</color>]]> was incredible.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>Created by Samster68 with music by Smuffy</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<Text>Hint: There is one more Nomai scroll to be found.</Text>
+		<LocationA />
+		<Text>BECK: All in a day's work. While I'm thinking about it, FRET, I meant to ask you something. Have you found any other instruments on this planet?</Text>
 	</TextBlock>
 
 	<ShipLogConditions>
 		<RevealFact>
 			<FactID>RESON_SCROLL</FactID>
-			<Condition>2</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 </NomaiObject>
