@@ -2,32 +2,12 @@ To-Do List
 
 
 
-TODAY'S TASKS
-- Fix Nomai scroll positions
-- Send 0.0.2 out to playtest
-
-
-
-### Version 0.0.2 Patch Notes ###
-- Fixed and improved the ship log
-- Rearranged and rewrote scrolls
-- Galaxy layout changes
-- Fixed some dialogue
-- Changed secret scroll a bit
-- Updated README
-
-
-
-Discord Message:
-link, weird unnamed planet, ship log isn't complete
-
-
-
 ### Version 0.1.0 Update Notes ###
 - None
 ### Version 0.1.0 Plans ###
 - Add new planets and song sequence
 - This will be the first release, with promos and the Discord thread.
+- Fix Nomai scroll positions when available
 
 
 

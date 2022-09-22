@@ -11,8 +11,7 @@ Developer History
     - Smuffy
     - ewo
     - JohnCorby
-
-- ?: v0.0.2 is playtested
+- Sept 22nd: v0.0.2 is playtested
     - Flatkat
     - clay
     - Greenpixel
