@@ -12,9 +12,9 @@
       <RumorName>Strange Signal 1</RumorName>
       <Text>I wonder where that signal is coming from?</Text>
     </RumorFact>
-
+    
     <ExploreFact>
-      <ID>RIM_RADIO</ID>
+      <ID>RIM_RADIO_FIND</ID>
       <Text>I followed one of the strange signals to a radio on the Attlerock.</Text>
     </ExploreFact>
     <ExploreFact>

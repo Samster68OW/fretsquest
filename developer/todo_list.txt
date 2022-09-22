@@ -7,6 +7,8 @@ CURRENT PROCESS
 - Fix Nomai scroll positions
 - Connect remaining ship log pieces
 - Send to Flatkat, clay, and Greenpixel
+- Plan out BG ship log with new planet ideas
+- Add Dry Tears
 
 
 
