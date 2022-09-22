@@ -218,8 +218,7 @@
 				"arcInfo":[
 					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
 					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"},
-					{"position": {"x": -0.7676, "y": 1.2533}, "zRotation": 160, "type": "adult"}
+					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"}
 				]
 			}
 		],
@@ -254,7 +253,7 @@
 			"z": 100.0
 		},
 		"playerSpawnRotation": {},
-		"startWithSuit": true,
+		"startWithSuit": false,
 		"shipSpawnPoint": {
 			"y": 105.0,
 			"z": -50.0

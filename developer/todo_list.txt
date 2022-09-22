@@ -3,9 +3,6 @@ To-Do List
 
 
 TODAY'S TASKS
-- Plan out ship log
-TOMORROW'S TASKS
-- Implement new ship log plans
 - Fix Nomai scroll positions
 - Send 0.0.2 out to playtest
 
@@ -14,11 +11,15 @@ TOMORROW'S TASKS
 ### Version 0.0.2 Patch Notes ###
 - Fixed and improved the ship log
 - Rearranged and rewrote scrolls
-- Large prop should now stay loaded
 - Galaxy layout changes
 - Fixed some dialogue
 - Changed secret scroll a bit
 - Updated README
+
+
+
+Discord Message:
+link, weird unnamed planet, ship log isn't complete
 
 
 

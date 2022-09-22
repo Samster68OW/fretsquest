@@ -96,6 +96,7 @@
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
 			<FactID>MORE_OUTSIDE_RUMOR</FactID>
+			<FactID>BANJO_MAIN_QUEST_RUMOR</FactID>
 		</RevealFacts>
 	</DialogueNode>
 
