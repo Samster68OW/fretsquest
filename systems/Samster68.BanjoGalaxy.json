@@ -5,7 +5,7 @@
 	"travelAudio": "planets/Audio/HearthianRadio.wav",
 	"startHere": false,
 	"mapRestricted": false,
-	"factRequiredForWarp": "NEW_GALAXY",
+	"factRequiredForWarp": "NEW_GALAXY_RUMOR",
 	"entryPositions": [
 		{
 		  "id": "LOST_STRINGS",
@@ -47,6 +47,6 @@
 		}
 	],
 	"initialReveal": [
-		"NEW_GALAXY"
+		"NEW_GALAXY_RUMOR"
 	]
 }

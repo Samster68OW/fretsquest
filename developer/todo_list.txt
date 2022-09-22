@@ -4,18 +4,48 @@ To-Do List
 
 
 CURRENT PROCESS
-- Create thread and post promos
-
-
-
-
-### Version 0.0.2 Pipeline ###
-
-
-BUGS & IMPROVEMENTS
 - Fix Nomai scroll positions
+- Connect remaining ship log pieces
+- Send to Flatkat, clay, and Greenpixel
+
+
+
+
+### Version 0.0.2 Notes ###
+- Fixed and improved the ship log
+- Banjo should now stay loaded
+- Galaxy layout changes
+- Fixed some dialogue
+- Changed secret scroll a bit
+- Updated README
+
+
+
+
+### Pipeline ###
+BUGS & IMPROVEMENTS
 - Add more music from Smuffy
-
-
 UPCOMING FEATURES
 - ?
+
+
+
+
+GREEN BASE
+- Orbit
+- Shape, size, texture, atmosphere
+- Props
+- Dialogue & text
+- Ship log
+DRY TEARS
+- Orbit
+- Shape, size, texture, atmosphere
+- Props
+- Dialogue & text
+- Ship log
+BRACKET'S REST
+- Orbit
+- Shape, size, texture, atmosphere
+- Props
+- Dialogue & text
+- Ship log

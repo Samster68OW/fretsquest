@@ -58,7 +58,7 @@
 		<Dialogue>
 			<Page>My name is <![CDATA[<color=orange>Reson</color>]]>. I am a member of an advanced species known as the Nomai. I am an explorer, just like you.</Page>
 			<Page>My guild and I were exploring a solar system not too far from your own when we discovered the banjo.</Page>
-			<Page>The planet had been stipped of its resources. The grass wouldn't grow and the rivers had all dried up. There wasn't a tree in sight.</Page>
+			<Page>The planet had been stripped of its resources. The grass wouldn't grow and the rivers had all dried up. There wasn't a tree in sight.</Page>
 			<Page>But, somehow, there sat the banjo. Peacefully lying against a tree.</Page>
 			<Page>Like someone had just used it.</Page>
 			<Page>After studying it at our camp, Fret determined that it had the power to solve the problem that no Nomai could: avoiding the <![CDATA[<color=orange>End of the Universe</color>]]>.</Page>
@@ -77,10 +77,11 @@
 			<Page>When we studied it at our camp, we determined that it has <![CDATA[<color=orange>space-altering properties</color>]]>.</Page>
 			<Page>A few chords played on the banjo are enough to create entire galaxies. We are standing in the result of a simple G chord.</Page>
 			<Page>I wanted to play it more once I arrived on this world, but the banjo disappeared as I stepped through the singularity.</Page>
-			<Page>I'm not too concerned, though. I have a feeling it is close by.</Page>
+			<Page>I'm not too concerned, though. I have a feeling it is <![CDATA[<color=orange>close by</color>]]>.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
+			<FactID>NEW_GALAXY</FactID>
 			<FactID>RESON_BANJO_MISSING</FactID>
 		</RevealFacts>
 	</DialogueNode>

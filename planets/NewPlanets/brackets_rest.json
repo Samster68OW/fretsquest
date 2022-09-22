@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bracket's Rest",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"Base": {
+		"ambientLight": 2.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 16.0,
+		"surfaceSize": 50.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/custom_HeightMap.png",
+		"maxHeight": 30.0,
+		"minHeight": 29.0,
+		"textureMap": "planets/Assets/custom_TextureMap.jpg"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 10000.0,
+		"trueAnomaly": 150.0
+	},
+	"Props": {},
+	"ReferenceFrame": {},
+	"ShipLog": {}
+}

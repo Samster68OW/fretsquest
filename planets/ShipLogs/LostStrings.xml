@@ -7,6 +7,13 @@
     <Curiosity>LOST_STRINGS</Curiosity>
     <IsCuriosity/>
 
+    <RumorFact>
+      <ID>NEW_GALAXY_RUMOR</ID>
+      <SourceID>RESON</SourceID>
+      <RumorName>New Galaxy</RumorName>
+      <Text>What is this place?</Text>
+    </RumorFact>
+
     <ExploreFact>
       <ID>NEW_GALAXY</ID>
       <Text>I discovered a new galaxy with a giant banjo in it. Oddly enough, this is not the strangest thing I have seen in my travels.</Text>
