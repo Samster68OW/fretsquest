@@ -2,6 +2,14 @@ To-Do List
 
 
 
+### Version 0.0.3 Plans ###
+- Move Bridge's camp to the glacier (photo, too!)
+- Fix subtitle (and general marketing)
+- Smuffy's Ideas
+- Banjo mesh collider? (assetbundles)
+
+
+
 ### Version 0.1.0 Update Notes ###
 - None
 ### Version 0.1.0 Plans ###

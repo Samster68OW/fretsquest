@@ -19,7 +19,6 @@ If you record/stream yourself playing this story, we would love to see it! You c
 - Smuffy
 - ewo
 - JohnCorby
-- Flatkat
 - [clay](https://github.com/FreezeDriedMangos)
 - Greenpixel
 
