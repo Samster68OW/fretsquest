@@ -10,22 +10,43 @@
 		{
 		  "id": "TUNERS_SONG",
 		  "position": {
-			"x": 1000,
-			"y": 1000
+			"x": 300,
+			"y": 300
 		  }
 		},
 		{
 			"id": "RESON",
 			"position": {
-				"x": 700,
-				"y": 700
+				"x": 0,
+				"y": 0
 			}
 		},
 		{
 			"id": "CLAYS_WALL",
 			"position": {
-				"x": 1300,
-				"y": 700
+				"x": 600,
+				"y": 0
+			}
+		},
+		{
+			"id": "RACE",
+			"position": {
+				"x": 0,
+				"y": 600
+			}
+		},
+		{
+			"id": "LARGE_SKELETONS",
+			"position": {
+				"x": 300,
+				"y": 600
+			}
+		},
+		{
+			"id": "REST",
+			"position": {
+				"x": 600,
+				"y": 600
 			}
 		}
 	],

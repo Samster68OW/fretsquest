@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Dried Tears</ID>
+
+  <Entry>
+    <ID>LARGE_SKELETONS</ID>
+    <Name>Large Skeletons</Name>
+    <Curiosity>TUNERS_SONG</Curiosity>
+
+    <ExploreFact>
+      <ID>TALK_TO_SKULL</ID>
+      <Text>TODO</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_SKULL_2</ID>
+      <Text>TODO</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_SKULL_3</ID>
+      <Text>THE QUOTE LYRIC</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

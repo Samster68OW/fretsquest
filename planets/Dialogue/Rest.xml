@@ -29,9 +29,8 @@
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>I came out here to brighten up this small planet, but I didn't finish the job. As you can see, I started to spread grass around my camp.</Page>
-			<Page>However, I stopped.</Page>
-			<Page>Hey... do you mind if I ask you some questions?</Page>
+			<Page>I came out here to brighten up this planetoid with a little plant life.</Page>
+			<Page>As you can see, I gave up an hour or so ago.</Page>
 		</Dialogue>
 		<DialogueTarget>4</DialogueTarget>
 	</DialogueNode>
@@ -39,6 +38,7 @@
 	<DialogueNode>
 		<Name>4</Name>
 		<Dialogue>
+			<Page>Hey... do you mind if I ask you some questions?</Page>
 			<Page>What do you think is the purpose of creating?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -50,7 +50,6 @@
 				<Text>To show off to others.</Text>
 				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
-		</DialogueOptionsList>
 			<DialogueOption>
 				<Text>To make the world a better place.</Text>
 				<DialogueTarget>5</DialogueTarget>
@@ -61,7 +60,7 @@
 	<DialogueNode>
 		<Name>5</Name>
 		<Dialogue>
-			<Page>I tend to agree with that. It's very important.</Page>
+			<Page>I tend to agree with that. It's very important. Ok, I have another...</Page>
 		</Dialogue>
 		<DialogueTarget>6</DialogueTarget>
 	</DialogueNode>
@@ -80,7 +79,6 @@
 				<Text>No. Creating itself is its own reward.</Text>
 				<DialogueTarget>7</DialogueTarget>
 			</DialogueOption>
-		</DialogueOptionsList>
 			<DialogueOption>
 				<Text>I don't know.</Text>
 				<DialogueTarget>7</DialogueTarget>
@@ -110,18 +108,36 @@
 				<Text>A creation has the right to do whatever it wants, regardless of what its creator thinks.</Text>
 				<DialogueTarget>9</DialogueTarget>
 			</DialogueOption>
-		</DialogueOptionsList>
 			<DialogueOption>
-				<Text>I</Text>
+				<Text>It depends on the situation.</Text>
 				<DialogueTarget>9</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>7</Name>
+		<Name>9</Name>
 		<Dialogue>
-			<Page>Hmmm.</Page>
+			<Page>Fascinating. Do you truly believe those things?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yes.</Text>
+				<DialogueTarget>10</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No.</Text>
+				<DialogueTarget>10</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>10</Name>
+		<Dialogue>
+			<Page>Good. Hold fast to your beliefs. Sometimes they are all we have.</Page>
+			<Page><![CDATA[<color=orange>TODO</color>]]></Page>
+			<Page>Thanks for chatting with me. You've given me a lot to think about. I'll rest for another moment, but then I will get back to work.</Page>
 		</Dialogue>
 	</DialogueNode>
 	

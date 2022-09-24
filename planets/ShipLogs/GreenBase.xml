@@ -6,13 +6,57 @@
     <Name>Tuner's Song</Name>
     <Curiosity>TUNERS_SONG</Curiosity>
     <IsCuriosity/>
+    </IgnoreMoreToExplore>
 
     <RumorFact>
       <ID>BANJO_MAIN_QUEST_RUMOR</ID>
       <SourceID>RESON</SourceID>
       <RumorName>Main Quest</RumorName>
-      <Text>There is something I need to do here.</Text>
+      <Text>There is something important I need to do here.</Text>
     </RumorFact>
+    <RumorFact>
+      <ID>LYRIC_01_RUMOR</ID>
+      <SourceID>TODO</SourceID>
+      <RumorName>Song Lyrics</RumorName>
+      <Text>TODO</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>LYRIC_02_RUMOR</ID>
+      <SourceID>TODO</SourceID>
+      <RumorName>Song Lyrics</RumorName>
+      <Text>TODO</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>LYRIC_03_RUMOR</ID>
+      <SourceID>REST</SourceID>
+      <RumorName>Song Lyrics</RumorName>
+      <Text>TODO</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>TALK_TO_TUNER</ID>
+      <Text>I met a Hearthian on Green Base that is looking for lyrics for his new song.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+  <Entry>
+    <ID>RACE</ID>
+    <Name>Race</Name>
+    <Curiosity>TUNERS_SONG</Curiosity>
+
+    <ExploreFact>
+      <ID>TALK_TO_RACE</ID>
+      <Text>TODO</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_RACE_2</ID>
+      <Text>TODO</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_RACE_3</ID>
+      <Text>THE QUOTE LYRIC</Text>
+    </ExploreFact>
 
   </Entry>
 </AstroObjectEntry>

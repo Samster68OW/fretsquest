@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dried Tears",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"destroy": true,
+	"Base": {
+		"ambientLight": 2.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 16.0,
+		"surfaceSize": 120.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 120.0,
+		"minHeight": 118.5,
+		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 7500.0,
+		"trueAnomaly": 90.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/DriedTears.xml"
+	}
+}

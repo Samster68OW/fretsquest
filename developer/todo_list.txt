@@ -2,17 +2,18 @@ To-Do List
 
 
 
-### Version 0.0.3 Plans ###
-- Move Bridge's camp to the glacier (photo, too!)
-- Fix subtitle (and general marketing)
-- Smuffy's Ideas
-- Banjo mesh collider? (assetbundles)
-
-
-
 ### Version 0.1.0 Update Notes ###
 - None
+
+
+
 ### Version 0.1.0 Plans ###
+- Move Bridge's camp to the glacier (photo, too!)
+- Fix subtitle (and general marketing)
+- Smuffy's Ideas (encorporate new songs multiple times!)
+- Add radio next to Reson with new sound. Move Nomai scroll hidden elsewhere near the wall.
+- Banjo mesh collider? (assetbundles)
+- Add Ernesto!! (skeleton on Dry Tears?)
 - Add new planets and song sequence
 - This will be the first release, with promos and the Discord thread.
 - Fix Nomai scroll positions when available

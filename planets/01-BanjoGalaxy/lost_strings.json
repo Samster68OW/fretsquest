@@ -1,0 +1,266 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Lost Strings",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 112,
+			"g": 135,
+			"b": 134,
+			"a": 155
+		},
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 130.0,
+			"outerCloudRadius": 180.0,
+			"texturePath": "planets/assets/lostStrings_Clouds.png",
+			"tint": {
+				"r": 127,
+				"g": 222,
+				"b": 124
+			}
+		},
+		"fogDensity": 0.3,
+		"fogSize": 350.0,
+		"fogTint": {
+			"r": 180,
+			"g": 180,
+			"b": 180
+		},
+		"hasOxygen": true,
+		"size": 180.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.2,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 13.0,
+		"surfaceSize": 100.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 100.0,
+		"minHeight": 96.0,
+		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 6.0,
+		"semiMajorAxis": 3000.0,
+		"trueAnomaly": 180.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A",
+				"position": {
+					"y": 100.3496
+				},
+				"rotation": {},
+				"scale": 2.0
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position": {
+					"y": 100.3
+				},
+				"rotation": {
+					"y": 200.0
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": 0.8000022,
+					"y": 100.3,
+					"z": 4.14360332
+				},
+				"rotation": {}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": 8.013706,
+					"y": 91.26447,
+					"z": 35.57309
+				},
+				"rotation": {
+					"x": 21.0000019,
+					"y": 16.0000019,
+					"z": 6.85886448E-07
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": 4.233511,
+					"y": 81.84521,
+					"z": 56.6410255
+				},
+				"rotation": {
+					"x": 23.0000038,
+					"y": -2.03075638E-06,
+					"z": 1.61428417E-07
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": 0.0776252747,
+					"y": 60.57298,
+					"z": 77.8443146
+				},
+				"rotation": {
+					"x": 58.8910942,
+					"y": 359.0,
+					"z": 9.295124E-07
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": 1.05463409,
+					"y": 22.55133,
+					"z": 93.8958359
+				},
+				"rotation": {
+					"x": 73.5584946,
+					"y": 0.7110092,
+					"z": 8.578125E-06
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"position": {
+					"x": -2.88023376,
+					"y": 41.94788,
+					"z": 89.85896
+				},
+				"rotation": {
+					"x": 343.4371,
+					"y": 348.9999,
+					"z": 114.8187
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A",
+				"position": {
+					"y": -100.3496
+				},
+				"rotation": {
+					"x": -4.41157764E-14,
+					"y": -1.928362E-21,
+					"z": 180.0
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"position": {
+					"y": -100.5
+				},
+				"rotation": {
+					"x": -4.41157764E-14,
+					"y": -1.928362E-21,
+					"z": 180.0
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": -4.4842, "y": 5.2594, "z": 96.9993},
+				"rotation": {"x": 22.8654, "y": 86.3589, "z": 85.4572}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": -4.0884, "y": 1.6861, "z": 97.3447},
+				"rotation": {"x": 324.3167, "y": 91.3935, "z": 82.7382}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": -1.4646, "y": -0.5227, "z": 97.7366},
+				"rotation": {"x": 296.9642, "y": 109.4266, "z": 66.316}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": 2.6379, "y": -0.6296, "z": 97.6331},
+				"rotation": {"x": 317.8779, "y": 271.1919, "z": 278.8984}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": 5.8267, "y": 2.2024, "z": 97.0639},
+				"rotation": {"x": 13.2353, "y": 273.1469, "z": 278.42}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"position": {"x": 5.9229, "y": 7.3392, "z": 96.4406},
+				"rotation": {"x": 59.793, "y": 295.3257, "z": 291.5226}
+			}
+		],
+		"dialogue": [
+			{
+				"lookAtRadius": 3.0,
+				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle",
+				"position": {
+					"y": 102.3
+				},
+				"radius": 1.2,
+				"xmlFile": "planets/Dialogue/Reson.xml"
+			}
+		],
+		"nomaiText": [
+			{
+				"position": {"x": -1.2083, "y": 100.5, "z": 0.5}, 
+				"xmlFile": "planets/Text/ResonScroll.xml",
+				"type": "scroll",
+				"seed": 10,
+				"arcInfo":[
+					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
+					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
+					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"}
+				]
+			}
+		],
+		"scatter": [
+			{
+				"count": 40,
+				"offset": {
+					"y": 0.95
+				},
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"rotation": {},
+				"scale": 30.0,
+				"seed": 3
+			},
+			{
+				"count": 30,
+				"offset": {},
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"rotation": {},
+				"scale": 2.0,
+				"seed": 1
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/LostStrings.xml"
+	},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"z": 100.0
+		},
+		"playerSpawnRotation": {},
+		"startWithSuit": false,
+		"shipSpawnPoint": {
+			"y": 105.0,
+			"z": -50.0
+		},
+		"shipSpawnRotation": {
+			"x": -50.0,
+			"y": 50.0
+		}
+	}
+}

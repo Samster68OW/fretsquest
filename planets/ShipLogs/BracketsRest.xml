@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Bracket's Rest</ID>
+
+  <Entry>
+    <ID>REST</ID>
+    <Name>Rest</Name>
+    <Curiosity>TUNERS_SONG</Curiosity>
+
+    <ExploreFact>
+      <ID>TALK_TO_REST</ID>
+      <Text>I met a Hearthian on Bracket's Rest that wanted to bring life to the small planetoid.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_REST_2</ID>
+      <Text>Rest got discouraged and stopped spreading the plant life once he realized that he was the only person that would care.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALK_TO_REST_3</ID>
+      <Text>THE QUOTE LYRIC</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>
