@@ -49,7 +49,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/HearthianRadio.wav",
+				"audio": "planets/Audio/GneissRadio.wav",
 				"detectionRadius": 5.0,
 				"frequency": "Hearthian Radio",
 				"name": "Gneiss's Radio",

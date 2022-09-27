@@ -3,26 +3,147 @@
 	"name": "Green Base",
 	"starSystem": "Samster68.BanjoGalaxy",
 	"destroy": true,
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 400.0,
+		"useAtmosphereShader": true
+	},
 	"Base": {
-		"ambientLight": 2.0,
+		"ambientLight": 1.0,
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
-		"surfaceGravity": 16.0,
-		"surfaceSize": 120.0
+		"surfaceGravity": 14.0,
+		"surfaceSize": 200.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
-		"maxHeight": 120.0,
-		"minHeight": 118.5,
-		"textureMap": "planets/Assets/greenBase_TextureMap.png"
+		"maxHeight": 200.0,
+		"minHeight": 190.5,
+		"textureMap": "planets/Assets/greenBase_TextureMap.jpg"
 	},
 	"Orbit": {
+		"axialTilt": 45,
 		"primaryBody": "White Sun",
 		"siderealPeriod": 7.0,
-		"isTidallyLocked": true,
 		"semiMajorAxis": 6000.0,
 		"trueAnomaly": 90.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
+				"position": {"x": -16.5501, "y": 180.9142, "z": -65.4059},
+				"rotation": {"x": 17.0521, "y": 207.4961, "z": 3.0948},
+				"removeChildren": ["ConversationZone_RSci"]
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5", 
+				"position": {"x": 148.6845, "y": -40.1084, "z": -13.7225},
+				"rotation": {"x": 274.5819, "y": 357.4474, "z": 0}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingWorld/Sector_DarkSideArrival", 
+				"position": {"x": -30.9894, "y": 192.078, "z": -27.6978},
+				"rotation": {"x": 11.4266, "y": 176.3381, "z": 352.8305}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Structures_SecretEntrance/BuildingKit/BatchedGroup/BatchedMeshRenderers_6", 
+				"position": {"x": -23.7336, "y": 176.1252, "z": -79.9769},
+				"rotation": {"x": 17.1731, "y": 191.2684, "z": 356.7445}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Wall_Small_A", 
+				"position": {"x": -29.6835, "y": 197.1369, "z": -32.7982},
+				"rotation": {"x": 14.6634, "y": 207.7467, "z": 356.1335},
+				"scale": 0.85
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire/Props_HEA_Campfire", 
+				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
+				"rotation": {"x": 355.117, "y": 293.1282, "z": 14.8453}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/BrokenLanternHouse_Zone1", 
+				"position": {"x": 1.2813, "y": 182.3006, "z": -73.9842},
+				"rotation": {"x": 5.9252, "y": 108.9079, "z": 339.5637}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Wall_Small_A", 
+				"position": {"x": 4.7425, "y": 182.3183, "z": -87.0678},
+				"rotation": {"x":24.7848, "y": 195.8935, "z": 8.4872},
+				"scale": 1.1
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Wall_Small_A", 
+				"position": {"x": -3.0785, "y": 184.3645, "z": -77.1042},
+				"rotation": {"x": 351.1299, "y": 297.0927, "z": 19.3804},
+				"scale": 0.4
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2", 
+				"position": {"x": 13.9681, "y": 221.6063, "z": -60.0923},
+				"rotation": {"x": 13.5992, "y": 117.4404, "z": 346.4473}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Geo_ProjectionHouse_Zone2/Bridge_ProjectionHouse_Zone2_Intact", 
+				"position": {"x": 12.2178, "y": 194.0483, "z": -27.533},
+				"rotation": {"x": 9.5327, "y": 195.6519, "z": 3.1607}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B", 
+				"position": {"x": 18.7333, "y": 212.5911, "z": -67.31098},
+				"rotation": {"x": 2.1688, "y": 246.8776, "z": 18.9898}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse", 
+				"position": {"x": 4.7252, "y": 196.643, "z": 28.8811},
+				"rotation": {"x": 349.065, "y": 197.8709, "z": 354.7494}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/UpperRuins/Prefab_NOM_Skeleton_Med_Pile_A", 
+				"position": {"x": 6.2824, "y": 206.5625, "z": 26.1933},
+				"rotation": {"x": 12.0141, "y": 359.5854, "z": 1.5829}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
+				"position": {"x": 164.6948, "y": 97.1654, "z": 21.5222},
+				"rotation": {"x": 32.5319, "y": 22.9293, "z": 127.1665}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B", 
+				"position": {"x": -157.2683, "y": -87.6241, "z": -67.244},
+				"rotation": {"x": 356.3687, "y": 158.6197, "z": 244.9259},
+				"scale": 3.0
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/BrokenLanternHouse_Zone1", 
+				"position": {"x": -157.1242, "y": -98.1369, "z": -45.5191},
+				"rotation": {"x": 273.5079, "y": 282.0837, "z": 144.455}
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_WarpReceiver/Geometry_WarpReceiver/OtherComponentsGroup/Prefab_NOM_Arch_B", 
+				"position": {"x": -168.5068, "y": -100.4747, "z": -77.852},
+				"rotation": {"x": 321.6873, "y": 285.2245, "z": 141.3394}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": -16.5501, "y": 180.9142, "z": -65.4059},
+				"radius": 1.2,
+				"xmlFile": "planets/Dialogue/Tuner.xml"
+			}
+		],
+		"scatter": [
+			{
+				"count": 50,
+				"offset": {},
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/DarkSide/Tree_RW_M_Straight_Var",
+				"rotation": {},
+				"scale": 2.0,
+				"seed": 1
+			}
+		]
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {

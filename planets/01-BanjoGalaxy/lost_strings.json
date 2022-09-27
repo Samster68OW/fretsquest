@@ -196,6 +196,20 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
 				"position": {"x": 5.9229, "y": 7.3392, "z": 96.4406},
 				"rotation": {"x": 59.793, "y": 295.3257, "z": 291.5226}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {"x": 1.8299, "y": 99.7909, "z": -1.1803},
+				"rotation": {"x": 358.5661, "y": 349.7003, "z": 0.6904}
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/ResonsRadio.wav",
+				"detectionRadius": 20.0,
+				"frequency": "Hearthian Radio",
+				"name": "Reson's Second Radio",
+				"position": {"x": 1.8299, "y": 99.8909, "z": -1.1803}
 			}
 		],
 		"dialogue": [
@@ -211,7 +225,7 @@
 		],
 		"nomaiText": [
 			{
-				"position": {"x": -1.2083, "y": 100.5, "z": 0.5}, 
+				"position": {"x": -18.6402, "y": -93.0836, "z": 21.8982}, 
 				"xmlFile": "planets/Text/ResonScroll.xml",
 				"type": "scroll",
 				"seed": 10,
@@ -253,7 +267,7 @@
 			"z": 100.0
 		},
 		"playerSpawnRotation": {},
-		"startWithSuit": false,
+		"startWithSuit": true,
 		"shipSpawnPoint": {
 			"y": 105.0,
 			"z": -50.0

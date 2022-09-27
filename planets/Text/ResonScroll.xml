@@ -2,7 +2,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>BECK: Thank you for showing this to us, Fret. We would love to study this further. I doubt TONE has ever had a chance to study an artifact like this.</Text>
+		<Text>BECK: Thank you for showing this to us, Fret. We would love to study this further. I doubt Tone has ever had a chance to study an artifact like this.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -14,7 +14,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationA />
-		<Text>BECK: All in a day's work. While I'm thinking about it, FRET, I meant to ask you something. Have you found any other instruments on this planet?</Text>
+		<Text>BECK: All in a day's work. While I'm thinking about it, Fret, I meant to ask you something. Have you found any other instruments on this planet?</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

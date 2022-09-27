@@ -3,7 +3,7 @@
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
 	"travelAudio": "planets/Audio/HearthianRadio.wav",
-	"startHere": false,
+	"startHere": true,
 	"mapRestricted": false,
 	"factRequiredForWarp": "RESON_LS_RUMOR",
 	"entryPositions": [
@@ -26,27 +26,6 @@
 			"position": {
 				"x": 600,
 				"y": 0
-			}
-		},
-		{
-			"id": "RACE",
-			"position": {
-				"x": 0,
-				"y": 600
-			}
-		},
-		{
-			"id": "LARGE_SKELETONS",
-			"position": {
-				"x": 300,
-				"y": 600
-			}
-		},
-		{
-			"id": "REST",
-			"position": {
-				"x": 600,
-				"y": 600
 			}
 		}
 	],

@@ -2,21 +2,35 @@ To-Do List
 
 
 
-### Version 0.1.0 Update Notes ###
-- None
+### Version 0.1.0 Patch Notes ###
+- Moved one of the camps
+- Changed some ship logs to be black and white
+- Added new music to radios (courtesy of Smuffy)
+- Added another radio
+- Move a scroll
+Update Notes
+- Added Green Base
 
 
 
 ### Version 0.1.0 Plans ###
-- Move Bridge's camp to the glacier (photo, too!)
+GREEN BASE
+- Rim is on the planet near a large chunk of ice. She says that the ice in this galaxy didn't originate here
+- The houses need nomai text with lore for the village
+- Decorate the village
+Racing Minigame:
+- A Owlk house with an npc. He's built an obstacle course using nomai arches.
+- There is a revealVolume at the end of the course that adds to your ship log and changes the npc's text
+MORE
 - Fix subtitle (and general marketing)
-- Smuffy's Ideas (encorporate new songs multiple times!)
-- Add radio next to Reson with new sound. Move Nomai scroll hidden elsewhere near the wall.
-- Banjo mesh collider? (assetbundles)
-- Add Ernesto!! (skeleton on Dry Tears?)
-- Add new planets and song sequence
+- Do something with Magic Banjo core
 - This will be the first release, with promos and the Discord thread.
 - Fix Nomai scroll positions when available
+
+
+
+### Version 0.1.1 Plans ###
+- Add ship log locations!
 
 
 
@@ -25,21 +39,9 @@ BUGS & IMPROVEMENTS
 - Add more music from Smuffy
 UPCOMING FEATURES
 - ?
-GREEN BASE
-- Orbit
-- Shape, size, texture, atmosphere
-- Props
-- Dialogue & text
-- Ship log
 DRY TEARS
-- Orbit
-- Shape, size, texture, atmosphere
-- Props
-- Dialogue & text
-- Ship log
+- Puzzle: Follow my eyes, I am not blind. Follow my eyes, to see what you'll find.
+- Ernesto skeleton
 BRACKET'S REST
-- Orbit
-- Shape, size, texture, atmosphere
-- Props
-- Dialogue & text
-- Ship log
+FINAL GALAXY
+- Me, as a Hearthian, thanking the player for playing

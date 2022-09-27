@@ -26,7 +26,6 @@
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"xmlFile": "planets/ShipLogs/DriedTears.xml"
+		"spriteFolder": "planets/ShipLogs/sprites"
 	}
 }
