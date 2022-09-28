@@ -7,25 +7,71 @@
 		"ambientLight": 2.0,
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
-		"surfaceGravity": 16.0,
-		"surfaceSize": 120.0
+		"surfaceGravity": 11.0,
+		"surfaceSize": 60.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
-		"maxHeight": 120.0,
-		"minHeight": 118.5,
+		"maxHeight": 60.0,
+		"minHeight": 58.0,
 		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
 	},
 	"Orbit": {
 		"primaryBody": "White Sun",
-		"siderealPeriod": 7.0,
-		"isTidallyLocked": true,
+		"inclination": 10.0,
+		"siderealPeriod": 3.0,
 		"semiMajorAxis": 10000.0,
-		"trueAnomaly": 90.0
+		"trueAnomaly": 180.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/",
+				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
+				"rotation": {"x": 345.8376, "y": 234.623, "z": 2.86811},
+				"removeChildren": ["ConversationZone_RSci"]
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire/Props_HEA_Campfire",
+				"position": {"x": 5.3587, "y": 59.1328, "z": 2.7555},
+				"rotation": {"x": 358.2351, "y": 317.0992, "z": 349.9421}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {"x": 6.9895, "y": 58.3137, "z": 4.1252},
+				"rotation": {"x": 355.8688, "y": 231.3955, "z": 356.48}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 6.4163, "y": 60.064, "z": 3.8664},
+				"radius": 1.2,
+				"xmlFile": "planets/Dialogue/Strum.xml"
+			}
+		],
+		"scatter": [
+			{
+				"count": 15,
+				"offset": {"y": 0.5},
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch (18)",
+				"rotation": {},
+				"seed": 1
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/GneissRadio.wav",
+				"detectionRadius": 5.0,
+				"frequency": "Hearthian Radio",
+				"name": "Strum's Radio",
+				"position": {"x": 6.9895, "y": 58.3137, "z": 4.1252}
+			}
+		]
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"spriteFolder": "planets/ShipLogs/sprites"
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/BracketsRest.xml"
 	}
 }

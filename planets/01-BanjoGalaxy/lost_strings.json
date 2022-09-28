@@ -48,7 +48,7 @@
 	"Orbit": {
 		"primaryBody": "White Sun",
 		"siderealPeriod": 6.0,
-		"semiMajorAxis": 3000.0,
+		"semiMajorAxis": 4500.0,
 		"trueAnomaly": 180.0
 	},
 	"Props": {

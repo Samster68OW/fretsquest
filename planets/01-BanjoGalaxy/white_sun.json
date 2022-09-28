@@ -8,7 +8,7 @@
 		"hasMapMarker": true,
 		"invulnerableToSun": true,
 		"surfaceGravity": 100.0,
-		"surfaceSize": 500.0
+		"surfaceSize": 700.0
 	},
 	"canShowOnTitle": false,
 	"Orbit": {
@@ -18,7 +18,7 @@
 	"ReferenceFrame": {},
 	"ShipLog": {},
 	"Star": {
-		"size": 500.0,
+		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {
 			"r": 200,

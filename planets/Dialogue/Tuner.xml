@@ -41,10 +41,13 @@
 			<Page>Riebeck? You must be confusing me with someone else. I'm Tuner.</Page>
 			<Page>I'm an explorer from somewhere very far away. I came looking for inspiration to write a new song.</Page>
 			<Page>I'm not really a musician, but I want to be.</Page>
-			<Page>That's the tricky part about improving yourself: You have to be actively seeking out new hobbies and skills.</Page>
+			<Page>That's the tricky part about improving yourself... You have to always be seeking out new hobbies and skills.</Page>
 			<Page>That's why I haven't stopped playing since we started talking. Hope it doesn't bother you.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>TALK_TO_TUNER</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -52,12 +55,15 @@
 		<Dialogue>
 			<Page>You're currently standing in the <![CDATA[<color=orange>Empty Village</color>]]> on Green Base.</Page>
 			<Page>Or that's my name for it, anyway. I thought it was fitting.</Page>
-			<Page>Apparently this planet went through an ice age or two, and the previous tenants got sick of it and left. Well, most of them made it out.</Page>
+			<Page>Apparently this planet went through an ice age or two, and the previous tenants got sick of it and left. Well, most of them did anyway.</Page>
 			<Page>I don't know much else than that. There's a lot of recordings scattered around that I can't translate. Perhaps you have <![CDATA[<color=orange>something that can translate them</color>]]>.</Page>
 			<Page>It saddens me, though, to see the village abandoned like this. Imagine spending years building it, only to leave it all behind.</Page>
 			<Page>Every creator's fear.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>LOST_VILLAGE_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -69,6 +75,9 @@
 			<Page>There are many interesting places to draw inspiration from across this galaxy. Try casting your net wide.</Page>
 			<Page>Come back to me when you get the lyrics!</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>TUNERS_REQUEST</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -77,5 +86,7 @@
 			<Page>Have fun exploring the galaxy! Return here if you get worn out or want to chat.</Page>
 		</Dialogue>
 	</DialogueNode>
+
+	<!-- The Lyric Input Part -->
 
 </DialogueTree>

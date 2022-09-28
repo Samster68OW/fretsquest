@@ -14,10 +14,58 @@
       <RumorName>Main Quest</RumorName>
       <Text>There is something important I need to do here.</Text>
     </RumorFact>
+    <RumorFact>
+      <ID>BRACKETS_REST_LYRICS_RUMOR</ID>
+      <SourceID>STRUM</SourceID>
+      <RumorName>Strange Text</RumorName>
+      <Text>I learned some strange wisdom from a Hearthian named Strum on Bracket's Rest.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>DRIED_TEARS_LYRICS_RUMOR</ID>
+      <SourceID>ANGLERFISH_SKELETONS</SourceID>
+      <RumorName>Strange Text</RumorName>
+      <Text>I found some strange text on Dried Tears.</Text>
+    </RumorFact>
 
     <ExploreFact>
       <ID>TALK_TO_TUNER</ID>
-      <Text>I met a Hearthian on Green Base that is looking for lyrics for his new song.</Text>
+      <Text>I met someone at the Lost Village that looks like Riebeck named Tuner.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TUNERS_REQUEST</ID>
+      <Text>Tuner would like some help looking for the lyrics to his song. He needs two verses with two lines apiece. I should be able to find inspiration from the galaxy itself.</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>LOST_VILLAGE</ID>
+    <Name>Lost Village</Name>
+
+    <RumorFact>
+      <ID>LOST_VILLAGE_RUMOR</ID>
+      <SourceID>TUNERS_SONG</SourceID>
+      <RumorName>Lost Village</RumorName>
+      <Text>Tuner mentioned that the people here likely fled during an ice age.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>ICED_VILLAGE</ID>
+      <SourceID>ICE_SPIRE</SourceID>
+      <RumorName>Ice Age?</RumorName>
+      <Text>Rim mentioned that the ice at the Ice Spire matches the ice at the Lost Village</Text>
+    </RumorFact>
+
+  </Entry>
+  <Entry>
+    <ID>ICE_SPIRE</ID>
+    <Name>Ice Spire</Name>
+
+    <ExploreFact>
+      <ID>TALK_TO_RIM</ID>
+      <Text>I met Rim at the Ice Spire, and she was very much alive. She didn't recognize me.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>ASK_ABOUT_ICE</ID>
+      <Text>Rim has been studying the ice. It is of the same consistency as the ice found at the Lost Village.</Text>
     </ExploreFact>
 
   </Entry>

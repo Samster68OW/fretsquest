@@ -1,0 +1,62 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Rim</NameField>
+
+	<DialogueNode>
+		<Name>INIT</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello, friend.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Rim? I thought you were dead!</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What's up with this ice?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to keep looking around.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Dead? I don't know what you're talking about. I've lived in this galaxy my <![CDATA[<color=orange>entire life</color>]]>!</Page>
+			<Page>However... for some reason... I can't seem to remember my childhood...</Page>
+			<Page>Perhaps I am just tired.</Page>
+		</Dialogue>
+		<DialogueTarget>INIT</DialogueTarget>
+		<RevealFacts>
+			<FactID>TALK_TO_RIM</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>It's quite peculiar, isn't it?</Page>
+			<Page>I've ran a few tests on it. It has a similar consistency to the ice found at the <![CDATA[<color=orange>Lost Village</color>]]>.</Page>
+			<Page>I've seen this ice all over the galaxy! I wonder where it all came from?</Page>
+			<Page>However, I think I have a more important question.</Page>
+			<Page>Who will be the first person to stand on top of this thing?</Page>
+		</Dialogue>
+		<DialogueTarget>INIT</DialogueTarget>
+		<RevealFacts>
+			<FactID>ASK_ABOUT_ICE</FactID>
+			<FactID>ICED_VILLAGE</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Go forth.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

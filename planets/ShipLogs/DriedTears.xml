@@ -2,21 +2,13 @@
   <ID>Dried Tears</ID>
 
   <Entry>
-    <ID>LARGE_SKELETONS</ID>
-    <Name>Large Skeletons</Name>
+    <ID>ANGLERFISH_SKELETONS</ID>
+    <Name>Anglerfish Skeletons</Name>
     <Curiosity>TUNERS_SONG</Curiosity>
 
     <ExploreFact>
-      <ID>TALK_TO_SKULL</ID>
-      <Text>TODO</Text>
-    </ExploreFact>
-    <ExploreFact>
-      <ID>TALK_TO_SKULL_TWO</ID>
-      <Text>TODO</Text>
-    </ExploreFact>
-    <ExploreFact>
-      <ID>TALK_TO_SKULL_THREE</ID>
-      <Text>THE QUOTE LYRIC</Text>
+      <ID>DRIED_TEARS_RECORDER</ID>
+      <Text>Sick Lyrics</Text>
     </ExploreFact>
 
   </Entry>

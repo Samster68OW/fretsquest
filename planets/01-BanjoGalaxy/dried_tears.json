@@ -13,18 +13,127 @@
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
-		"maxHeight": 120.0,
-		"minHeight": 118.5,
+		"maxHeight": 70.0,
+		"minHeight": 67.0,
 		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
 	},
 	"Orbit": {
 		"primaryBody": "White Sun",
-		"siderealPeriod": 7.0,
-		"isTidallyLocked": true,
+		"siderealPeriod": 5.0,
 		"semiMajorAxis": 7500.0,
-		"trueAnomaly": 90.0
+		"trueAnomaly": 320.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 6.2168, "y": 69.9212, "z": -0.2896},
+				"rotation" : {"x": 0, "y": 85.4153, "z": 0},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": 6.2168, "y": 69.9212, "z": -0.2896},
+				"rotation" : {"x": 0, "y": 85.4153, "z": 0},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 69.196, "y": 2.7006, "z": -5.8676},
+				"scale" : 0.05,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": 69.196, "y": 2.7006, "z": -5.8676},
+				"scale" : 0.05,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B", 
+				"position" : {"x": -2.9398, "y": 68.1996, "z": -2.2496},
+				"rotation" : {"x": 357.1298, "y": 75.1038, "z": 358.8102}
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 62.6687, "y": 4.1503, "z": 28.4961},
+				"rotation" : {"x": 75.3639, "y": 316.7577, "z": 250.1626},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": 62.6687, "y": 4.1503, "z": 28.4961},
+				"rotation" : {"x": 75.3639, "y": 316.7577, "z": 250.1626},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 11.2198, "y": -62.1867, "z": 27.4352},
+				"rotation" : {"x": 17.218, "y": 142.1164, "z": 155.9224},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": 11.2198, "y": -62.1867, "z": 27.4352},
+				"rotation" : {"x": 17.218, "y": 142.1164, "z": 155.9224},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 41.6315, "y": -44.2257, "z": -33.0298},
+				"rotation" : {"x": 14.463, "y": 230.0553, "z": 138.9934},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": 41.6315, "y": -44.2257, "z": -33.0298},
+				"rotation" : {"x": 14.463, "y": 230.0553, "z": 138.9934},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": -44.1256, "y": -13.7284, "z": -51.096},
+				"rotation" : {"x" :53.4026, "y": 346.9252, "z": 125.4417},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": -44.1256, "y": -13.7284, "z": -51.096},
+				"rotation" : {"x": 53.4026, "y": 346.9252, "z": 125.4417},
+				"scale" : 0.05
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 6.2168, "y": 69.9212, "z": -0.2896},
+				"radius": 1.5,
+				"xmlFile": "planets/Dialogue/AnglerSkeleton.xml"
+			}
+		],
+		"nomaiText": [
+			{
+				"position" : {"x": -45.6202, "y": -23.728, "z": -44.2519},
+				"rotation" : {"x": 310.0241, "y": 276.9149, "z": 133.1126},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/DriedTearsRecorder.xml"
+			}
+		],
+		"scatter": [
+			{
+				"count": 15,
+				"offset": {},
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedQuantum/Interactables_LakebedQuantum/LakebedQuantum_Objects/Skeletons/Prefab_HT_QuantumSkeleton/Props_NOM_Skeleton_QuantumStandFull",
+				"rotation": {},
+				"scale": 2.0,
+				"seed": 1
+			}
+		]
 	},
 	"ReferenceFrame": {},
+	"Sand": {
+		"size": 68.0
+	},
 	"ShipLog": {
 		"spriteFolder": "planets/ShipLogs/sprites"
 	}

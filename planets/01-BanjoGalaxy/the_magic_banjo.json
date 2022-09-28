@@ -20,7 +20,7 @@
 		"primaryBody": "White Sun",
 		"siderealPeriod": 7.0,
 		"isTidallyLocked": true,
-		"semiMajorAxis": 4500.0,
+		"semiMajorAxis": 3000.0,
 		"trueAnomaly": 90.0
 	},
 	"Props": {
