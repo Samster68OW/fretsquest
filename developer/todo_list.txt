@@ -5,45 +5,47 @@ To-Do List
 ### Version 0.1.0 Patch Notes ###
 - Moved one of the camps
 - Changed some ship logs to be black and white
-- Added new music to radios (courtesy of Smuffy)
 - Added another radio
-- Move a scroll
+- Moved a scroll
 Update Notes
-- Added 3 new planets
+- Added new music (courtesy of Smuffy)
+- Added 3 new planets and a storyline
 
 
 
 ### Version 0.1.0 Plans ###
+META
+- Fix subtitle (and general marketing)
+- This will be the first release, with promos and the Discord thread.
+SOLAR SYSTEM
+- Complete ship log!
+- Rearrange scrolls or add more
+TIMBER HEARTH
+- Add Nomai recorder explaining Nomai spiral bug
+MAGIC Banjo
+- What do I do with this?
+- Perhaps an Easter Egg with the scroll?
+LOST STRINGS
+- Test Smuffy's audio for Lost Strings!
 GREEN BASE
 - The houses need nomai text with lore for the village
-- Decorate the village
-- Racing Minigame:
-- A Owlk house with an npc. He's built an obstacle course using nomai arches.
-- There is a revealVolume at the end of the course that adds to your ship log and changes the npc's text
-- Complete ship log and ending
-- Test ice spire
-MORE
-- Test Smuffy's audio for Lost Strings!
-- Fix subtitle (and general marketing)
-- Do something with Magic Banjo core
-- This will be the first release, with promos and the Discord thread.
-- Fix Nomai scroll positions when available
-
-
-
-### Version 0.1.1 Plans ###
-- Add ship log locations!
-
-
-
-### Random Ideas ###
-BUGS & IMPROVEMENTS
-- Add more music from Smuffy
-DRY TEARS
-- Ernesto skeleton
-- Test text
+- Further decorate the village (trees?)
+- Racing Minigame is under construction!
+- Fix back of house at Lost Village
+- Tuner should have Riebeck's signal
+- Complete ending
+DRIED TEARS
+- Ernesto on Dried Tears
+- Sad Nomai music
 BRACKET'S REST
-- Fix ship log
-- Decorate more?
+- Test ship log issues
+- More decoration?
 FINAL GALAXY
-- Me, as a Hearthian, thanking the player for playing
+- Me, thanking the player for playing!
+
+
+
+### Future Plans ###
+- Add ship log locations!
+- Racing Minigame
+- Fix Nomai scroll spirals

@@ -7,6 +7,10 @@
     <Curiosity>TUNERS_SONG</Curiosity>
 
     <ExploreFact>
+      <ID>TALKING_SKELETONS</ID>
+      <Text>An anglerfish on Dried Tears spoke to me in my head.</Text>
+    </ExploreFact>
+    <ExploreFact>
       <ID>DRIED_TEARS_RECORDER</ID>
       <Text>Sick Lyrics</Text>
     </ExploreFact>

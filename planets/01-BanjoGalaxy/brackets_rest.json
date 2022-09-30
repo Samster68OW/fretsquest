@@ -2,7 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Bracket's Rest",
 	"starSystem": "Samster68.BanjoGalaxy",
-	"destroy": true,
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 100.0
+	},
 	"Base": {
 		"ambientLight": 2.0,
 		"gravityFallOff": "linear",

@@ -8,9 +8,30 @@
 	"factRequiredForWarp": "RESON_LS_RUMOR",
 	"entryPositions": [
 		{
+			"id": "ICE_SPIRE",
+			"position": {
+				"x": 0,
+				"y": 600
+			}
+		},
+		{
+			"id": "LOST_VILLAGE",
+			"position": {
+				"x": 300,
+				"y": 600
+			}
+		},
+		{
+			"id": "ANGLERFISH_SKELETONS",
+			"position": {
+				"x": 900,
+				"y": 600
+			}
+		},
+		{
 		  "id": "TUNERS_SONG",
 		  "position": {
-			"x": 300,
+			"x": 600,
 			"y": 300
 		  }
 		},
@@ -24,7 +45,14 @@
 		{
 			"id": "CLAYS_WALL",
 			"position": {
-				"x": 600,
+				"x": 300,
+				"y": 0
+			}
+		},
+		{
+			"id": "STRUM",
+			"position": {
+				"x": 900,
 				"y": 0
 			}
 		}

@@ -2,7 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Green Base",
 	"starSystem": "Samster68.BanjoGalaxy",
-	"destroy": true,
 	"Atmosphere": {
 		"hasOxygen": true,
 		"size": 400.0,
@@ -27,15 +26,14 @@
 		"primaryBody": "White Sun",
 		"siderealPeriod": 7.0,
 		"semiMajorAxis": 6000.0,
-		"trueAnomaly": 200.0
+		"trueAnomaly": 230.0
 	},
 	"Props": {
 		"details": [
 			{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
 				"position": {"x": -16.5501, "y": 180.9142, "z": -65.4059},
-				"rotation": {"x": 17.0521, "y": 207.4961, "z": 3.0948},
-				"removeChildren": ["ConversationZone_RSci"]
+				"rotation": {"x": 17.0521, "y": 207.4961, "z": 3.0948}
 			},
 			{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5", 
@@ -135,6 +133,22 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
 				"position": {"x": 163.633, "y": 99.2056, "z": 32.0774},
 				"rotation": {"x": 0.0911, "y": 168.1892, "z": 57.5592}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556},
+				"rotation": {"x": 31.1876, "y": 141.8017, "z": 46.5636}
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B", 
+				"position": {"x": 15.2726, "y": 219.7461, "z": -65.2958},
+				"rotation": {"x": 340.9572, "y": 338.2139, "z": 1.6151},
+				"scale": 0.4
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
+				"position": {"x": 15.5602, "y": 171.4364, "z": -89.3131},
+				"rotation": {"x": 9.9454, "y": 251.0055, "z": 211.4125}
 			}
 		],
 		"dialogue": [
@@ -145,8 +159,8 @@
 			},
 			{
 				"lookAtRadius": 3.0,
-				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle",
-				"position": {"x": 163.633, "y": 99.2056, "z": 32.0774},
+				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle",
+				"position": {"x": 164.033, "y": 99.6056, "z": 32.0774},
 				"radius": 1.2,
 				"xmlFile": "planets/Dialogue/Rim.xml"
 			}
@@ -159,6 +173,15 @@
 				"rotation": {},
 				"scale": 2.0,
 				"seed": 1
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/RimsRadio.wav",
+				"detectionRadius": 20.0,
+				"frequency": "Hearthian Radio",
+				"name": "Rim's Second Radio",
+				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556}
 			}
 		]
 	},

@@ -8,6 +8,9 @@
 			<Page>Follow my eyes, I am not blind.</Page>
 			<Page>Follow my eyes, to see what you'll find.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>TALKING_SKELETONS</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 </DialogueTree>

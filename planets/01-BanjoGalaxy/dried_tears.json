@@ -2,7 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Dried Tears",
 	"starSystem": "Samster68.BanjoGalaxy",
-	"destroy": true,
 	"Base": {
 		"ambientLight": 2.0,
 		"gravityFallOff": "linear",
@@ -112,7 +111,7 @@
 		],
 		"nomaiText": [
 			{
-				"position" : {"x": -45.6202, "y": -23.728, "z": -44.2519},
+				"position" : {"x": -45.5202, "y": -21.528, "z": -46.2082},
 				"rotation" : {"x": 310.0241, "y": 276.9149, "z": 133.1126},
 				"type": "recorder",
 				"location": "unspecified",
@@ -135,6 +134,7 @@
 		"size": 68.0
 	},
 	"ShipLog": {
-		"spriteFolder": "planets/ShipLogs/sprites"
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/DriedTears.xml"
 	}
 }

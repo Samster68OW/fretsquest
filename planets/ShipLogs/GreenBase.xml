@@ -15,16 +15,28 @@
       <Text>There is something important I need to do here.</Text>
     </RumorFact>
     <RumorFact>
-      <ID>BRACKETS_REST_LYRICS_RUMOR</ID>
-      <SourceID>STRUM</SourceID>
+      <ID>LOST_STRINGS_LYRICS_RUMOR</ID>
+      <SourceID>CLAYS_WALL</SourceID>
       <RumorName>Strange Text</RumorName>
-      <Text>I learned some strange wisdom from a Hearthian named Strum on Bracket's Rest.</Text>
+      <Text>I learned a strange phrase from a Nomai scroll on Lost Strings.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>GREEN_BASE_LYRICS_RUMOR</ID>
+      <SourceID>LOST_VILLAGE</SourceID>
+      <RumorName>Strange Text</RumorName>
+      <Text>I found some strange words in the Lost Village.</Text>
     </RumorFact>
     <RumorFact>
       <ID>DRIED_TEARS_LYRICS_RUMOR</ID>
       <SourceID>ANGLERFISH_SKELETONS</SourceID>
       <RumorName>Strange Text</RumorName>
-      <Text>I found some strange text on Dried Tears.</Text>
+      <Text>I found a strange recorder on Dried Tears.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>BRACKETS_REST_LYRICS_RUMOR</ID>
+      <SourceID>STRUM</SourceID>
+      <RumorName>Strange Text</RumorName>
+      <Text>I learned some wisdom from a Hearthian named Strum on Bracket's Rest.</Text>
     </RumorFact>
 
     <ExploreFact>
@@ -40,6 +52,7 @@
   <Entry>
     <ID>LOST_VILLAGE</ID>
     <Name>Lost Village</Name>
+    <Curiosity>TUNERS_SONG</Curiosity>
 
     <RumorFact>
       <ID>LOST_VILLAGE_RUMOR</ID>
@@ -51,7 +64,7 @@
       <ID>ICED_VILLAGE</ID>
       <SourceID>ICE_SPIRE</SourceID>
       <RumorName>Ice Age?</RumorName>
-      <Text>Rim mentioned that the ice at the Ice Spire matches the ice at the Lost Village</Text>
+      <Text>Rim mentioned that the ice at the Ice Spire matches the ice at the Lost Village.</Text>
     </RumorFact>
 
   </Entry>

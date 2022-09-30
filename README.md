@@ -7,7 +7,7 @@ The adventure begins with a new entry in your ship log!
 Spoilers:
 - Outer Wilds base game spoilers? Yes.
 - Echoes of the Eye DLC spoilers? Yes.
-- Jammer Lore spoilers? No.
+- Jammer Lore spoilers? Never.
 
 If you record/stream yourself playing this story, we would love to see it! You can find us on the [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6). Stop by and chat with us about modding!
 
