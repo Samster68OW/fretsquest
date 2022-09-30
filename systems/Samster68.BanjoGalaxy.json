@@ -74,7 +74,5 @@
 			"id": "TUNERS_SONG"
 		}
 	],
-	"initialReveal": [
-		"RESON_LS_RUMOR"
-	]
+	"initialReveal": ["RESON_LS_RUMOR"]
 }

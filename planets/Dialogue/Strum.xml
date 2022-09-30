@@ -132,7 +132,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<Text>No.</Text>
-				<DialogueTarget>10</DialogueTarget>
+				<DialogueTarget>11</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -141,6 +141,20 @@
 		<Name>10</Name>
 		<Dialogue>
 			<Page>Good. Hold fast to your beliefs. Sometimes they are all we have.</Page>
+		</Dialogue>
+		<DialogueTarget>12</DialogueTarget>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>11</Name>
+		<Dialogue>
+			<Page>You and I are more similar than I thought. I've been out here so long I can't remember what I believe anymore.</Page>
+		</Dialogue>
+		<DialogueTarget>12</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>12</Name>
+		<Dialogue>
 			<Page><![CDATA[<color=orange>TODO</color>]]></Page>
 			<Page>Thanks for chatting with me. You've given me a lot to think about. I'll rest for another moment, but then I will get back to work.</Page>
 		</Dialogue>

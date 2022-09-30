@@ -3,17 +3,15 @@
 	"name": "The Magic Banjo",
 	"starSystem": "Samster68.BanjoGalaxy",
 	"Base": {
-		"ambientLight": 2.0,
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
-		"surfaceGravity": 16.0,
-		"surfaceSize": 40.0
+		"surfaceSize": 1.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
-		"maxHeight": 40.0,
-		"minHeight": 38.5,
+		"maxHeight": 1.0,
+		"minHeight": 0.8,
 		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
 	},
 	"Orbit": {
@@ -28,29 +26,8 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
 				"position": {},
-				"rotation": {
-					"x": 90.0,
-					"y": 150.0
-				},
+				"rotation": {"x": 90.0, "y": 150.0},
 				"scale": 2000.0
-			}
-		],
-		"nomaiText": [
-			{
-				"position": {
-					"x": 2.12,
-					"y": 39.8109
-				},
-				"seed": 10,
-				"type": "scroll",
-				"location": "unspecified",
-				"xmlFile": "planets/Text/CreditsScroll.xml",
-				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"},
-					{"position": {"x": -0.7676, "y": 1.2533}, "zRotation": 160, "type": "adult"}
-				]
 			}
 		]
 	},

@@ -47,17 +47,22 @@
 				"xmlFile": "planets/Dialogue/Fret.xml"
 			}
 		],
+		"nomaiText": [
+			{
+				"position": {"x": -27.856802, "y": 5.177788, "z": 187.601456},
+				"rotation": {"x": 33.10921, "y": 79.98099, "z": 89.09263},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/S68Recorder.xml"
+			}
+		],
 		"signals": [
 			{
 				"audio": "planets/Audio/GneissRadio.wav",
 				"detectionRadius": 5.0,
 				"frequency": "Hearthian Radio",
 				"name": "Gneiss's Radio",
-				"position": {
-					"x": -27.8565922,
-					"y": 5.27779,
-					"z": 187.600418
-				},
+				"position": {"x": -27.8565922, "y": 5.27779, "z": 187.600418},
 				"reveals": "RADIO_LISTENED_TO"
 			}
 		]

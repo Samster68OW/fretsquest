@@ -12,3 +12,4 @@ Assets
 - "Secrets Words" mod: heightmap, cloud texture
 - Lost Strings Texture: freestocktextures.com/texture/rough-plaster-wall,1421.html
 - Green Base Texture: https://freestocktextures.com/texture/green-grass-background-2,944.html
+- Dried Tears Texture: https://freestocktextures.com/texture/antelope-canyon-wall,1172.html

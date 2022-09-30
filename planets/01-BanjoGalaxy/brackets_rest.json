@@ -55,7 +55,7 @@
 		],
 		"scatter": [
 			{
-				"count": 15,
+				"count": 30,
 				"offset": {"y": 0.5},
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch (18)",
 				"rotation": {},

@@ -38,8 +38,12 @@
     </RumorFact>
 
     <ExploreFact>
-      <ID>RESON_SCROLL</ID>
-      <Text>I found a Nomai Scroll that features a conversation between Fret and a researcher named Beck.</Text>
+      <ID>LOST_STRINGS_SCROLL</ID>
+      <Text>TODO</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>LOST_STRINGS_LYRICS</ID>
+      <Text>Sick Lyrics</Text>
     </ExploreFact>
 
   </Entry>

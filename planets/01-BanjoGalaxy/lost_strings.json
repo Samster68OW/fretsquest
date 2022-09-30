@@ -226,7 +226,7 @@
 		"nomaiText": [
 			{
 				"position": {"x": -18.6402, "y": -93.0836, "z": 21.8982}, 
-				"xmlFile": "planets/Text/ResonScroll.xml",
+				"xmlFile": "planets/Text/LostStringsScroll.xml",
 				"type": "scroll",
 				"seed": 10,
 				"arcInfo":[
@@ -276,5 +276,15 @@
 			"x": -50.0,
 			"y": 50.0
 		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/ResonsRadio.wav",
+				"loop": true,
+				"radius": 130.0,
+				"track": "music"
+			}
+		]
 	}
 }

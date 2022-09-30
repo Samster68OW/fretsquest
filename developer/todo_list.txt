@@ -8,37 +8,36 @@ To-Do List
 - Added another radio
 - Moved a scroll
 Update Notes
-- Added new music (courtesy of Smuffy)
 - Added 3 new planets and a storyline
+- Added new music (courtesy of Smuffy)
 
 
 
 ### Version 0.1.0 Plans ###
 META
-- Fix subtitle (and general marketing)
+- Fix subtitle (and general marketing) (97h x 669w)
 - This will be the first release, with promos and the Discord thread.
 SOLAR SYSTEM
-- Complete ship log!
+- Write the song!
 - Rearrange scrolls or add more
+- Should there be a second curiousity in the solar system?
 TIMBER HEARTH
-- Add Nomai recorder explaining Nomai spiral bug
+- Place the Nomai recorder near the elevator.
 MAGIC Banjo
-- What do I do with this?
-- Perhaps an Easter Egg with the scroll?
+- Test
 LOST STRINGS
 - Test Smuffy's audio for Lost Strings!
 GREEN BASE
 - The houses need nomai text with lore for the village
 - Further decorate the village (trees?)
-- Racing Minigame is under construction!
 - Fix back of house at Lost Village
 - Tuner should have Riebeck's signal
 - Complete ending
 DRIED TEARS
 - Ernesto on Dried Tears
-- Sad Nomai music
+- Sad Nomai music!
 BRACKET'S REST
-- Test ship log issues
+- Test
 - More decoration?
 FINAL GALAXY
 - Me, thanking the player for playing!
@@ -47,5 +46,9 @@ FINAL GALAXY
 
 ### Future Plans ###
 - Add ship log locations!
-- Racing Minigame
+- Racing Minigame?
+- Easter Egg curiousity?
 - Fix Nomai scroll spirals
+- Clean up schemas and other files
+    - Spacing in schemas
+    - Sort files by solar system

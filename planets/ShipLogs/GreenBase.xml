@@ -47,6 +47,10 @@
       <ID>TUNERS_REQUEST</ID>
       <Text>Tuner would like some help looking for the lyrics to his song. He needs two verses with two lines apiece. I should be able to find inspiration from the galaxy itself.</Text>
     </ExploreFact>
+    <ExploreFact>
+      <ID>TUNERS_QUEST_COMPLETE</ID>
+      <Text>I helped Tuner complete find lyrics for his song. He asked me to visit his home in a neighboring galaxy.</Text>
+    </ExploreFact>
 
   </Entry>
   <Entry>

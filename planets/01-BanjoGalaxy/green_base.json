@@ -120,11 +120,6 @@
 				"rotation": {"x": 273.5079, "y": 282.0837, "z": 144.455}
 			},
 			{
-				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_WarpReceiver/Geometry_WarpReceiver/OtherComponentsGroup/Prefab_NOM_Arch_B", 
-				"position": {"x": -168.5068, "y": -100.4747, "z": -77.852},
-				"rotation": {"x": 321.6873, "y": 285.2245, "z": 141.3394}
-			},
-			{
 				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets", 
 				"position": {"x": -16.1064, "y": 181.3813, "z": -65.2188},
 				"rotation": {"x": 358.278, "y": 105.4944, "z": 353.0367}
@@ -182,6 +177,13 @@
 				"frequency": "Hearthian Radio",
 				"name": "Rim's Second Radio",
 				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556}
+			},
+			{
+				"audio": "planets/Audio/HearthianRadio.wav",
+				"detectionRadius": 20.0,
+				"frequency": "Traveler",
+				"name": "Tuner",
+				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059}
 			}
 		]
 	},

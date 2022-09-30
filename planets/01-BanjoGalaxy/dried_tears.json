@@ -7,19 +7,19 @@
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
 		"surfaceGravity": 16.0,
-		"surfaceSize": 120.0
+		"surfaceSize": 70.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
 		"maxHeight": 70.0,
 		"minHeight": 67.0,
-		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
+		"textureMap": "planets/Assets/driedTears_TextureMap.jpg"
 	},
 	"Orbit": {
 		"primaryBody": "White Sun",
-		"siderealPeriod": 5.0,
 		"semiMajorAxis": 7500.0,
+		"siderealPeriod": 5.0,
 		"trueAnomaly": 320.0
 	},
 	"Props": {
@@ -100,6 +100,12 @@
 				"position" : {"x": -44.1256, "y": -13.7284, "z": -51.096},
 				"rotation" : {"x": 53.4026, "y": 346.9252, "z": 125.4417},
 				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": -44.1256, "y": -100.7284, "z": -51.096},
+				"rotation" : {"x" :53.4026, "y": 346.9252, "z": 125.4417},
+				"scale" : 0.05
 			}
 		],
 		"dialogue": [
@@ -107,6 +113,11 @@
 				"position": {"x": 6.2168, "y": 69.9212, "z": -0.2896},
 				"radius": 1.5,
 				"xmlFile": "planets/Dialogue/AnglerSkeleton.xml"
+			},
+			{
+				"position": {"x": -44.1256, "y": -100.7284, "z": -51.096},
+				"radius": 1.5,
+				"xmlFile": "planets/Dialogue/Ernesto.xml"
 			}
 		],
 		"nomaiText": [
@@ -129,12 +140,21 @@
 			}
 		]
 	},
-	"ReferenceFrame": {},
 	"Sand": {
 		"size": 68.0
 	},
 	"ShipLog": {
 		"spriteFolder": "planets/ShipLogs/sprites",
 		"xmlFile": "planets/ShipLogs/DriedTears.xml"
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/ResonsRadio.wav",
+				"loop": true,
+				"radius": 100.0,
+				"track": "music"
+			}
+		]
 	}
 }

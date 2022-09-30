@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "New World",
+	"starSystem": "Samster68.Chapter2",
+	"Base": {
+		"ambientLight": 1.5,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 13.0,
+		"surfaceSize": 100.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 100.0,
+		"minHeight": 96.0,
+		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
+	},
+	"Orbit": {
+		"isStatic": true,
+		"staticPosition": {"x": 0, "y": 0, "z": 0}
+	},
+	"Spawn": {
+		"playerSpawnPoint": {"y": 100.0},
+		"playerSpawnRotation": {},
+		"shipSpawnPoint": {"y": 105.0, "z": -50.0},
+		"shipSpawnRotation": {"x": -50.0, "y": 50.0},
+		"startWithSuit": true
+	}
+}
