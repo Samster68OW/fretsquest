@@ -9,12 +9,6 @@
     <IgnoreMoreToExplore/>
 
     <RumorFact>
-      <ID>BANJO_MAIN_QUEST_RUMOR</ID>
-      <SourceID>RESON</SourceID>
-      <RumorName>Main Quest</RumorName>
-      <Text>There is something important I need to do here.</Text>
-    </RumorFact>
-    <RumorFact>
       <ID>LOST_STRINGS_LYRICS_RUMOR</ID>
       <SourceID>CLAYS_WALL</SourceID>
       <RumorName>Strange Text</RumorName>
@@ -57,19 +51,30 @@
     <ID>LOST_VILLAGE</ID>
     <Name>Lost Village</Name>
     <Curiosity>TUNERS_SONG</Curiosity>
-
-    <RumorFact>
-      <ID>LOST_VILLAGE_RUMOR</ID>
-      <SourceID>TUNERS_SONG</SourceID>
-      <RumorName>Lost Village</RumorName>
-      <Text>Tuner mentioned that the people here likely fled during an ice age.</Text>
-    </RumorFact>
+    
     <RumorFact>
       <ID>ICED_VILLAGE</ID>
       <SourceID>ICE_SPIRE</SourceID>
       <RumorName>Ice Age?</RumorName>
       <Text>Rim mentioned that the ice at the Ice Spire matches the ice at the Lost Village.</Text>
     </RumorFact>
+
+    <ExploreFact>
+      <ID>LANTERN_HOUSE_RECORDER</ID>
+      <Text>Two children played a board game centered around the search for the Eye of the Universe.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>CLIFF_HOUSE_RECORDER</ID>
+      <Text>One of the residents of the village is suspected of kidnapping. Also, it seems to be getting colder.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>TALL_HOUSE_RECORDER</ID>
+      <Text>Two villagers talked about plans to evacuate. One decided to stay behind.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>LOST_VILLAGE_LYRICS</ID>
+      <Text>Words: Our broken people I seek to amend.</Text>
+    </ExploreFact>
 
   </Entry>
   <Entry>

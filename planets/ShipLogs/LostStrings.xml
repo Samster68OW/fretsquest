@@ -17,11 +17,11 @@
     </ExploreFact>
     <ExploreFact>
       <ID>RESON_BACKSTORY</ID>
-      <Text>Reson said that the magic banjo was found by his guild and realized it had incredible power. Fret didn't want to use it, so Reson, Rim, and Bridge stole it.</Text>
+      <Text>Reson said that the magic banjo was found by his guild and realized it had incredible power. Fret didn't want to use it so Reson, Rim, and Bridge stole it.</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RESON_BANJO_MISSING</ID>
-      <Text>Reson brought the magic banjo with him, but it doesn't seem to be on Lost Strings.</Text>
+      <Text>Reson brought the magic banjo with him, but it doesn't appear to be on Lost Strings.</Text>
     </ExploreFact>
 
   </Entry>
@@ -38,12 +38,12 @@
     </RumorFact>
 
     <ExploreFact>
-      <ID>LOST_STRINGS_SCROLL</ID>
+      <ID>LOST_STRINGS_RECORDER</ID>
       <Text>TODO</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOST_STRINGS_LYRICS</ID>
-      <Text>Sick Lyrics</Text>
+      <Text>Words: At cost of time, and life of friend.</Text>
     </ExploreFact>
 
   </Entry>

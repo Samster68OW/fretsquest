@@ -3,7 +3,7 @@
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
 	"travelAudio": "planets/Audio/HearthianRadio.wav",
-	"startHere": true,
+	"startHere": false,
 	"mapRestricted": false,
 	"factRequiredForWarp": "RESON_LS_RUMOR",
 	"entryPositions": [

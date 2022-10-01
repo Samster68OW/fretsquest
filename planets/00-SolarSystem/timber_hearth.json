@@ -47,15 +47,6 @@
 				"xmlFile": "planets/Dialogue/Fret.xml"
 			}
 		],
-		"nomaiText": [
-			{
-				"position": {"x": -27.856802, "y": 5.177788, "z": 187.601456},
-				"rotation": {"x": 33.10921, "y": 79.98099, "z": 89.09263},
-				"type": "recorder",
-				"location": "unspecified",
-				"xmlFile": "planets/Text/S68Recorder.xml"
-			}
-		],
 		"signals": [
 			{
 				"audio": "planets/Audio/GneissRadio.wav",

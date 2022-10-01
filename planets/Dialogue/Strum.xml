@@ -9,12 +9,12 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>No, I'm just passing through.</Text>
-				<DialogueTarget>2</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
 				<Text>Why are you out here?</Text>
 				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, I'm just passing through.</Text>
+				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -155,7 +155,7 @@
 	<DialogueNode>
 		<Name>12</Name>
 		<Dialogue>
-			<Page><![CDATA[<color=orange>TODO</color>]]></Page>
+			<Page>I struggle because sometimes it feels like <![CDATA[<color=orange>the work I employ will never suffice</color>]]>.</Page>
 			<Page>Thanks for chatting with me. You've given me a lot to think about. I'll rest for another moment, but then I will get back to work.</Page>
 		</Dialogue>
 		<RevealFacts>

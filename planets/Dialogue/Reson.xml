@@ -61,7 +61,7 @@
 		<Dialogue>
 			<Page>My name is <![CDATA[<color=orange>Reson</color>]]>. I am a member of an advanced species known as the Nomai. I am an explorer, just like you.</Page>
 			<Page>My guild and I were exploring a solar system not too far from your own when we discovered the banjo.</Page>
-			<Page>The planet had been stripped of its resources. The grass wouldn't grow and the rivers had all dried up. There wasn't a tree in sight.</Page>
+			<Page>The planet had been stripped of its resources. The grass wasn't growing and the rivers had all dried up. There wasn't a tree in sight.</Page>
 			<Page>But, somehow, there sat the banjo. Peacefully lying against a tree.</Page>
 			<Page>Like someone had just used it.</Page>
 			<Page>After studying it at our camp, Fret determined that it had the power to solve the problem that no Nomai could: avoiding the <![CDATA[<color=orange>End of the Universe</color>]]>.</Page>
@@ -99,7 +99,6 @@
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
 			<FactID>MORE_OUTSIDE_RUMOR</FactID>
-			<FactID>BANJO_MAIN_QUEST_RUMOR</FactID>
 		</RevealFacts>
 	</DialogueNode>
 

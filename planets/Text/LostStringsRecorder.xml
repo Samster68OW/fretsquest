@@ -1,0 +1,50 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RESON: Here we are: hundreds of feet under the surface with the most powerful artifact ever discovered.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BRIDGE: Reson, how high is our success rate? I'm feeling uncertain about this. The phrase "at cost of time and life of friend" doesn't sound very reassuring.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RIM: Relax, Bridge! You studied those ancient texts more than anyone else. This will work.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>RESON: Here we go! I'm going to play a chord.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>RESON: ...Are you guys OK?</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>LOST_STRINGS_RECORDER</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>LOST_STRINGS_LYRICS</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>LOST_STRINGS_LYRICS_RUMOR</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

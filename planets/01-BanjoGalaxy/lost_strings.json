@@ -225,15 +225,10 @@
 		],
 		"nomaiText": [
 			{
-				"position": {"x": -18.6402, "y": -93.0836, "z": 21.8982}, 
-				"xmlFile": "planets/Text/LostStringsScroll.xml",
-				"type": "scroll",
-				"seed": 10,
-				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "adult"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "adult"},
-					{"position": {"x": -0.2968, "y":  1.5341}, "zRotation": 100, "type": "adult"}
-				]
+				"position": {"x": -18.6402, "y": -93.0836, "z": 21.8982},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/LostStringsRecorder.xml"
 			}
 		],
 		"scatter": [
@@ -267,7 +262,7 @@
 			"z": 100.0
 		},
 		"playerSpawnRotation": {},
-		"startWithSuit": true,
+		"startWithSuit": false,
 		"shipSpawnPoint": {
 			"y": 105.0,
 			"z": -50.0
@@ -280,7 +275,7 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "planets/Audio/ResonsRadio.wav",
+				"audio": "planets/Audio/LostStrings_MusicLoop.wav",
 				"loop": true,
 				"radius": 130.0,
 				"track": "music"

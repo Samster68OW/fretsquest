@@ -38,7 +38,7 @@
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>Riebeck? You must be confusing me with someone else. I'm Tuner.</Page>
+			<Page>Riebeck? You must be confusing me with someone else. I'm <![CDATA[<color=orange>Tuner</color>]]>.</Page>
 			<Page>I'm an explorer from somewhere very far away. I came looking for inspiration to write a new song.</Page>
 			<Page>I'm not really a musician, but I want to be.</Page>
 			<Page>That's the tricky part about improving yourself... You have to always be seeking out new hobbies and skills.</Page>
@@ -53,7 +53,7 @@
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>You're currently standing in the <![CDATA[<color=orange>Empty Village</color>]]> on Green Base.</Page>
+			<Page>You're currently standing in the <![CDATA[<color=orange>Lost Village</color>]]> on Green Base.</Page>
 			<Page>Or that's my name for it, anyway. I thought it was fitting.</Page>
 			<Page>Apparently this planet went through an ice age or two, and the previous tenants got sick of it and left. Well, most of them did anyway.</Page>
 			<Page>I don't know much else than that. There's a lot of recordings scattered around that I can't translate. Perhaps you have <![CDATA[<color=orange>something that can translate them</color>]]>.</Page>
@@ -61,9 +61,6 @@
 			<Page>Every creator's fear.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
-		<RevealFacts>
-			<FactID>LOST_VILLAGE_RUMOR</FactID>
-		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>

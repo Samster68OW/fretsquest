@@ -40,9 +40,9 @@
 		<Name>2</Name>
 		<Dialogue>
 			<Page>It's quite peculiar, isn't it?</Page>
-			<Page>I've ran a few tests on it. It has a similar consistency to the ice found at the <![CDATA[<color=orange>Lost Village</color>]]>.</Page>
+			<Page>I ran a few tests on it. It has a similar consistency to the ice found at the <![CDATA[<color=orange>Lost Village</color>]]>.</Page>
 			<Page>I've seen this ice all over the galaxy! I wonder where it all came from?</Page>
-			<Page>However, I think I have a more important question.</Page>
+			<Page>However, I think I have a more important question...</Page>
 			<Page>Who will be the first person to stand on top of this thing?</Page>
 		</Dialogue>
 		<DialogueTarget>INIT</DialogueTarget>

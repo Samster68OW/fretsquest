@@ -143,7 +143,32 @@
 			{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
 				"position": {"x": 15.5602, "y": 171.4364, "z": -89.3131},
-				"rotation": {"x": 9.9454, "y": 251.0055, "z": 211.4125}
+				"rotation": {"x": 9.9454, "y": 251.0055, "z": 211.4125},
+				"scale": 0.3
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
+				"position" : {"x": -12.4844, "y": -154.1859, "z": 117.4195},
+				"rotation" : {"x": 344.8116, "y": 285.5757, "z": 209.2398},
+				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": -12.4844, "y": -154.1859, "z": 117.4195},
+				"rotation" : {"x": 344.8116, "y": 285.5757, "z": 209.2398},
+				"scale" : 0.05
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
+				"position": {"x": 4.7058, "y": 184.045, "z": -56.821},
+				"rotation": {"x": 4.6161, "y": 90.3262, "z": 155.2221},
+				"scale": 1.2
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
+				"position": {"x": 12.244, "y": 182.0561, "z": -59.1392},
+				"rotation": {"x": 4.6161, "y": 90.3262, "z": 155.2221},
+				"scale": 1.2
 			}
 		],
 		"dialogue": [
@@ -155,9 +180,37 @@
 			{
 				"lookAtRadius": 3.0,
 				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle",
-				"position": {"x": 164.033, "y": 99.6056, "z": 32.0774},
+				"position": {"x": 165.033, "y": 100.6056, "z": 32.0774},
 				"radius": 1.2,
 				"xmlFile": "planets/Dialogue/Rim.xml"
+			},
+			{
+				"position": {"x": -12.4844, "y": -154.6859, "z": 117.4195},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/Ernesto.xml"
+			}
+		],
+		"nomaiText": [
+			{
+				"position" : {"x": 6.6383, "y": 222.8734, "z": -68.0542},
+				"rotation" : {"x": 12.6227, "y": 113.4232, "z": 345.5356},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/TallHouseRecorder.xml"
+			},
+			{
+				"position" : {"x": -29.9828, "y": 193.6595, "z": -20.6987},
+				"rotation" : {"x": 13.4422, "y": 205.4123, "z": 359.223},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/CliffHouseRecorder.xml"
+			},
+			{
+				"position" : {"x": 9.979, "y": 180.3902, "z": -79.4186},
+				"rotation" : {"x": 345.814, "y": 313.9845, "z": 15.9773},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/LanternHouseRecorder.xml"
 			}
 		],
 		"scatter": [
@@ -179,7 +232,7 @@
 				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556}
 			},
 			{
-				"audio": "planets/Audio/HearthianRadio.wav",
+				"audio": "TravelerRiebeck",
 				"detectionRadius": 20.0,
 				"frequency": "Traveler",
 				"name": "Tuner",

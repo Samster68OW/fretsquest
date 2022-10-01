@@ -1,0 +1,65 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TWIG: Sir, we cannot stay here any longer. It is getting too cold!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>OAKEN: We can't leave yet! Not until we find them!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>TWIG: Sir... it may be time to give up the search. We've been looking for them for weeks. I don't think they're going to show up.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>OAKEN: You don't know that.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>TWIG: ...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>TWIG: Sir... I'm taking my family and evacuating.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>OAKEN: ...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>OAKEN: Fine. Get your wife and children to safety. And I'll try to find mine.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>OAKEN: Our broken people I seek to amend.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TALL_HOUSE_RECORDER</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>LOST_VILLAGE_LYRICS</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GREEN_BASE_LYRICS_RUMOR</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>
