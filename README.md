@@ -24,8 +24,8 @@ If you record/stream yourself playing this story, we would love to see it! You c
 - Greenpixel
 
 # Special Thanks:
-- [clay](https://github.com/FreezeDriedMangos) - Answered questions
-- Trifid - Answered questions
+- [clay](https://github.com/FreezeDriedMangos) - Answered questions and is very friendly
+- Trifid - Answered lots of questions
 - Fixxion - Borrowed assets
 - [heart1an](https://github.com/hearth1an) - Answered questions
 - [xen](https://github.com/xen-42) - Answered questions

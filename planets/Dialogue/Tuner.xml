@@ -29,6 +29,10 @@
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
+				<Text>I have some fire lyrics for you!</Text>
+				<DialogueTarget>6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
 				<Text>I'll talk to you later!</Text>
 				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
@@ -69,8 +73,8 @@
 			<Page>Yes! I'd love to have you help me with my song!</Page>
 			<Page>I have the melody written already, so all I need are some fire <![CDATA[<color=orange>lyrics</color>]]>.</Page>
 			<Page>In order to match the music, I need you to find <![CDATA[<color=orange>two verses with two lines apiece</color>]]>. Or just four lines.</Page>
-			<Page>There are many interesting places to draw inspiration from across this galaxy. Try casting your net wide.</Page>
-			<Page>Come back to me when you get the lyrics!</Page>
+			<Page>There are many interesting places to draw inspiration from across this galaxy. Try casting your net wide!</Page>
+			<Page>Bring me the lyrics when you find them!</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>TUNERS_REQUEST</FactID>
@@ -85,5 +89,38 @@
 	</DialogueNode>
 
 	<!-- The Lyric Input Part -->
+	<DialogueNode>
+		<Name>6</Name>
+		<Dialogue>
+			<Page>Did you find all of them?</Page>
+		</Dialogue>
+		<DialogueTargetShipLogCondition>LOST_STRINGS_LYRICS</DialogueTargetShipLogCondition>
+		<DialogueTargetShipLogCondition>LOST_VILLAGE_LYRICS</DialogueTargetShipLogCondition>
+		<DialogueTargetShipLogCondition>DRIED_TEARS_RECORDER</DialogueTargetShipLogCondition>
+		<DialogueTargetShipLogCondition>BRACKETS_REST_LYRIC</DialogueTargetShipLogCondition>
+		<DialogueTarget>7</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>7</Name>
+		<Dialogue>
+			<Page>You did! Great! Let's try them out...</Page>
+			<Page><![CDATA[<color=orange>At cost of time and life of friend, Our broken people I seek to amend.</color>]]></Page>
+			<Page><![CDATA[<color=orange>Our world is buried under ice. The work I employ will never suffice.</color>]]></Page>
+			<Page>...</Page>
+			<Page>Well, that's interesting. That's not quite what I was looking for, but I'll take it.</Page>
+			<Page>More importantly, I understand how you feel.</Page>
+			<Page>Being an artist is scary. You are always at the risk of critisism and mockery.</Page>
+			<Page>You pour your heart into your work and sometimes it doesn't amount to much, or you are beaten out by the better man in the end.</Page>
+			<Page>However, that should never discourage you from discovering <![CDATA[<color=orange>who you are</color>]]>.</Page>
+			<Page>And by helping me write this song, you have shown your desire for artistic expression. So thank you for that, friend.</Page>
+			<Page>This isn't the last time you and I will cross paths. I'm sure we will see each other agian.</Page>
+			<Page>Don't <![CDATA[<color=orange>fret</color>]]> over it. ;)</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>TUNERS_QUEST_COMPLETE</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
 
 </DialogueTree>

@@ -43,7 +43,7 @@
     </ExploreFact>
     <ExploreFact>
       <ID>TUNERS_QUEST_COMPLETE</ID>
-      <Text>I helped Tuner complete find lyrics for his song. He asked me to visit his home in a neighboring galaxy.</Text>
+      <Text>I helped Tuner find lyrics for his song. The quest ends here. (for now!)</Text>
     </ExploreFact>
 
   </Entry>
@@ -73,7 +73,7 @@
     </ExploreFact>
     <ExploreFact>
       <ID>LOST_VILLAGE_LYRICS</ID>
-      <Text>Words: Our broken people I seek to amend.</Text>
+      <Text>"Our broken people I seek to amend."</Text>
     </ExploreFact>
 
   </Entry>

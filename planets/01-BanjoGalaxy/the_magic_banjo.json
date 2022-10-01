@@ -3,15 +3,17 @@
 	"name": "The Magic Banjo",
 	"starSystem": "Samster68.BanjoGalaxy",
 	"Base": {
+		"ambientLight": 1.2,
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
-		"surfaceSize": 1.0
+		"surfaceGravity": 10.0,
+		"surfaceSize": 2.0
 	},
 	"canShowOnTitle": false,
 	"HeightMap": {
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
-		"maxHeight": 1.0,
-		"minHeight": 0.8,
+		"maxHeight": 2.0,
+		"minHeight": 1.8,
 		"textureMap": "planets/Assets/lostStrings_TextureMap.jpg"
 	},
 	"Orbit": {
@@ -19,18 +21,18 @@
 		"siderealPeriod": 7.0,
 		"isTidallyLocked": true,
 		"semiMajorAxis": 3000.0,
+		"showOrbitLine": false,
 		"trueAnomaly": 90.0
 	},
 	"Props": {
 		"details": [
 			{
+				"keepLoaded": true,
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
-				"position": {},
+				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 90.0, "y": 150.0},
 				"scale": 2000.0
 			}
 		]
-	},
-	"ReferenceFrame": {},
-	"ShipLog": {}
+	}
 }

@@ -8,9 +8,6 @@
 			<Page>Hello. I didn't expect to see anyone else here.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
-		<RevealFacts>
-			<FactID>BANJO_MAIN_QUEST_RUMOR</FactID>
-		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -84,7 +81,6 @@
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
-			<FactID>NEW_GALAXY</FactID>
 			<FactID>RESON_BANJO_MISSING</FactID>
 		</RevealFacts>
 	</DialogueNode>

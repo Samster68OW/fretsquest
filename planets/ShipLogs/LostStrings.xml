@@ -39,11 +39,11 @@
 
     <ExploreFact>
       <ID>LOST_STRINGS_RECORDER</ID>
-      <Text>TODO</Text>
+      <Text>I found a recording on Lost Strings that records the moment Reson's ritual took place.</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOST_STRINGS_LYRICS</ID>
-      <Text>Words: At cost of time, and life of friend.</Text>
+      <Text>"At cost of time, and life of friend."</Text>
     </ExploreFact>
 
   </Entry>

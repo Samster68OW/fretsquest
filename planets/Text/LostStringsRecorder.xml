@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>RESON: Here we are: hundreds of feet under the surface with the most powerful artifact ever discovered.</Text>
+		<Text>RESON: Here we are: under hundreds of feet of rock with the most powerful artifact ever discovered.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
