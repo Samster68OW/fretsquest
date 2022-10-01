@@ -1,4 +1,4 @@
-![alt text](https://github.com/Samster68OW/fretsquest.git/blob/main/developer/banner.png?raw=true)
+![alt text](https://github.com/Samster68OW/fretsquest.git/main/developer/banner.png?raw=true)
 
 # Fret's Quest
 This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already explored the main game, but tries to be unobtrusive to the original narrative.
