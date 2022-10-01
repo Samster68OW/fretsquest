@@ -1,6 +1,5 @@
 ![alt text](developer/banner.png?raw=true)
 
-# Fret's Quest
 This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already explored the main game, but tries to be unobtrusive to the original narrative.
 Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod.
 
