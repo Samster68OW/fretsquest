@@ -14,7 +14,7 @@
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
 		"maxHeight": 70.0,
 		"minHeight": 67.0,
-		"textureMap": "planets/Assets/driedTears_TextureMap.jpg"
+		"textureMap": "planets/Assets/driedTears_TextureMap.png"
 	},
 	"Orbit": {
 		"primaryBody": "White Sun",

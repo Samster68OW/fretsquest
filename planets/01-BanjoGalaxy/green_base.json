@@ -19,7 +19,7 @@
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
 		"maxHeight": 200.0,
 		"minHeight": 190.5,
-		"textureMap": "planets/Assets/greenBase_TextureMap.jpg"
+		"textureMap": "planets/Assets/greenBase_TextureMap.png"
 	},
 	"Orbit": {
 		"axialTilt": 45,
@@ -225,7 +225,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/RimsRadio.wav",
+				"audio": "planets/Audio/RimsRadio.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Rim's Second Radio",

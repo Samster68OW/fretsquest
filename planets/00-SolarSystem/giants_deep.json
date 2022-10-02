@@ -40,7 +40,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/ResonsRadio.wav",
+				"audio": "planets/Audio/ResonsRadio.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Reson's Radio",
