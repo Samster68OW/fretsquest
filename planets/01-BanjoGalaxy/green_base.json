@@ -225,14 +225,14 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/RimsRadio.ogg",
+				"audio": "planets/Audio/RimsRadio_Dry.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Rim's Second Radio",
 				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556}
 			},
 			{
-				"audio": "TravelerRiebeck",
+				"audio": "planets/Audio/TunerBanjo_Mono.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Traveler",
 				"name": "Tuner",

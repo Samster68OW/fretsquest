@@ -205,7 +205,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/ResonsRadio.ogg",
+				"audio": "planets/Audio/ResonsRadio_Dry.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Reson's Second Radio",

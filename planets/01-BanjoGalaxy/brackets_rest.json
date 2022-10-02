@@ -64,7 +64,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/GneissRadio.wav",
+				"audio": "planets/Audio/StrumsRadio.ogg",
 				"detectionRadius": 5.0,
 				"frequency": "Hearthian Radio",
 				"name": "Strum's Radio",
