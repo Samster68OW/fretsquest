@@ -19,7 +19,7 @@
 		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
 		"maxHeight": 200.0,
 		"minHeight": 190.5,
-		"textureMap": "planets/Assets/greenBase_TextureMap.jpg"
+		"textureMap": "planets/Assets/greenBase_TextureMap.png"
 	},
 	"Orbit": {
 		"axialTilt": 45,

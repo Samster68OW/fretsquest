@@ -50,7 +50,7 @@
 		"signals": [
 			{
 				"audio": "planets/Audio/GneissRadio2.ogg",
-				"detectionRadius": 5.0,
+				"detectionRadius": 10.0,
 				"frequency": "Hearthian Radio",
 				"name": "Gneiss's Radio",
 				"position": {"x": -27.8565922, "y": 5.27779, "z": 187.600418},

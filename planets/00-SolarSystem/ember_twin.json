@@ -35,7 +35,7 @@
 				}
 			},
 			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/BrokenLanternHouse_Zone1/Props_BrokenLanternHouse_Zone1/LanternPivot/Prefab_IP_BROKENLanternItem",
 				"position": {
 					"x": 31.2351,
 					"y": 70.8743,
@@ -48,7 +48,7 @@
 				}
 			},
 			{
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1/Interactables_DreamFireHouse_Zone1/Lanterns/Prefab_IP_SimpleLanternItem_Zone1DFH_1/Props_IP_Lantern",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/BrokenLanternHouse_Zone1/Props_BrokenLanternHouse_Zone1/LanternPivot/Prefab_IP_BROKENLanternItem",
 				"position": {
 					"x": 26.3314,
 					"y": 78.0416,
