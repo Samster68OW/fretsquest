@@ -40,7 +40,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/BridgesRadio.wav",
+				"audio": "planets/Audio/BridgesRadio.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Bridge's Radio",

@@ -205,7 +205,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/ResonsRadio.wav",
+				"audio": "planets/Audio/ResonsRadio.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Reson's Second Radio",
@@ -275,10 +275,16 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "planets/Audio/LostStrings_MusicLoop.wav",
+				"audio": "planets/Audio/LostStrings_MusicLoop.ogg",
 				"loop": true,
 				"radius": 130.0,
 				"track": "music"
+			},
+			{
+				"audio": "planets/Audio/LostStrings_WindLoop.ogg",
+				"loop": true,
+				"radius": 130.0,
+				"track": "environment"
 			}
 		]
 	}

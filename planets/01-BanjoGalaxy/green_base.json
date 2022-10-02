@@ -225,7 +225,7 @@
 		],
 		"signals": [
 			{
-				"audio": "planets/Audio/RimsRadio.wav",
+				"audio": "planets/Audio/RimsRadio.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Hearthian Radio",
 				"name": "Rim's Second Radio",
