@@ -5,7 +5,7 @@
 	"travelAudio": "planets/Audio/HearthianRadio2.ogg",
 	"startHere": false,
 	"mapRestricted": false,
-	"factRequiredForWarpOWQEUIHO": "RESON_LS_RUMOR",
+	"factRequiredForWarp": "RESON_LS_RUMOR",
 	"entryPositions": [
 		{
 			"id": "ICE_SPIRE",
