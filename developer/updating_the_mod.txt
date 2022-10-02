@@ -3,7 +3,7 @@ My Process to Update the mod
 
 
 1. Playtest and double-check that all jsons have been reset to their original state.
-2. Update the todo_list, manifest, and dev_history files.
+2. Update the manifest and dev_history files.
 3. Push a commit to GitHub, with the description being the patch notes.
 4. Double-check the new release on GitHub to make sure it looks correct.
 5. Wait for the update on the Mod Manager!

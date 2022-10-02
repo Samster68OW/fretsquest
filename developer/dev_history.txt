@@ -17,3 +17,4 @@ Developer History
     - Greenpixel
 - Sept 30th: Discord thread created
 - Oct 1st: v0.1.0 is released!
+- Oct 1st: v0.1.1 is released.
