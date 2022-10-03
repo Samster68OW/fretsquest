@@ -236,7 +236,19 @@
 				"detectionRadius": 20.0,
 				"frequency": "Traveler",
 				"name": "Tuner",
-				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059}
+				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
+				"onlyAudibleToScope": false
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/GreenBase_WindLoop.ogg",
+				"loop": true,
+				"radius": 400,
+				"track": "muffleIndoors",
+				"volume": 0.5
 			}
 		]
 	},
