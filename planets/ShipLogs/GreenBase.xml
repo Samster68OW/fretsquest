@@ -43,7 +43,7 @@
     </ExploreFact>
     <ExploreFact>
       <ID>TUNERS_QUEST_COMPLETE</ID>
-      <Text>I helped Tuner find lyrics for his song. The quest ends here. (for now!)</Text>
+      <Text>I helped Tuner find lyrics for his song. The quest ends here.</Text>
     </ExploreFact>
 
   </Entry>
@@ -88,6 +88,23 @@
     <ExploreFact>
       <ID>ASK_ABOUT_ICE</ID>
       <Text>Rim has been studying the ice. It is of the same consistency as the ice found at the Lost Village.</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>STRUMS_HOUSE</ID>
+    <Name>Strum's House</Name>
+
+    <RumorFact>
+      <ID>STRUMS_HOUSE_RUMOR</ID>
+      <SourceID>STRUM</SourceID>
+      <RumorName>Invitation</RumorName>
+      <Text>Strum invited me to visit what's left of his house near the south pole of Green Base.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>READ_STRUMS_DIARY</ID>
+      <Text>Strum just finished a big project that he was very proud of. However, he isn't telling anyone what it is because he is scared of being mocked.</Text>
     </ExploreFact>
 
   </Entry>

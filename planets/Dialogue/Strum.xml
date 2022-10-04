@@ -2,12 +2,17 @@
 	<NameField>Strum</NameField>
 
 	<DialogueNode>
-		<Name></Name>
+		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hello. Are you here to chat?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It's good to see you again.</Text>
+				<RequiredLogCondition>BRACKETS_REST_LYRIC</RequiredLogCondition>
+				<DialogueTarget>13</DialogueTarget>
+			</DialogueOption>
 			<DialogueOption>
 				<Text>Why are you out here?</Text>
 				<DialogueTarget>3</DialogueTarget>
@@ -158,9 +163,22 @@
 			<Page>I struggle because sometimes it feels like <![CDATA[<color=orange>the work I employ will never suffice</color>]]>.</Page>
 			<Page>Thanks for chatting with me. You've given me a lot to think about. I'll rest for another moment, but then I will get back to work.</Page>
 		</Dialogue>
+		<SetPersistentCondition>STRUM_SPOKEN_TO</SetPersistentCondition>
 		<RevealFacts>
 			<FactID>BRACKETS_REST_LYRIC</FactID>
 			<FactID>BRACKETS_REST_LYRICS_RUMOR</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>13</Name>
+		<Dialogue>
+			<Page>It's good to see you, too! Thanks for chatting with me earlier. You really helped me sort out my thoughts.</Page>
+			<Page>I would love for you to stop by my house sometime! It's located at the <![CDATA[<color=orange>south pole of Green Base</color>]]>.</Page>
+			<Page>Or what's left of it, anyway.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>STRUMS_HOUSE_RUMOR</FactID>
 		</RevealFacts>
 	</DialogueNode>
 	

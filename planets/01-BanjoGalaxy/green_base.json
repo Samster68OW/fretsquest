@@ -169,6 +169,26 @@
 				"position": {"x": 12.244, "y": 182.0561, "z": -59.1392},
 				"rotation": {"x": 4.6161, "y": 90.3262, "z": 155.2221},
 				"scale": 1.2
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/DarkSide/Tree_RW_M_Straight_Var", 
+				"position": {"x": -35.7671, "y": 180.2173, "z": -61.9057},
+				"rotation": {"x": 3.2663, "y": 126.9146, "z": 340.7084}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/DarkSide/Tree_RW_M_Straight_Var", 
+				"position": {"x": -34.7774, "y": 173.3697, "z": -83.0648},
+				"rotation": {"x": 338.7001, "y": 46.1051, "z": 352.885}
+			},
+			{
+				"path" : "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/DarkSide/Tree_RW_M_Straight_Var", 
+				"position": {"x": -14.2082, "y": 174.4329, "z": -88.6788},
+				"rotation": {"x": 343.8765, "y": 54.3503, "z": 348.0865}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/GhostMatterPlaque/Props_TH_MuseumPlaque (1)/Props_HEA_MuseumPlaque_Geo/plaque_paper_1", 
+				"position": {"x": -162.2999, "y": -97.1288, "z": -46.0964},
+				"rotation": {"x": 352.4659, "y": 87.0484, "z": 265.0512}
 			}
 		],
 		"dialogue": [
@@ -188,6 +208,11 @@
 				"position": {"x": -12.4844, "y": -154.6859, "z": 117.4195},
 				"radius": 2.0,
 				"xmlFile": "planets/Dialogue/Ernesto.xml"
+			},
+			{
+				"position": {"x": -162.2999, "y": -97.1288, "z": -46.0964},
+				"radius": 0.5,
+				"xmlFile": "planets/Dialogue/StrumsPaperwork.xml"
 			}
 		],
 		"nomaiText": [
@@ -236,6 +261,7 @@
 				"detectionRadius": 20.0,
 				"frequency": "Traveler",
 				"name": "Tuner",
+				"onlyAudibleToScope": false,
 				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059}
 			}
 		]

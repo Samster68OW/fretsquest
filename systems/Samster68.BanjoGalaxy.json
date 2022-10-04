@@ -55,22 +55,19 @@
 				"x": 900,
 				"y": 0
 			}
+		},
+		{
+			"id": "STRUMS_HOUSE",
+			"position": {
+				"x": 1200,
+				"y": 0
+			}
 		}
 	],
 	"curiosities": [
 		{
-			"color": {
-				"r": 9,
-				"g": 138,
-				"b": 4,
-				"a": 255
-			},
-			"highlightColor": {
-				"r": 14,
-				"g": 179,
-				"b": 7,
-				"a": 255
-			},
+			"color": {"r": 9, "g": 138, "b": 4, "a": 255},
+			"highlightColor": {"r": 14, "g": 179, "b": 7, "a": 255},
 			"id": "TUNERS_SONG"
 		}
 	],
