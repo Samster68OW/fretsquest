@@ -1,0 +1,19 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Strum's Paperwork</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I finally finished my project! That took me a lot longer than I thought it would.</Page>
+			<Page>I'm quite proud of myself. I set out to do this such a long time ago, and now it's finally complete.</Page>
+			<Page>However, I'm a bit worried. I don't think many people will like it.</Page>
+			<Page>Maybe I should wait and reveal it once I'm ready. I'm not ready for judging eyes to mock my work.</Page>
+			<Page>I'll make up my mind after my trip to Bracket's Rest.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>READ_STRUMS_DIARY</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+</DialogueTree>

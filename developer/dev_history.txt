@@ -18,3 +18,5 @@ Developer History
 - Sept 30th: Discord thread created
 - Oct 1st: v0.1.0 is released!
 - Oct 1st: v0.1.1 is released.
+- Oct 2nd: v0.2.1 is released to fix some things.
+- Oct 3rd: v0.3.0 is released!

@@ -16,6 +16,11 @@
 				<Text>Are you a Nomai?</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<Text>I found something strange on Ember Twin.</Text>
+				<RequiredLogCondition>RITUAL_RECORDER</RequiredLogCondition>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 	
@@ -76,6 +81,19 @@
 			<FactID>BRIDGE_RUMOR</FactID>
 			<FactID>RESON_RUMOR</FactID>
 		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Really? What is it?</Page>
+			<Page>...</Page>
+			<Page>Oh, that is strange.</Page>
+			<Page>It seems like whatever those Nomai were up to led to their own self-destruction.</Page>
+			<Page>I do not understand the full range of power of the magic banjo, but you must ensure that it does not do any more damage.</Page>
+			<Page>Wait... did you say that there were <![CDATA[<color=orange>two</color>]]> bodies in the Quantum Cave?</Page>
+			<Page>I thought for certain there were <![CDATA[<color=orange>three</color>]]> Nomai...</Page>
+		</Dialogue>
 	</DialogueNode>
 
 </DialogueTree>
