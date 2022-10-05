@@ -133,10 +133,11 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "SadNomaiTheme",
+				"audio": "planets/Audio/DriedTears_AmbienceLoop.ogg",
 				"loop": true,
-				"radius": 100.0,
-				"track": "music"
+				"radius": 80,
+				"track": "music",
+				"volume": 0.6
 			}
 		]
 	}

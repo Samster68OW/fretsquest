@@ -72,6 +72,17 @@
 			}
 		]
 	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/BracketsRest_AmbienceLoop.ogg",
+				"loop": true,
+				"radius": 100,
+				"track": "muffleIndoors",
+				"volume": 0.5
+			}
+		]
+	},
 	"ReferenceFrame": {},
 	"ShipLog": {
 		"spriteFolder": "planets/ShipLogs/sprites",
