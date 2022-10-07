@@ -26,14 +26,14 @@
 		"details": [
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
-				"position" : {"x": 6.2168, "y": 69.9212, "z": -0.2896},
-				"rotation" : {"x": 0, "y": 85.4153, "z": 0},
+				"position" : {"x": -3.2377, "y": 80.3491, "z": -2.4132},
+				"rotation" : {"x": 0, "y": 94.6359, "z": 0},
 				"scale" : 0.05
 			},
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
-				"position" : {"x": 6.2168, "y": 69.9212, "z": -0.2896},
-				"rotation" : {"x": 0, "y": 85.4153, "z": 0},
+				"position" : {"x": -3.2377, "y": 80.3491, "z": -2.4132},
+				"rotation" : {"x": 0, "y": 94.6359, "z": 0},
 				"scale" : 0.05
 			},
 			{
@@ -94,18 +94,30 @@
 				"position" : {"x": -44.1256, "y": -13.7284, "z": -51.096},
 				"rotation" : {"x" :53.4026, "y": 346.9252, "z": 125.4417},
 				"scale" : 0.05
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": -44.1256, "y": -13.7284, "z": -51.096},
+				"rotation" : {"x" :53.4026, "y": 346.9252, "z": 125.4417},
+				"scale" : 0.05
 			}
 		],
 		"dialogue": [
 			{
-				"position": {"x": 6.2168, "y": 69.9212, "z": -0.2896},
-				"radius": 1.5,
+				"position" : {"x": -3.2377, "y": 80.3491, "z": -2.4132},
+				"radius": 2.0,
 				"xmlFile": "planets/Dialogue/AnglerSkeleton.xml"
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "ANGLERFISH_SKELETONS",
+				"position": {"x": -3.2377, "y": 80.3491, "z": -2.4132}
 			}
 		],
 		"nomaiText": [
 			{
-				"position" : {"x": -45.5202, "y": -21.528, "z": -46.2082},
+				"position" : {"x": -44.2074, "y": -13.6187, "z": -51.1826},
 				"rotation" : {"x": 310.0241, "y": 276.9149, "z": 133.1126},
 				"type": "recorder",
 				"location": "unspecified",
@@ -135,7 +147,7 @@
 			{
 				"audio": "planets/Audio/DriedTears_AmbienceLoop.ogg",
 				"loop": true,
-				"radius": 80,
+				"radius": 90,
 				"track": "music",
 				"volume": 0.6
 			}

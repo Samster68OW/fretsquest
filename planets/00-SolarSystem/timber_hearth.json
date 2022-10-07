@@ -47,6 +47,12 @@
 				"xmlFile": "planets/Dialogue/Fret.xml"
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "FRETS_QUEST",
+				"position": {"x": -16.553875, "y": 0.102667332, "z": 192.649231}
+			}
+		],
 		"signals": [
 			{
 				"audio": "planets/Audio/GneissRadio2.ogg",

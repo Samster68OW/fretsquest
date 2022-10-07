@@ -36,7 +36,7 @@
 				"removeChildren": ["ConversationZone_RSci"]
 			},
 			{
-				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire/Props_HEA_Campfire",
+				"path" : "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {"x": 5.3587, "y": 59.1328, "z": 2.7555},
 				"rotation": {"x": 358.2351, "y": 317.0992, "z": 349.9421}
 			},
@@ -51,6 +51,12 @@
 				"position": {"x": 6.4163, "y": 60.064, "z": 3.8664},
 				"radius": 1.2,
 				"xmlFile": "planets/Dialogue/Strum.xml"
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "STRUM",
+				"position": {"x": 6.4163, "y": 60.064, "z": 3.8664}
 			}
 		],
 		"scatter": [

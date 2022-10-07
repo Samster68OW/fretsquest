@@ -21,6 +21,12 @@
 				}
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "BRIDGE_CAMP",
+				"position": {"x": 105.1342, "y": 282.6264, "z": -29.5399}
+			}
+		],
 		"nomaiText": [
 			{
 				"position": {

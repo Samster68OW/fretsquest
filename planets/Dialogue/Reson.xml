@@ -45,7 +45,7 @@
 			<Page>You are standing in the newly-created <![CDATA[<color=orange>Banjo Galaxy</color>]]>.</Page>
 			<Page>At least, I think you are. My tracking technology doesn't seem to be working here.</Page>
 			<Page>This place was created by my cohorts and I using the magic banjo. However, I did not anticipate that plucking the strings would cost my friends their lives.</Page>
-			<Page>In this universe, <![CDATA[<color=orange>playing god will always cost you</color>]]>.</Page>
+			<Page>In this universe, playing god will always cost you.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>

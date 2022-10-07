@@ -16,11 +16,12 @@ If you record/stream yourself playing this story, we would love to see it! You c
 - Music: Smuffy
 
 # Playtesters
-- Smuffy
-- ewo
-- JohnCorby
 - [clay](https://github.com/FreezeDriedMangos)
+- ewo
+- Flatkat
 - Greenpixel
+- JohnCorby
+- Smuffy
 
 # Special Thanks:
 - [clay](https://github.com/FreezeDriedMangos) - Answered questions and is very friendly

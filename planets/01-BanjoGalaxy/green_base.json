@@ -57,7 +57,7 @@
 				"scale": 0.85
 			},
 			{
-				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire/Props_HEA_Campfire", 
+				"path" : "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire", 
 				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
 				"rotation": {"x": 355.117, "y": 293.1282, "z": 14.8453}
 			},
@@ -189,6 +189,24 @@
 				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/GhostMatterPlaque/Props_TH_MuseumPlaque (1)/Props_HEA_MuseumPlaque_Geo/plaque_paper_1", 
 				"position": {"x": -162.2999, "y": -97.1288, "z": -46.0964},
 				"rotation": {"x": 352.4659, "y": 87.0484, "z": 265.0512}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "TUNERS_SONG",
+				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059}
+			},
+			{
+				"id": "LOST_VILLAGE",
+				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607}
+			},
+			{
+				"id": "ICE_SPIRE",
+				"position": {"x": 165.033, "y": 100.6056, "z": 32.0774}
+			},
+			{
+				"id": "STRUMS_HOUSE",
+				"position": {"x": -162.2999, "y": -97.1288, "z": -46.0964}
 			}
 		],
 		"dialogue": [

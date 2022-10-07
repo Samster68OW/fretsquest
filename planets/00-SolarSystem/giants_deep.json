@@ -21,6 +21,12 @@
 				}
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "RESON_CAMP",
+				"position": {"x": -18.2838669, "y": -12.0357161, "z": -20.678772}
+			}
+		],
 		"nomaiText": [
 			{
 				"position": {

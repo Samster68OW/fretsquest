@@ -75,6 +75,12 @@
 				"scale": 0.6
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "RITUAL_PORTAL",
+				"position": {"x": 29.72448, "y": 74.84678, "z": -103.482307}
+			}
+		],
 		"nomaiText": [
 			{
 				"position": {

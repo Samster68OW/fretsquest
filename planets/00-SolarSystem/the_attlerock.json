@@ -21,6 +21,12 @@
 				}
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "RIM_CAMP",
+				"position": {"x": 67.47436, "y": -14.0237, "z": -2.56409764}
+			}
+		],
 		"nomaiText": [
 			{
 				"position": {
