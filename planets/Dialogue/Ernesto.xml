@@ -6,7 +6,12 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>My mere existence causes timeline complications.</Page>
+			<Page>Anyway, you can find some of my friends on Dried Tears. They're waiting for you.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>TALK_TO_ERNESTO</FactID>
+			<FactID>FRIENDS_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 </DialogueTree>

@@ -5,6 +5,7 @@
 	"travelAudio": "planets/Audio/HearthianRadio2.ogg",
 	"startHere": false,
 	"mapRestricted": false,
+	"loopDuration": 120,
 	"factRequiredForWarp": "RITUAL_RECORDER",
 	"entryPositions": [
 		{
@@ -25,6 +26,13 @@
 			"id": "ANGLERFISH_SKELETONS",
 			"position": {
 				"x": 900,
+				"y": 600
+			}
+		},
+		{
+			"id": "ERNESTO",
+			"position": {
+				"x": 1200,
 				"y": 600
 			}
 		},

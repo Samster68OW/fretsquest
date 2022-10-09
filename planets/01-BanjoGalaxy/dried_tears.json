@@ -51,7 +51,8 @@
 			{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B", 
 				"position" : {"x": -2.9398, "y": 68.1996, "z": -2.2496},
-				"rotation" : {"x": 357.1298, "y": 75.1038, "z": 358.8102}
+				"rotation" : {"x": 357.1298, "y": 75.1038, "z": 358.8102},
+				"scale": 1.5
 			},
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",

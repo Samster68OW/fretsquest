@@ -6,6 +6,13 @@
     <Name>Anglerfish Skeletons</Name>
     <Curiosity>TUNERS_SONG</Curiosity>
 
+    <RumorFact>
+      <ID>FRIENDS_RUMOR</ID>
+      <SourceID>ERNESTO</SourceID>
+      <RumorName>Ernesto's Friends</RumorName>
+      <Text>An anglerfish skeleton on Green Base told me he has friends on Dried Tears.</Text>
+    </RumorFact>
+
     <ExploreFact>
       <ID>TALKING_SKELETONS</ID>
       <Text>An anglerfish on Dried Tears spoke to me in my head.</Text>

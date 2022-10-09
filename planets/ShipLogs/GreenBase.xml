@@ -83,7 +83,7 @@
 
     <ExploreFact>
       <ID>TALK_TO_RIM</ID>
-      <Text>I met Rim at the Ice Spire, and she was very much alive. She didn't recognize me.</Text>
+      <Text>I met Rim at the Ice Spire, and she was very much alive. She is struggling to remember her childhood for some reason.</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>ASK_ABOUT_ICE</ID>
@@ -105,6 +105,16 @@
     <ExploreFact>
       <ID>READ_STRUMS_DIARY</ID>
       <Text>Strum just finished a big project that he was very proud of. However, he isn't telling anyone what it is because he is scared of being mocked.</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>ERNESTO</ID>
+    <Name>Ernesto</Name>
+
+    <ExploreFact>
+      <ID>TALK_TO_ERNESTO</ID>
+      <Text>I found a friendly anglerfish skeleton named Ernesto. He told me that some of his friends can be found on Dried Tears.</Text>
     </ExploreFact>
 
   </Entry>
