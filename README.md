@@ -1,5 +1,7 @@
 ![alt text](developer/thumbnail.png?raw=true)
 
+Watch the Fret's Quest Launch Trailer [here](https://youtu.be/5IvVRov0VgA)!
+
 This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already explored the main game, but tries to be unobtrusive to the original narrative.
 Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod.
 
@@ -14,6 +16,7 @@ If you record/stream yourself playing this story, we would love to see it! You c
 # Credits
 - Author: Samster68
 - Music: Smuffy
+- Trailer: Texture_Turtle
 
 # Playtesters
 - [clay](https://github.com/FreezeDriedMangos)
