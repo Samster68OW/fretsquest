@@ -1,5 +1,6 @@
 ![alt text](developer/thumbnail.png?raw=true)
 
+# Fret's Quest: An Outer Wilds Story Mod
 Watch the Fret's Quest Launch Trailer [here](https://youtu.be/5IvVRov0VgA)!
 
 This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already explored the main game, but tries to be unobtrusive to the original narrative.
