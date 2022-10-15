@@ -18,7 +18,8 @@
 					"x": 30.65108,
 					"y": 81.5913849,
 					"z": 89.5912552
-				}
+				},
+				"rename": "FretProp"
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
@@ -37,7 +38,7 @@
 		"dialogue": [
 			{
 				"lookAtRadius": 3.0,
-				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle",
+				"pathToAnimController": "Sector_TH/FretProp",
 				"position": {
 					"x": -16.553875,
 					"y": 0.102667332,
