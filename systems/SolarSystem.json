@@ -3,38 +3,38 @@
 	"startHere": true,
 	"entryPositions": [
 		{
-		  "id": "FRETS_QUEST",
-		  "position": {
-			"x": 1200,
-			"y": 1300
-		  }
+			"id": "FRETS_QUEST",
+			"position": {
+				"x": 1475,
+				"y": 1695
+			}
 		},
 		{
 			"id": "RIM_CAMP",
 			"position": {
-				"x": 800,
-				"y": 1600
+				"x": 1075,
+				"y": 1995
 			}
 		},
 		{
 			"id": "BRIDGE_CAMP",
 			"position": {
-				"x": 800,
-				"y": 1300
+				"x": 1075,
+				"y": 1695
 			}
 		},
 		{
 			"id": "RESON_CAMP",
 			"position": {
-				"x": 800,
-				"y": 1000
+				"x": 1075,
+				"y": 1395
 			}
 		},
 		{
 			"id": "RITUAL_PORTAL",
 			"position": {
-				"x": 400,
-				"y": 1300
+				"x": 775,
+				"y": 1695
 			}
 		}
 	],

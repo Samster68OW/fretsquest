@@ -77,9 +77,6 @@
 		<RevealFacts>
 			<FactID>BACKSTORY_FROM_FRET</FactID>
 			<FactID>BACKSTORY_FROM_FRET_2</FactID>
-			<FactID>RIM_RUMOR</FactID>
-			<FactID>BRIDGE_RUMOR</FactID>
-			<FactID>RESON_RUMOR</FactID>
 		</RevealFacts>
 	</DialogueNode>
 

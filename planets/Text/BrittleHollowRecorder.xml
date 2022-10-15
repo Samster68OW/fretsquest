@@ -31,4 +31,10 @@
 			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>EMBER_CAVE_RUMOR_2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

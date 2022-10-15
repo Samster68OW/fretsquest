@@ -7,16 +7,13 @@
     <Curiosity>FRETS_QUEST</Curiosity>
 
     <RumorFact>
-      <ID>RIM_RUMOR</ID>
+      <ID>RIM_RADIO_FIND_RUMOR</ID>
       <SourceID>FRETS_QUEST</SourceID>
       <RumorName>Strange Signal 1</RumorName>
-      <Text>I wonder where that signal is coming from?</Text>
+      <IgnoreMoreToExplore/>
+      <Text>I followed one of the strange signals to a radio on the Attlerock.</Text>
     </RumorFact>
     
-    <ExploreFact>
-      <ID>RIM_RADIO_FIND</ID>
-      <Text>I followed one of the strange signals to a radio on the Attlerock.</Text>
-    </ExploreFact>
     <ExploreFact>
       <ID>RIM_RECORDER</ID>
       <Text>Rim said that they need to be somewhere dark and secluded.</Text>

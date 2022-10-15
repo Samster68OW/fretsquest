@@ -38,7 +38,7 @@
 	</ShipLogConditions>
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>EMBER_CAVE_RUMOR</FactID>
+			<FactID>EMBER_CAVE_RUMOR_3</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 	</ShipLogConditions>

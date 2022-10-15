@@ -5,18 +5,15 @@
     <ID>RESON_CAMP</ID>
     <Name>Reson's Camp</Name>
     <Curiosity>FRETS_QUEST</Curiosity>
-
+    
     <RumorFact>
-      <ID>RESON_RUMOR</ID>
+      <ID>RESON_RADIO_FIND_RUMOR</ID>
       <SourceID>FRETS_QUEST</SourceID>
       <RumorName>Strange Signal 3</RumorName>
-      <Text>I wonder where that signal is coming from?</Text>
+      <IgnoreMoreToExplore/>
+      <Text>I followed one of the strange signals to a radio on Giant's Deep.</Text>
     </RumorFact>
 
-    <ExploreFact>
-      <ID>RESON_RADIO_FIND</ID>
-      <Text>I followed one of the strange signals to a radio on Giant's Deep.</Text>
-    </ExploreFact>
     <ExploreFact>
       <ID>RESON_RECORDER</ID>
       <Text>Reson said that Giant's Deep is too far from the sun, making it way too cold for their plans. They will have to go to somewhere warmer and closer to the sun.</Text>

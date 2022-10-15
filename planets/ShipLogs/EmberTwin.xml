@@ -7,7 +7,19 @@
     <Curiosity>FRETS_QUEST</Curiosity>
 
     <RumorFact>
-      <ID>EMBER_CAVE_RUMOR</ID>
+      <ID>EMBER_CAVE_RUMOR_1</ID>
+      <SourceID>RIM_CAMP</SourceID>
+      <RumorName>A Meeting</RumorName>
+      <Text>Rim said that they need to be somewhere dark and secluded.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>EMBER_CAVE_RUMOR_2</ID>
+      <SourceID>BRIDGE_CAMP</SourceID>
+      <RumorName>A Meeting</RumorName>
+      <Text>Bridge said that they need to be near quantum mechanics.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>EMBER_CAVE_RUMOR_3</ID>
       <SourceID>RESON_CAMP</SourceID>
       <RumorName>A Meeting</RumorName>
       <Text>Reson mentioned that they needed to meet on a warm planet.</Text>

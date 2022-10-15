@@ -7,16 +7,13 @@
     <Curiosity>FRETS_QUEST</Curiosity>
 
     <RumorFact>
-      <ID>BRIDGE_RUMOR</ID>
+      <ID>BRIDGE_RADIO_FIND_RUMOR</ID>
       <SourceID>FRETS_QUEST</SourceID>
       <RumorName>Strange Signal 2</RumorName>
-      <Text>I wonder where that signal is coming from?</Text>
+      <IgnoreMoreToExplore/>
+      <Text>I followed one of the strange signals to a radio on Brittle Hollow.</Text>
     </RumorFact>
 
-    <ExploreFact>
-      <ID>BRIDGE_RADIO_FIND</ID>
-      <Text>I followed one of the strange signals to a radio on Brittle Hollow.</Text>
-    </ExploreFact>
     <ExploreFact>
       <ID>BRIDGE_RECORDER</ID>
       <Text>Bridge said that they need to be near quantum mechanics.</Text>
