@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
-	"travelAudio": "planets/Audio/HearthianRadio2.ogg",
+	"travelAudio": "planets/Audio/BanjoGalaxy.ogg",
 	"startHere": false,
 	"mapRestricted": false,
 	"loopDuration": 120,
