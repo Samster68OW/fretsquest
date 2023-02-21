@@ -12,6 +12,10 @@ If you record/stream yourself playing this story, we would love to see it! You c
 - [Mod Soundtrack by Smuffy](https://youtu.be/zPCexwQAm7s)
 - [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6)
 
+# Languages
+- English (Samster68)
+- Russian (Tlya)
+
 # Credits
 - Author: Samster68
 - Music: Smuffy
