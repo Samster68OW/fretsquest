@@ -15,6 +15,7 @@ If you record/stream yourself playing this story, we would love to see it! You c
 # Languages
 - English (Samster68)
 - Russian (Tlya)
+- Japanese (yakamot03)
 
 # Credits
 - Author: Samster68
