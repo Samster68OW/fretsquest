@@ -1,0 +1,122 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TIMBER_HEARTH",
+	"Props": {
+		"details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position": {
+					"x": -16.553196,
+					"y": 0.102661133,
+					"z": 190.649734
+				},
+				"rotation": {
+					"x": 30.65108,
+					"y": 81.5913849,
+					"z": 89.5912552
+				},
+				"rename": "FretProp"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {
+					"x": -27.856802,
+					"y": 5.177788,
+					"z": 187.601456
+				},
+				"rotation": {
+					"x": 33.10921,
+					"y": 79.98099,
+					"z": 89.09263
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Props_VillageCemetery/OtherComponentsGroup/HEA_Backer_Tombstone/",
+				"position": {"x": 244.801, "y": 11.6067, "z": -47.1939},
+				"rotation": {"x": 323.1466, "y": 190.8103, "z": 86.3111},
+				"removeChildren": ["InteractVolume"]
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch",
+				"position": {"x": 245.215, "y": 7.7183, "z": -45.7952},
+				"rotation": {"x": 30.6228, "y": 10.3444, "z": 273.4298}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch",
+				"position": {"x": 245.5016, "y": 10.3926, "z": -42.9764},
+				"rotation": {"x": 65.7036, "y": 15.1528, "z": 277.1879}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch",
+				"position": {"x": 245.6245, "y": 7.2874, "z": -43.2352},
+				"rotation": {"x": 44.2163, "y": 11.4709, "z": 274.1192}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch",
+				"position": {"x": 245.6139, "y": 6.3474, "z": -43.6289},
+				"rotation": {"x": 29.7678, "y": 10.2854, "z": 273.4001}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"position": {"x": 245.4843, "y": 11.8448, "z": -46.6333},
+				"rotation": {"x": 40.3788, "y": 47.0198, "z": 291.2717}
+			}
+		],
+		"dialogue": [
+			{
+				"lookAtRadius": 3.0,
+				"pathToAnimController": "Sector_TH/FretProp",
+				"position": {
+					"x": -16.553875,
+					"y": 0.102667332,
+					"z": 192.649231
+				},
+				"radius": 1.5,
+				"xmlFile": "planets/Dialogue/Fret.xml"
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "FRETS_QUEST",
+				"position": {"x": -16.553875, "y": 0.102667332, "z": 192.649231}
+			},
+			{
+				"id": "TUNER_GRAVE",
+				"position": {"x": 244.801, "y": 11.6067, "z": -47.1939}
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/GneissRadio2.ogg",
+				"detectionRadius": 10.0,
+				"frequency": "Hearthian Radio",
+				"name": "Gneiss's Radio",
+				"position": {"x": -27.8565922, "y": 5.27779, "z": 187.600418},
+				"reveals": "RADIO_LISTENED_TO"
+			}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/TimberHearth.xml"
+    },
+	"Volumes": {
+		"creditsVolume": [
+			{
+				"deathType": "meditation",
+				"position": {"x": 244.801, "y": 11.6067, "z": -47.1939},
+				"radius": 3,
+				"gameOverText": "Every creator's fear."
+			}
+		],
+		"revealVolumes": [
+			{
+				"position": {"x": 244.801, "y": 11.6067, "z": -47.1939},
+				"radius": 10,
+				"reveals": [
+					"TUNER_GRAVE_FOUND"
+				]
+			}
+		]
+	}
+}

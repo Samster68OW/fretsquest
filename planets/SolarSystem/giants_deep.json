@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "GIANTS_DEEP",
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {
+					"x": -17.5518875,
+					"y": -9.150253,
+					"z": -19.8888912
+				},
+				"rotation": {
+					"x": 21.5068836,
+					"y": 335.522766,
+					"z": 104.128311
+				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "RESON_CAMP",
+				"position": {"x": -18.2838669, "y": -12.0357161, "z": -20.678772}
+			}
+		],
+		"translatorText": [
+			{
+				"position": {
+					"x": -18.2838669,
+					"y": -12.0357161,
+					"z": -20.678772
+				},
+				"rotation": {
+					"x": 316.378784,
+					"y": 295.374451,
+					"z": 3.15194845
+				},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/GiantsDeepRecorder.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/ResonsRadio.ogg",
+				"detectionRadius": 20.0,
+				"frequency": "Hearthian Radio",
+				"name": "Reson's Radio",
+				"position": {
+					"x": -17.5511723,
+					"y": -9.150251,
+					"z": -19.8890438
+				},
+				"reveals": "RESON_RADIO_FIND_RUMOR"
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/GiantsDeep.xml"
+	}
+}

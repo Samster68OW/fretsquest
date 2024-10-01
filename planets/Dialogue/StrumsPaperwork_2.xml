@@ -1,0 +1,22 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Yesterday I flew to the strange wall on the south pole of Lost Strings.</Page>
+			<Page>I am not sure what it is doing there, but I discovered that it is connected to three scrolls scattered across the solar system.</Page>
+			<Page>One of them is on the <![CDATA[<color=orange>other side of Green Base</color>]]>. Another is <![CDATA[<color=orange>somewhere on Dried Tears</color>]]>.</Page>
+			<Page>The last one seems to be <![CDATA[<color=orange>connected to the giant banjo itself</color>]]>.</Page>
+			<Page>I'm thrilled at the aspect of this discovery! I will schedule a day to explore further.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>READ_STRUMS_DIARY_BANJO</FactID>
+			<FactID>BRIDGE_SCROLL_RUMOR</FactID>
+			<FactID>SKELETON_SCROLL_RUMOR</FactID>
+			<FactID>BANJO_SCROLL_RUMOR</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+</DialogueTree>

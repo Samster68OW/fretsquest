@@ -1,9 +1,10 @@
 {
-  "filename": "NewHorizonsConfig.dll",
-  "author": "Samster68",
-  "name": "Fret's Quest",
-  "uniqueName": "Samster68.FretsQuest",
-  "version": "0.5.3",
-  "owmlVersion": "2.11.1",
-  "dependencies": [ "xen.NewHorizons" ]
+    "$schema": "https://raw.githubusercontent.com/amazingalek/owml/master/schemas/manifest_schema.json",
+    "filename": "NewHorizonsConfig.dll",
+    "author": "Samster68",
+    "name": "Fret's Quest 2nd Anniversary Edition",
+    "uniqueName": "Samster68.FretsQuest",
+    "version": "1.0.0",
+    "owmlVersion": "2.13.0",
+    "dependencies": [ "xen.NewHorizons", "xen.AchievementTracker" ]
 }

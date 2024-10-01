@@ -1,0 +1,92 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Magic Banjo",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"isQuantumState": false,
+	"isStellarRemnant": false,
+	"canShowOnTitle": false,
+	"AmbientLights": [
+		{
+			"intensity": 1.2
+		}
+	],
+	"Base": {
+		"gravityFallOff": "linear",
+		"showMinimap": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 0.0
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"isMoon": false,
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"showOrbitLine": false,
+		"semiMajorAxis": 3000.0,
+		"trueAnomaly": 90.0
+	},
+	"Props": {
+		"details": [
+			{
+				"keepLoaded": true,
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 90.0, "y": 150.0},
+				"scale": 2000.0
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "BANJO_SCROLL",
+				"position": {"x": 0, "y": 0, "z": 0}
+			}
+		],
+		"translatorText": [
+			{
+				"rename": "Banjo Scroll",
+				"isRelativeToParent": true,
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"type": "scroll",
+				"seed": 21,
+				"xmlFile": "planets/Text/BanjoScroll.xml",
+				"arcInfo": [
+					{"type": "adult", "position": {"x": 0, "y": 0}, "zRotation": 41.6729, "mirror": false}
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/TheMagicBanjo.xml",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/icons/UI_Magic_Banjo.png",
+			"outlineSprite": "planets/ShipLogs/icons/UI_Magic_Banjo_Outline.png",
+			"manualPosition": {
+				"x": 200,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 0
+			},
+			"scale": 2.0
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50.0,
+				"position": {"x": 0, "y": 0, "z": 0},
+				"revealFor": "player",
+				"achievementID": "FQ_INVESTIGATE_BANJO"
+			}
+		]
+	}
+}

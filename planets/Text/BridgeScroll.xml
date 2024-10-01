@@ -1,0 +1,48 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BRIDGE: Day 3 of the investigation is underway. The atmosphere is getting a bit tense. And cold.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BRIDGE: Today had the biggest scare yet... prying open a shed door to reveal a pile of frozen corpses.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>BRIDGE: While I was vomiting, Reson and Fret stepped inside for a closer look. They walked out with something peculiar: A banjo. I acknowledge that a banjo, by itself, is not peculiar. However this banjo was undamaged.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>BRIDGE: Reson and Fret got into a disagreement about what they should do with it. The conversation grew loud, so Rim and I have stepped away.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>BRIDGE: Rim says it's healthy for a team to have disagreement, but I disagree.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>BRIDGE: Reson has that look in his eye... I think he's plotting something.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>READ_BRIDGE_SCROLL_BANJO</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>READ_BRIDGE_SCROLL_ARGUMENT</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BANJO_SCROLL_RUMOR_LEFT</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

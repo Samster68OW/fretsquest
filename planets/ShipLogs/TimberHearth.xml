@@ -1,4 +1,4 @@
-<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
   <ID>TIMBER_HEARTH</ID>
 
   <Entry> <!-- An Entry For This Planet -->
@@ -25,6 +25,28 @@
     <ExploreFact>
       <ID>RADIO_LISTENED_TO</ID>
       <Text>The radio outside Gneiss's house is emitting a weird signal.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>REPORTED_TO_FRET</ID>
+      <Text>I reported my adventures to Fret. He appreciates me locating the magic banjo.</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>TUNER_GRAVE</ID>
+    <Name>Tuner's Grave</Name>
+    <Curiosity>FRETS_QUEST</Curiosity>
+
+    <RumorFact>
+      <ID>TUNER_GRAVE_RUMOR</ID>
+      <SourceID>FRETS_QUEST</SourceID>
+      <RumorName>Another Banjo</RumorName>
+      <Text>Fret mentioned that he found another banjo on Timber Hearth west of the Village in a mountain range.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>TUNER_GRAVE_FOUND</ID>
+      <Text>I found the grave of a Hearthian named Tuner. Judging by the date on the tombstone, it appears they died years before I was born.</Text>
     </ExploreFact>
 
   </Entry>

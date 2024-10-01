@@ -1,0 +1,143 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Bracket's Rest",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"isQuantumState": false,
+	"isStellarRemnant": false,
+	"canShowOnTitle": false,
+	"AmbientLights": [
+		{
+			"intensity": 2.0
+		}
+	],
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 100.0
+	},
+	"Base": {
+		"gravityFallOff": "linear",
+		"showMinimap": true,
+		"surfaceGravity": 11.0,
+		"surfaceSize": 60.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 60.0,
+		"minHeight": 58.0,
+		"textureMap": "planets/Assets/bracketsRest_TextureMap.png"
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"primaryBody": "Green Base",
+		"isMoon": true,
+		"siderealPeriod": 6.0,
+		"semiMajorAxis": 800.0,
+		"inclination": 0.0,
+		"trueAnomaly": 0.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/",
+				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
+				"rotation": {"x": 345.8376, "y": 234.623, "z": 2.86811},
+				"removeChildren": ["ConversationZone_RSci"]
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {"x": 5.3587, "y": 59.1328, "z": 2.7555},
+				"rotation": {"x": 358.2351, "y": 317.0992, "z": 349.9421}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {"x": 6.9895, "y": 58.3137, "z": 4.1252},
+				"rotation": {"x": 355.8688, "y": 231.3955, "z": 356.48}
+			},
+			{
+				"path" : "GabbroShip_Body/Sector_GabbroShip",
+				"position": {"x": 13.2471, "y": 60.4898, "z": -11.3764},
+				"rotation": {"x": 346.81, "y": 352.562, "z": 348.5908}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 6.4163, "y": 60.064, "z": 3.8664},
+				"radius": 1.2,
+				"xmlFile": "planets/Dialogue/Strum.xml"
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "STRUM",
+				"position": {"x": 6.4163, "y": 60.064, "z": 3.8664}
+			}
+		],
+		"scatter": [
+			{
+				"count": 30,
+				"offset": {"y": 0.5},
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/DetailPatches_LowerVillage/UpperVillageArea/Foliage_TH_GrassPatch (18)",
+				"rotation": {},
+				"seed": 1
+			},
+			{
+				"count": 40,
+				"offset": {},
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Props_Zone1/Zone_1_Trees/OtherComponentsGroup/DarkSide/Tree_RW_M_Straight_Var",
+				"rotation": {},
+				"scale": 0.2,
+				"seed": 1
+			},
+			{
+				"count": 15,
+				"offset": {},
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 2/Core_OldSettlement 2/Interactables_Core_OldSettlement2/VisibleFrom_BH/NomaiTree",
+				"rotation": {},
+				"scale": 1.0,
+				"seed": 1
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/StrumsRadio.ogg",
+				"detectionRadius": 5.0,
+				"frequency": "Hearthian Radio",
+				"name": "Strum's Radio",
+				"position": {"x": 6.9895, "y": 58.3137, "z": 4.1252}
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/BracketsRest.xml",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/icons/UI_Brackets_Rest.png",
+			"outlineSprite": "planets/ShipLogs/icons/UI_Brackets_Rest_Outline.png",
+			"manualPosition": {
+				"x": 700,
+				"y": 100
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 1
+			},
+			"scale": 0.5
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/BracketsRest_AmbienceLoop.ogg",
+				"loop": true,
+				"radius": 100,
+				"track": "muffleIndoors",
+				"volume": 0.5
+			}
+		]
+	}
+}

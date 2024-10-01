@@ -26,7 +26,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>RESON: ...Are you guys OK?</Text>
+		<Text>RESON: ...Is everyone OK?</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

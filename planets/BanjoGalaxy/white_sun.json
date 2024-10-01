@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "White Sun",
+	"starSystem": "Samster68.BanjoGalaxy",
+	"isQuantumState": false,
+	"isStellarRemnant": false,
+	"canShowOnTitle": false,
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"showMinimap": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 100.0,
+		"surfaceSize": 700.0
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"isStatic": true,
+		"showOrbitLine": false
+	},
+	"ReferenceFrame": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/icons/UI_White_Sun.png",
+			"outlineSprite": "planets/ShipLogs/icons/UI_White_Sun_Outline.png",
+			"manualPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"scale": 1.75
+		}
+	},
+	"Star": {
+		"size": 700.0,
+		"solarLuminosity": 0.8,
+		"tint": {
+			"r": 200,
+			"g": 220,
+			"b": 250
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "default"
+	}
+}

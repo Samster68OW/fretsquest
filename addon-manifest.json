@@ -1,0 +1,110 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+    "achievements": [
+        {
+            "ID": "FQ_MEET_FRET",
+            "secret": false,
+            "factIDs": ["BACKSTORY_FROM_FRET"]
+        },
+        {
+            "ID": "FQ_DISCOVER_BANJO_GALAXY",
+            "secret": true,
+            "factIDs": ["RESON_LS_RUMOR"]
+        },
+        {
+            "ID": "FQ_TUNERS_DREAM",
+            "secret": true,
+            "factIDs": ["TUNERS_REQUEST"]
+        },
+        {
+            "ID": "FQ_TUNERS_SONG",
+            "secret": true,
+            "factIDs": ["TUNERS_QUEST_COMPLETE"]
+        },
+        {
+            "ID": "FQ_MISSION_COMPLETE",
+            "secret": false,
+            "factIDs": ["REPORTED_TO_FRET"]
+        },
+        {
+            "ID": "FQ_TUNER_GRAVE",
+            "secret": true,
+            "factIDs": ["TUNER_GRAVE_FOUND"]
+        },
+        {
+            "ID": "FQ_ICE_SPIRE",
+            "secret": false
+        },
+        {
+            "ID": "FQ_INVESTIGATE_BANJO",
+            "secret": false
+        },
+        {
+            "ID": "FQ_CORRUPTED_SCROLL",
+            "secret": true,
+            "factIDs": ["READ_BANJO_SCROLL"]
+        },
+        {
+            "ID": "FQ_FINISH_LOG",
+            "secret": false,
+            "factIDs": [
+                "TALK_TO_STRUM",
+                "TALK_TO_STRUM_PART_TWO",
+                "BRACKETS_REST_LYRIC",
+                "TALKING_SKELETONS",
+                "DRIED_TEARS_RECORDER",
+                "READ_SKELETON_SCROLL_START",
+                "READ_SKELETON_SCROLL_BRIDGE",
+                "READ_SKELETON_SCROLL_RIM",
+                "READ_SKELETON_SCROLL_FRET",
+                "TALK_TO_TUNER",
+                "TUNERS_REQUEST",
+                "TUNERS_QUEST_COMPLETE",
+                "LANTERN_HOUSE_RECORDER",
+                "CLIFF_HOUSE_RECORDER",
+                "TALL_HOUSE_RECORDER",
+                "LOST_VILLAGE_LYRICS",
+                "TALK_TO_RIM",
+                "ASK_ABOUT_ICE",
+                "READ_STRUMS_DIARY_BANJO",
+                "READ_STRUMS_DIARY",
+                "TALK_TO_ERNESTO",
+                "READ_BRIDGE_SCROLL_BANJO",
+                "READ_BRIDGE_SCROLL_ARGUMENT",
+                "RESON_NEW_GALAXY",
+                "RESON_BACKSTORY",
+                "RESON_BANJO_MISSING",
+                "LOST_STRINGS_RECORDER",
+                "LOST_STRINGS_LYRICS",
+                "READ_BANJO_SCROLL"
+            ]
+        }
+    ],
+    "credits": [
+        " ",
+        "Samster68#Mod Author",
+        " ",
+        "Smuffy#Music\n#Playtester",
+        "Texture_Turtle#Launch Trailer",
+        "Tlya#Russian Localization",
+        "yakamot03#Japanese Localization",
+        "clay#Code Assist, Playtester",
+        "Trifid#Code Assist",
+        "Fixxion#Code Assist",
+        "hearth1an#Code Assist",
+        "xen#Code Assist",
+        "ewo#Playtester",
+        "Flatkat#Playtester",
+        "Greenpixel#Playtester",
+        "JohnCorby#Playtester",
+        "CrypticBird#Bird",
+        " ",
+        " ",
+        "and others from the Outer Wilds Modding community!",
+        " ",
+        " ",
+        "Thank you for playing \"Fret's Quest\"!"
+    ],
+    "popupMessage": "MAIN_MENU_POPUP",
+    "repeatPopup": false
+}

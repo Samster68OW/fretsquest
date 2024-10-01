@@ -1,0 +1,64 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RESON: The scouts have returned. They found an ancient city that's been frozen over by an ice storm!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BRIDGE: Wow, how peculiar! Have any remains been discovered?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RESON: Yes! It appears that the species was bipedal with bird-like legs, and they had antlers on their head. I'm excited to study them further.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>RIM: Let me guess... you volunteered our team to investigate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>RESON: Am I that transparent, Rim? </Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>FRET: Incredible! How was the city destroyed with ice? Were they not expecting it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>RESON: The planetary conditions do not allow storms of this severity to form. The citizens were likely unaware that it was going to happen.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>READ_SKELETON_SCROLL_START</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>READ_SKELETON_SCROLL_BRIDGE</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>READ_SKELETON_SCROLL_RIM</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>READ_SKELETON_SCROLL_FRET</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BANJO_SCROLL_RUMOR_RIGHT</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

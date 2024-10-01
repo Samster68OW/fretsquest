@@ -1,4 +1,4 @@
-<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
   <ID>Lost Strings</ID>
 
   <Entry>
@@ -26,8 +26,8 @@
 
   </Entry>
   <Entry>
-    <ID>CLAYS_WALL</ID>
-    <Name>Clay's Wall</Name>
+    <ID>NOMAI_WALL</ID>
+    <Name>Nomai Wall</Name>
     <Curiosity>TUNERS_SONG</Curiosity>
 
     <RumorFact>

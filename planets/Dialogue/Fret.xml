@@ -17,7 +17,7 @@
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>I found something strange on Ember Twin.</Text>
+				<Text>I found a black hole that took me to a new solar system!</Text>
 				<RequiredLogCondition>RITUAL_RECORDER</RequiredLogCondition>
 				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
@@ -83,14 +83,18 @@
 	<DialogueNode>
 		<Name>5</Name>
 		<Dialogue>
-			<Page>Really? What is it?</Page>
-			<Page>...</Page>
-			<Page>Oh, that is strange.</Page>
-			<Page>It seems like whatever those Nomai were up to led to their own self-destruction.</Page>
-			<Page>I do not understand the full range of power of the magic banjo, but you must ensure that it does not do any more damage.</Page>
-			<Page>Wait... did you say that there were <![CDATA[<color=orange>two</color>]]> bodies in the Quantum Cave?</Page>
-			<Page>I thought for certain there were <![CDATA[<color=orange>three</color>]]> Nomai...</Page>
+			<Page>A new solar system?</Page>
+			<Page>So it's true, then. They used the banjo to create another solar system. That means everything in that system comes from <![CDATA[<color=orange>the mind of the one that played the banjo</color>]]>.</Page>
+			<Page>That's right! Nothing within that solar system is original! All of it is a mixture of the Nomai's thoughts and experiences. What a terrifying thought.</Page>
+			<Page>Anyway, thank you for your help today. Even though I could not retrieve the banjo, it is far out of anyone or anything's reach.</Page>
+			<Page>I'll return back to my clan soon.</Page>
+			<Page>By the way, I noticed another banjo on this planet with strange properties. I dismissed it earlier, but I took a closer look while you were gone.</Page>
+			<Page>I detected it near <![CDATA[<color=orange>the mountain range to the west</color>]]>. Might be worth a look!</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>REPORTED_TO_FRET</FactID>
+			<FactID>TUNER_GRAVE_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 </DialogueTree>

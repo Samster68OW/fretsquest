@@ -1,4 +1,4 @@
-<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
   <ID>Dried Tears</ID>
 
   <Entry>
@@ -20,6 +20,36 @@
     <ExploreFact>
       <ID>DRIED_TEARS_RECORDER</ID>
       <Text>"Our world is buried under ice."</Text>
+    </ExploreFact>
+
+  </Entry>
+  <Entry>
+    <ID>SKELETON_SCROLL</ID>
+    <Name>Skeleton Scroll</Name>
+    <Curiosity>BANJO_SCROLL</Curiosity>
+
+    <RumorFact>
+      <ID>SKELETON_SCROLL_RUMOR</ID>
+      <SourceID>STRUMS_HOUSE</SourceID>
+      <RumorName>Scroll #2</RumorName>
+      <Text>Strum mentioned there is a scroll somewhere on Dried Tears.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>READ_SKELETON_SCROLL_START</ID>
+      <Text>I found a scroll held by a Nomai skeleton on Dried Tears. It recounts a conversation about a frozen civilization.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>READ_SKELETON_SCROLL_BRIDGE</ID>
+      <Text>Reson mentioned that the citizens are bipedal and had antlers on their heads.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>READ_SKELETON_SCROLL_RIM</ID>
+      <Text>Reson volunteered his team to investigate the planet further.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>READ_SKELETON_SCROLL_FRET</ID>
+      <Text>The planet does not support the necessary conditions to freeze over. This contradiction was an emphasis in the research.</Text>
     </ExploreFact>
 
   </Entry>

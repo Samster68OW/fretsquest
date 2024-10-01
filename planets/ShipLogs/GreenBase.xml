@@ -1,4 +1,4 @@
-<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
   <ID>Green Base</ID>
 
   <Entry>
@@ -10,7 +10,7 @@
 
     <RumorFact>
       <ID>LOST_STRINGS_LYRICS_RUMOR</ID>
-      <SourceID>CLAYS_WALL</SourceID>
+      <SourceID>NOMAI_WALL</SourceID>
       <RumorName>Strange Text</RumorName>
       <Text>I learned a strange phrase from a Nomai scroll on Lost Strings.</Text>
     </RumorFact>
@@ -43,7 +43,7 @@
     </ExploreFact>
     <ExploreFact>
       <ID>TUNERS_QUEST_COMPLETE</ID>
-      <Text>I helped Tuner find lyrics for his song. The quest ends here.</Text>
+      <Text>I helped Tuner find lyrics for his song. I should return to Fret and update him on my findings.</Text>
     </ExploreFact>
 
   </Entry>
@@ -103,8 +103,12 @@
     </RumorFact>
 
     <ExploreFact>
+      <ID>READ_STRUMS_DIARY_BANJO</ID>
+      <Text>Strum also wants to learn more about this solar system. While researching the Nomai Wall on Lost Strings, he discovered that there are three scrolls across the solar system that are tied to it.</Text>
+    </ExploreFact>
+    <ExploreFact>
       <ID>READ_STRUMS_DIARY</ID>
-      <Text>Strum just finished a big project that he was very proud of. However, he isn't telling anyone what it is because he is scared of being mocked.</Text>
+      <Text>Strum isn't telling anyone about his research because he is scared of being mocked.</Text>
     </ExploreFact>
 
   </Entry>
@@ -115,6 +119,29 @@
     <ExploreFact>
       <ID>TALK_TO_ERNESTO</ID>
       <Text>I found a friendly anglerfish skeleton named Ernesto. He told me that some of his friends can be found on Dried Tears.</Text>
+    </ExploreFact>
+
+  </Entry>
+  
+  <Entry>
+    <ID>BRIDGE_SCROLL</ID>
+    <Name>Bridge's Scroll</Name>
+    <Curiosity>BANJO_SCROLL</Curiosity>
+
+    <RumorFact>
+      <ID>BRIDGE_SCROLL_RUMOR</ID>
+      <SourceID>STRUMS_HOUSE</SourceID>
+      <RumorName>Scroll #1</RumorName>
+      <Text>Strum mentioned there is a scroll somewhere on Green Base.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>READ_BRIDGE_SCROLL_BANJO</ID>
+      <Text>The Nomai research team found a banjo that was undamaged by the elements of the frozen planet.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>READ_BRIDGE_SCROLL_ARGUMENT</ID>
+      <Text>Reson and Fret argued about what they should do with the banjo.</Text>
     </ExploreFact>
 
   </Entry>

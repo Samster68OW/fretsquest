@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"startHere": true,
 	"entryPositions": [
 		{
@@ -36,8 +36,16 @@
 				"x": 775,
 				"y": 1695
 			}
+		},
+		{
+			"id": "TUNER_GRAVE",
+			"position": {
+				"x": 3000,
+				"y": 1695
+			}
 		}
 	],
+	"initialReveal": ["VILLAGE_VISITOR_RUMOR"],
 	"curiosities": [
 		{
 			"color": {
@@ -54,6 +62,5 @@
 			},
 			"id": "FRETS_QUEST"
 		}
-	],
-	"initialReveal": ["VILLAGE_VISITOR_RUMOR"]
+	]
 }

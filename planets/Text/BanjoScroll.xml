@@ -1,0 +1,15 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ERROR: File path lost! (Last Location: <![CDATA[<color=green>16-12-1-14-5-20-19 / 20-5-24-20 / 1-18-3-8-9-22-9-19-20-19-12-15-7</color>]]>)</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>READ_BANJO_SCROLL</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

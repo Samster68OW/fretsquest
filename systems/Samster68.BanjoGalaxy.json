@@ -1,12 +1,16 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"canEnterViaWarpDrive": true,
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
-	"travelAudio": "planets/Audio/BanjoGalaxy.ogg",
-	"startHere": false,
-	"mapRestricted": false,
-	"loopDuration": 120,
 	"factRequiredForWarp": "RITUAL_RECORDER",
+	"loopDuration": 22,
+	"mapRestricted": false,
+	"startHere": false,
+	"respawnHere": true,
+	"GlobalMusic": {
+		"travelAudio": "planets/Audio/BanjoGalaxy.ogg"
+	},
 	"entryPositions": [
 		{
 			"id": "ICE_SPIRE",
@@ -37,11 +41,11 @@
 			}
 		},
 		{
-		  "id": "TUNERS_SONG",
-		  "position": {
-			"x": 600,
-			"y": 300
-		  }
+			"id": "TUNERS_SONG",
+			"position": {
+				"x": 600,
+				"y": 300
+			}
 		},
 		{
 			"id": "RESON",
@@ -51,7 +55,7 @@
 			}
 		},
 		{
-			"id": "CLAYS_WALL",
+			"id": "NOMAI_WALL",
 			"position": {
 				"x": 300,
 				"y": 0
@@ -70,14 +74,40 @@
 				"x": 1200,
 				"y": 0
 			}
+		},
+		{
+			"id": "BRIDGE_SCROLL",
+			"position": {
+				"x": 800,
+				"y": -500
+			}
+		},
+		{
+			"id": "BANJO_SCROLL",
+			"position": {
+				"x": 1200,
+				"y": -500
+			}
+		},
+		{
+			"id": "SKELETON_SCROLL",
+			"position": {
+				"x": 1600,
+				"y": -500
+			}
 		}
 	],
+	"initialReveal": ["RESON_LS_RUMOR"],
 	"curiosities": [
 		{
 			"color": {"r": 9, "g": 138, "b": 4, "a": 255},
 			"highlightColor": {"r": 14, "g": 179, "b": 7, "a": 255},
 			"id": "TUNERS_SONG"
+		},
+		{
+			"color": {"r": 164, "g": 75, "b": 200, "a": 255},
+			"highlightColor": {"r": 180, "g": 120, "b": 200, "a": 255},
+			"id": "BANJO_SCROLL"
 		}
-	],
-	"initialReveal": ["RESON_LS_RUMOR"]
+	]
 }

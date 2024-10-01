@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "BRITTLE_HOLLOW",
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {
+					"x": 105.1342,
+					"y": 282.6264,
+					"z": -29.5399
+				},
+				"rotation": {
+					"x": 336.1893,
+					"y": 269.4649,
+					"z": 0
+				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "BRIDGE_CAMP",
+				"position": {"x": 105.1342, "y": 282.6264, "z": -29.5399}
+			}
+		],
+		"translatorText": [
+			{
+				"position": {
+					"x": 103.556,
+					"y": 283.8265,
+					"z": -29.1108
+				},
+				"rotation": {
+					"x": 9.3106,
+					"y": 163.9927,
+					"z": 17.8658
+				},
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/BrittleHollowRecorder.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/BridgesRadio.ogg",
+				"detectionRadius": 20.0,
+				"frequency": "Hearthian Radio",
+				"name": "Bridge's Radio",
+				"position": {
+					"x": 105.1342,
+					"y": 282.6264,
+					"z": -29.5399
+				},
+				"reveals": "BRIDGE_RADIO_FIND_RUMOR"
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/BrittleHollow.xml"
+	}
+}

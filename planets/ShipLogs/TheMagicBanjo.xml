@@ -1,0 +1,41 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>The Magic Banjo</ID>
+
+  <Entry>
+    <ID>BANJO_SCROLL</ID>
+    <Name>Magic Banjo Scroll</Name>
+    <Curiosity>BANJO_SCROLL</Curiosity>
+    <IsCuriosity/>
+
+    <RumorFact>
+      <ID>BANJO_SCROLL_WALL_RUMOR</ID>
+      <SourceID>NOMAI_WALL</SourceID>
+      <RumorName>Secrets</RumorName>
+      <Text>Can the Nomai Wall reveal the secrets of this solar system?</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>BANJO_SCROLL_RUMOR</ID>
+      <SourceID>STRUMS_HOUSE</SourceID>
+      <RumorName>Secrets</RumorName>
+      <Text>Strum mentioned there is a scroll connected to The Magic Banjo.</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>BANJO_SCROLL_RUMOR_LEFT</ID>
+      <SourceID>BRIDGE_SCROLL</SourceID>
+      <RumorName>Secrets</RumorName>
+      <Text>I wonder what the Nomai team did with the banjo?</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>BANJO_SCROLL_RUMOR_RIGHT</ID>
+      <SourceID>SKELETON_SCROLL</SourceID>
+      <RumorName>Secrets</RumorName>
+      <Text>I wonder what caused the city to be frozen over?</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>READ_BANJO_SCROLL</ID>
+      <Text>The scroll found within the Magic Banjo was corrupted. It gave a code instead: <![CDATA[<color=green>16-12-1-14-5-20-19 / 20-5-24-20 / 1-18-3-8-9-22-9-19-20-19-12-15-7</color>]]></Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>
