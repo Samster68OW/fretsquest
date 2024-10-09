@@ -4,7 +4,7 @@
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
 	"factRequiredForWarp": "RITUAL_RECORDER",
-	"loopDuration": 22,
+	"loopDuration": 66,
 	"mapRestricted": false,
 	"startHere": false,
 	"respawnHere": true,

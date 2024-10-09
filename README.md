@@ -36,8 +36,6 @@ If you record/stream yourself playing this story, we would love to see it! You c
 - CrypticBird: Bird
 - The Outer Wilds Modding community
 
-![alt text](planets/ShipLogs/sprites/BANJO_SCROLL.png.png?raw=true)
-
 # Disclaimer
 This work is unofficial fan content created under permission from the Mobius Digital Fan Content Policy.
 It includes materials which are the property of Mobius Digital and it is neither approved nor endorsed by Mobius Digital.

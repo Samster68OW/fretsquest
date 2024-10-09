@@ -237,7 +237,7 @@
 		],
 		"translatorText": [
 			{
-				"position": {"x": -4.8205, "y": -100.1584, "z": -0.5339},
+				"position": {"x": -4.2896, "y": -100.0856, "z": -3.3994},
 				"rotation": {"x": 4.2741, "y": 24.9198, "z": 171.1018},
 				"type": "recorder",
 				"location": "unspecified",
@@ -284,7 +284,7 @@
 			"revealedSprite": "planets/ShipLogs/icons/UI_Lost_Strings.png",
 			"outlineSprite": "planets/ShipLogs/icons/UI_Lost_Strings_Outline.png",
 			"manualPosition": {
-				"x": 500,
+				"x": 400,
 				"y": 0
 			},
 			"manualNavigationPosition": {

@@ -204,7 +204,7 @@
 			"revealedSprite": "planets/ShipLogs/icons/UI_Dried_Tears.png",
 			"outlineSprite": "planets/ShipLogs/icons/UI_Dried_Tears_Outline.png",
 			"manualPosition": {
-				"x": 950,
+				"x": 800,
 				"y": 0
 			},
 			"manualNavigationPosition": {

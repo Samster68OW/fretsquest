@@ -347,7 +347,7 @@
 			"revealedSprite": "planets/ShipLogs/icons/UI_Green_Base.png",
 			"outlineSprite": "planets/ShipLogs/icons/UI_Green_Base_Outline.png",
 			"manualPosition": {
-				"x": 700,
+				"x": 600,
 				"y": 0
 			},
 			"manualNavigationPosition": {

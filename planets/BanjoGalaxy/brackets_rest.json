@@ -119,7 +119,7 @@
 			"revealedSprite": "planets/ShipLogs/icons/UI_Brackets_Rest.png",
 			"outlineSprite": "planets/ShipLogs/icons/UI_Brackets_Rest_Outline.png",
 			"manualPosition": {
-				"x": 700,
+				"x": 600,
 				"y": 100
 			},
 			"manualNavigationPosition": {

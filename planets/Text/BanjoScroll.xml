@@ -2,7 +2,7 @@
 	
 	<TextBlock>
 		<ID>1</ID>
-		<Text>ERROR: File path lost! (Last Location: <![CDATA[<color=green>16-12-1-14-5-20-19 / 20-5-24-20 / 1-18-3-8-9-22-9-19-20-19-12-15-7</color>]]>)</Text>
+		<Text>ERROR: File path lost! (Last Location: <![CDATA[<color=orange>16-12-1-14-5-20-19 / 20-5-24-20 / 1-18-3-8-9-22-9-19-20-19-12-15-7</color>]]>)</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

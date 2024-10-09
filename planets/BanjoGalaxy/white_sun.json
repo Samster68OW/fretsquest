@@ -39,14 +39,13 @@
 		}
 	},
 	"Star": {
+		"lifespan": 66,
 		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {
 			"r": 200,
 			"g": 220,
 			"b": 250
-		},
-		"stellarDeathType": "default",
-		"stellarRemnantType": "default"
+		}
 	}
 }
