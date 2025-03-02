@@ -106,6 +106,18 @@
 				"frequency": "Hearthian Radio",
 				"name": "Strum's Radio",
 				"position": {"x": 6.9895, "y": 58.3137, "z": 4.1252}
+			},
+			{
+                "audio": "planets/Audio/CampfireLoop.wav",
+                "detectionRadius": 0.0000001,
+                "frequency": "NULL",
+                "name": "NULL",
+                "identificationRadius": 0.0000001,
+                "onlyAudibleToScope": false,
+                "position": {"x": 5.3587, "y": 59.1328, "z": 2.7555},
+                "maxDistance": 50,
+                "minDistance": 25,
+                "volume": 0.5
 			}
 		]
 	},
@@ -137,6 +149,15 @@
 				"radius": 100,
 				"track": "muffleIndoors",
 				"volume": 0.5
+			},
+			{
+				"audio": "planets/Audio/StrumsHum.ogg",
+				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
+				"loop": true,
+				"radius": 10,
+				"track": "music",
+				"volume": 0.45,
+				"fadeSeconds": 5
 			}
 		]
 	}

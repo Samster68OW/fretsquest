@@ -220,8 +220,8 @@
 				"audio": "planets/Audio/DriedTears_AmbienceLoop.ogg",
 				"loop": true,
 				"radius": 90,
-				"track": "music",
-				"volume": 0.6
+				"track": "muffleIndoors",
+				"volume": 0.5
 			}
 		]
 	}

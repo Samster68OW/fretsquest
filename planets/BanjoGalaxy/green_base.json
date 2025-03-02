@@ -333,7 +333,10 @@
 				"frequency": "Traveler",
 				"name": "Tuner",
 				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
-				"onlyAudibleToScope": false
+				"onlyAudibleToScope": false,
+				"maxDistance": 175,
+				"minDistance": 50,
+				"volume": 0.8
 			}
 		]
 	},
