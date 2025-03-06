@@ -334,9 +334,9 @@
 				"name": "Tuner",
 				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
 				"onlyAudibleToScope": false,
-				"maxDistance": 175,
+				"maxDistance": 140,
 				"minDistance": 50,
-				"volume": 0.8
+				"volume": 0.5
 			}
 		]
 	},
