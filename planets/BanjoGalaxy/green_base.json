@@ -368,6 +368,15 @@
 				"radius": 400,
 				"track": "muffleIndoors",
 				"volume": 0.5
+			},
+			{
+				"audio": "planets/Audio/TheLostVillage.ogg",
+				"loop": true,
+				"radius": 100,
+				"position": {"x": -16.5501, "y": 180.9142, "z": -65.4059},
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.6
 			}
 		],
 		"revealVolumes": [
