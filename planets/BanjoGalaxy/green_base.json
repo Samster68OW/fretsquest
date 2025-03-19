@@ -380,7 +380,8 @@
 				"radius": 400,
 				"track": "muffleIndoors",
 				"volume": 0.5,
-				"layer": 1
+				"layer": 1,
+				"fadeSeconds": 5
 			},
 			{
 				"audio": "planets/Audio/TunersCamp.ogg",
@@ -436,7 +437,8 @@
 				"track": "muffleIndoors",
 				"volume": 0.1,
 				"layer": 1,
-				"priority": 2
+				"priority": 2,
+				"fadeSeconds": 5
 			},
 			{
 				"audio": "planets/Audio/LostVillageScrollStinger.ogg",
