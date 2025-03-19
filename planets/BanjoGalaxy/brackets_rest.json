@@ -117,7 +117,7 @@
                 "position": {"x": 5.3587, "y": 59.1328, "z": 2.7555},
                 "maxDistance": 50,
                 "minDistance": 25,
-                "volume": 0.5
+                "volume": 0.4
 			}
 		]
 	},
@@ -144,20 +144,51 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "planets/Audio/BracketsRest_AmbienceLoop.ogg",
+				"audio": "planets/Audio/BracketsRest_WindLoop.ogg",
 				"loop": true,
 				"radius": 100,
 				"track": "muffleIndoors",
-				"volume": 0.5
+				"volume": 0.5,
+				"layer": 1,
+				"fadeSeconds": 4
+			},
+			{
+				"audio": "planets/Audio/BracketsRest_CricketsLoop.ogg",
+				"loop": true,
+				"radius": 100,
+				"track": "muffleIndoors",
+				"volume": 0.4,
+				"layer": 2,
+				"fadeSeconds": 4
+			},
+			{
+				"rename": "CricketsAudioMask",
+				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
+				"radius": 15,
+				"layer": 2,
+				"priority": 2
+			},
+			{
+				"rename": "QuieterWind",
+				"audio": "planets/Audio/BracketsRest_WindLoop.ogg",
+				"loop": true,
+				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
+				"radius": 15,
+				"track": "muffleIndoors",
+				"volume": 0.25,
+				"layer": 1,
+				"fadeSeconds": 4,
+				"priority": 2
 			},
 			{
 				"audio": "planets/Audio/StrumsHum.ogg",
 				"position": {"x": 6.4163, "y": 59.064, "z": 3.8664},
 				"loop": true,
-				"radius": 10,
+				"radius": 15,
 				"track": "music",
-				"volume": 0.45,
-				"fadeSeconds": 5
+				"volume": 0.35,
+				"fadeSeconds": 5,
+				"layer": 3
 			}
 		]
 	}
