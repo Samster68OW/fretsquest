@@ -336,7 +336,7 @@
 				"onlyAudibleToScope": false,
 				"maxDistance": 140,
 				"minDistance": 20,
-				"volume": 0.7
+				"volume": 0.8
 			},
 			{
                 "audio": "planets/Audio/CampfireLoop.wav",
@@ -391,7 +391,7 @@
 				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
 				"fadeSeconds": 5,
 				"track": "music",
-				"volume": 0.6,
+				"volume": 0.7,
 				"layer": 2
 			},
 			{
