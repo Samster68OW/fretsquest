@@ -328,15 +328,27 @@
 				"position": {"x": 162.1024, "y": 101.0125, "z": 31.0556}
 			},
 			{
-				"audio": "planets/Audio/TunerBanjo_Mono.ogg",
+				"audio": "planets/Audio/TunersPractising.ogg",
 				"detectionRadius": 20.0,
 				"frequency": "Traveler",
 				"name": "Tuner",
 				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
 				"onlyAudibleToScope": false,
 				"maxDistance": 140,
-				"minDistance": 50,
-				"volume": 0.5
+				"minDistance": 20,
+				"volume": 0.7
+			},
+			{
+                "audio": "planets/Audio/CampfireLoop.wav",
+                "detectionRadius": 0.0000001,
+                "frequency": "NULL",
+                "name": "NULL",
+                "identificationRadius": 0.0000001,
+                "onlyAudibleToScope": false,
+                "position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
+                "maxDistance": 50,
+                "minDistance": 25,
+                "volume": 0.4
 			}
 		]
 	},
@@ -367,16 +379,75 @@
 				"loop": true,
 				"radius": 400,
 				"track": "muffleIndoors",
-				"volume": 0.5
+				"volume": 0.5,
+				"layer": 1
+			},
+			{
+				"audio": "planets/Audio/TunersCamp.ogg",
+				"loop": true,
+				"pauseOnFadeOut": true,
+				"radius": 70,
+				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.6,
+				"layer": 2
 			},
 			{
 				"audio": "planets/Audio/TheLostVillage.ogg",
 				"loop": true,
-				"radius": 100,
-				"position": {"x": -16.5501, "y": 180.9142, "z": -65.4059},
+				"radius": 15,
+				"position": {"x": -30.9894, "y": 192.078, "z": -27.6978},
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.5,
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"rename": "CliffHouseMusicBlocker",
+				"radius": 25,
+				"position": {"x": -30.9894, "y": 192.078, "z": -27.6978},
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"rename": "TallHouseMusicBlocker",
+				"radius": 50,
+				"position": {"x": 13.9681, "y": 250.6063, "z": -60.0923},
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"audio": "planets/Audio/LostVillageScrollDrone.ogg",
+				"loop": true,
+				"radius": 40,
+				"position": {"x": 4.7252, "y": 196.643, "z": 28.8811},
 				"fadeSeconds": 5,
 				"track": "music",
 				"volume": 0.6
+			},
+			{
+				"rename": "QuieterWind",
+				"audio": "planets/Audio/GreenBase_WindLoop.ogg",
+				"loop": true,
+				"radius": 40,
+				"position": {"x": 4.7252, "y": 196.643, "z": 28.8811},
+				"track": "muffleIndoors",
+				"volume": 0.1,
+				"layer": 1,
+				"priority": 2
+			},
+			{
+				"audio": "planets/Audio/LostVillageScrollStinger.ogg",
+				"loop": false,
+				"noFadeFromBeginning": true,
+				"radius": 10,
+				"position": {"x": 7.4317, "y": 206.4729, "z": 26.7753},
+				"track": "music",
+				"volume": 0.6,
+				"layer": 2,
+				"fadeSeconds": 9999999
 			}
 		],
 		"revealVolumes": [
