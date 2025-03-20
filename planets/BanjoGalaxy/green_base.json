@@ -395,10 +395,35 @@
 				"layer": 2
 			},
 			{
+				"rename": "CliffHouseMusicVolume",
 				"audio": "planets/Audio/TheLostVillage.ogg",
 				"loop": true,
 				"radius": 15,
 				"position": {"x": -30.9894, "y": 192.078, "z": -27.6978},
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.5,
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"rename": "LanternHouseMusicVolume",
+				"audio": "planets/Audio/TheLostVillage.ogg",
+				"loop": true,
+				"radius": 7,
+				"position": {"x": 9.979, "y": 180.3902, "z": -79.4186},
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.5,
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"rename": "TallHouseMusicVolume",
+				"audio": "planets/Audio/TheLostVillage.ogg",
+				"loop": true,
+				"radius": 20,
+				"position": {"x": 6.6383, "y": 222.8734, "z": -68.0542},
 				"fadeSeconds": 5,
 				"track": "music",
 				"volume": 0.5,
@@ -413,9 +438,23 @@
 				"layer": 2
 			},
 			{
+				"rename": "LanternHouseMusicBlocker",
+				"radius": 10,
+				"position": {"x": 1.2813, "y": 182.3006, "z": -73.9842},
+				"priority": 2,
+				"layer": 2
+			},
+			{
 				"rename": "TallHouseMusicBlocker",
 				"radius": 50,
 				"position": {"x": 13.9681, "y": 250.6063, "z": -60.0923},
+				"priority": 2,
+				"layer": 2
+			},
+			{
+				"rename": "TunerMusicBlocker",
+				"radius": 3,
+				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
 				"priority": 2,
 				"layer": 2
 			},
