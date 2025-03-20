@@ -391,7 +391,7 @@
 				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
 				"fadeSeconds": 5,
 				"track": "music",
-				"volume": 0.7,
+				"volume": 0.4,
 				"layer": 2
 			},
 			{
