@@ -387,7 +387,7 @@
 				"audio": "planets/Audio/TunersCamp.ogg",
 				"loop": true,
 				"pauseOnFadeOut": true,
-				"radius": 100,
+				"radius": 90,
 				"position": {"x": -19.4442, "y": 180.0436, "z": -67.607},
 				"fadeSeconds": 5,
 				"track": "music",
