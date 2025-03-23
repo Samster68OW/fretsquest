@@ -452,9 +452,14 @@
 				"layer": 2
 			},
 			{
-				"rename": "TunerMusicBlocker",
+				"rename": "TunerDialogueMusic",
+				"audio": "planets/Audio/TunersCampDrone.ogg",
 				"radius": 3,
 				"position": {"x": -16.6501, "y": 182.8143, "z": -66.4059},
+				"loop": true,
+				"fadeSeconds": 5,
+				"track": "music",
+				"volume": 0.35,
 				"priority": 2,
 				"layer": 2
 			},
