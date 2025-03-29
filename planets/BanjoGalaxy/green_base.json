@@ -408,7 +408,7 @@
 			},
 			{
 				"rename": "LanternHouseMusicVolume",
-				"audio": "planets/Audio/TheLostVillage.ogg",
+				"audio": "planets/Audio/TheKidnapping.ogg",
 				"loop": true,
 				"radius": 7,
 				"position": {"x": 9.979, "y": 180.3902, "z": -79.4186},
