@@ -420,13 +420,13 @@
 			},
 			{
 				"rename": "TallHouseMusicVolume",
-				"audio": "planets/Audio/TheLostVillage.ogg",
+				"audio": "planets/Audio/TheLostVillage_TallHouse.ogg",
 				"loop": true,
 				"radius": 20,
 				"position": {"x": 6.6383, "y": 222.8734, "z": -68.0542},
 				"fadeSeconds": 5,
 				"track": "music",
-				"volume": 0.5,
+				"volume": 0.8,
 				"priority": 2,
 				"layer": 2
 			},
