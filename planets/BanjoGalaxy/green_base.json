@@ -414,7 +414,7 @@
 				"position": {"x": 9.979, "y": 180.3902, "z": -79.4186},
 				"fadeSeconds": 5,
 				"track": "music",
-				"volume": 0.65,
+				"volume": 0.7,
 				"priority": 2,
 				"layer": 2
 			},
@@ -445,6 +445,18 @@
 				"layer": 2
 			},
 			{
+				"rename": "QuieterWindLanternHouse",
+				"audio": "planets/Audio/GreenBase_WindLoop.ogg",
+				"loop": true,
+				"radius": 7,
+				"position": {"x": 9.979, "y": 180.3902, "z": -79.4186},
+				"track": "muffleIndoors",
+				"volume": 0.1,
+				"layer": 1,
+				"priority": 2,
+				"fadeSeconds": 5
+			},
+			{
 				"rename": "TallHouseMusicBlocker",
 				"radius": 50,
 				"position": {"x": 13.9681, "y": 250.6063, "z": -60.0923},
@@ -473,7 +485,7 @@
 				"volume": 0.6
 			},
 			{
-				"rename": "QuieterWind",
+				"rename": "QuieterWindBridgeScroll",
 				"audio": "planets/Audio/GreenBase_WindLoop.ogg",
 				"loop": true,
 				"radius": 40,
