@@ -106,7 +106,15 @@
 				"deathType": "meditation",
 				"position": {"x": 244.801, "y": 11.6067, "z": -47.1939},
 				"radius": 3,
-				"gameOverText": "Every creator's fear."
+				"gameOver": {
+					"text": "Every creator's fear.",
+					"audio": "planets/Audio/Credits.ogg",
+					"audioVolume": 0.7,
+					"audioFadeInLength": 0.0,
+					"audioLooping": false,
+					"scrollDuration": 137.0,
+					"creditsType": "custom"
+				}
 			}
 		],
 		"revealVolumes": [
