@@ -13,8 +13,14 @@
 	"Base": {
 		"gravityFallOff": "linear",
 		"showMinimap": true,
-		"surfaceGravity": 10.0,
-		"surfaceSize": 0.0
+		"surfaceGravity": 0.0,
+		"surfaceSize": 800,
+		"groundSize": 0
+	},
+	"Atmosphere": {
+		"allowShipAutoroll": false,
+		"hasOxygen": false,
+		"useAtmosphereShader": false
 	},
 	"MapMarker": {
 		"enabled": true
@@ -57,6 +63,32 @@
 					{"type": "adult", "position": {"x": 0, "y": 0}, "zRotation": 41.6729, "mirror": false}
 				]
 			}
+		],
+		"signals": [
+			{
+				"audio": "planets/Audio/MagicBanjo_BanjoMono.ogg",
+                "detectionRadius": 0.0000001,
+                "frequency": "NULL",
+                "name": "NULL",
+                "identificationRadius": 0.0000001,
+                "onlyAudibleToScope": false,
+                "position": {"x": 0, "y": 0, "z": 0},
+                "maxDistance": 75,
+                "minDistance": 25,
+                "volume": 1
+			},
+			{
+				"audio": "planets/Audio/MagicBanjo_Echoes.ogg",
+                "detectionRadius": 0.0000001,
+                "frequency": "NULL",
+                "name": "NULL",
+                "identificationRadius": 0.0000001,
+                "onlyAudibleToScope": false,
+                "position": {"x": 0, "y": 0, "z": 0},
+                "maxDistance": 150,
+                "minDistance": 50,
+                "volume": 0.6
+			}
 		]
 	},
 	"ReferenceFrame": {
@@ -86,6 +118,16 @@
 				"position": {"x": 0, "y": 0, "z": 0},
 				"revealFor": "player",
 				"achievementID": "FQ_INVESTIGATE_BANJO"
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/MagicBanjo_Drone.ogg",
+				"fadeSeconds": 5,
+				"loop": true,
+				"radius": 700,
+				"track": "music",
+				"volume": 0.7
 			}
 		]
 	}
