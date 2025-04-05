@@ -108,11 +108,11 @@
 				"radius": 3,
 				"gameOver": {
 					"text": "Every creator's fear.",
-					"audio": "planets/Audio/Credits.ogg",
+					"audio": "planets/Audio/Credits_alt.ogg",
 					"audioVolume": 0.7,
 					"audioFadeInLength": 0.0,
 					"audioLooping": false,
-					"scrollDuration": 393.0,
+					"scrollDuration": 253.0,
 					"creditsType": "custom"
 				}
 			}
