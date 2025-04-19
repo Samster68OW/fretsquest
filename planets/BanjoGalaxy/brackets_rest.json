@@ -186,7 +186,7 @@
 				"loop": true,
 				"radius": 15,
 				"track": "music",
-				"volume": 0.35,
+				"volume": 0.45,
 				"fadeSeconds": 5,
 				"layer": 3
 			}

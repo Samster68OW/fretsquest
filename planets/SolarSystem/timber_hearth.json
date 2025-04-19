@@ -110,9 +110,8 @@
 					"text": "Every creator's fear.",
 					"audio": "planets/Audio/Credits_alt.ogg",
 					"audioVolume": 0.7,
-					"audioFadeInLength": 0.0,
 					"audioLooping": false,
-					"langth": 253.0,
+					"length": 251.0,
 					"creditsType": "custom"
 				}
 			}

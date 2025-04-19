@@ -506,6 +506,27 @@
 				"volume": 0.6,
 				"layer": 2,
 				"fadeSeconds": 9999999
+			},
+			{
+				"rename": "RimMusic",
+				"audio": "planets/Audio/RimsHymn.ogg",
+				"loop": true,
+				"radius": 40,
+				"position": {"x": 164.6948, "y": 97.1654, "z": 21.5222},
+				"track": "music",
+				"volume": 0.75,
+				"fadeSeconds": 5
+			},
+			{
+				"audio": "planets/Audio/StrumsHouseStinger.ogg",
+				"loop": false,
+				"noFadeFromBeginning": true,
+				"radius": 20,
+				"position": {"x": -162.2999, "y": -97.1288, "z": -46.0964},
+				"track": "music",
+				"volume": 0.3,
+				"layer": 2,
+				"fadeSeconds": 9999999
 			}
 		],
 		"revealVolumes": [
