@@ -221,7 +221,16 @@
 				"loop": true,
 				"radius": 90,
 				"track": "music",
-				"volume": 0.6
+				"volume": 0.4,
+				"fadeSeconds": 7,
+				"layer": 1,
+				"priority": 1
+			},
+			{
+				"position": {"x": -49.32, "y": -6.34, "z": 51.33},
+				"radius": 20,
+				"layer": 1,
+				"priority": 2
 			}
 		]
 	}

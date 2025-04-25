@@ -58,5 +58,24 @@
 	"ShipLog": {
 		"spriteFolder": "planets/ShipLogs/sprites",
 		"xmlFile": "planets/ShipLogs/Attlerock.xml"
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/NomaiTranslations.ogg",
+				"fadeSeconds": 5,
+				"loop": true,
+				"position": 
+				{
+					"x": 67.47436,
+					"y": -14.0237,
+					"z": -2.56409764
+				},
+				"radius": 5,
+				"volume": 0.6,
+				"track": "music",
+				"randomizePlayhead": true
+			}
+		]
 	}
 }
