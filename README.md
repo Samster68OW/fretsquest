@@ -1,4 +1,4 @@
-![alt text](developer/thumbnail.PNG?raw=true)
+![alt text](developer/thumbnail.png?raw=true)
 
 # Fret's Quest: 2nd Anniversary Edition
 Somebody has arrived in the Village near the geysers. He need your help to find something powerful that was stolen from him.
