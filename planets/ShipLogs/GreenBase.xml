@@ -39,11 +39,11 @@
     </ExploreFact>
     <ExploreFact>
       <ID>TUNERS_REQUEST</ID>
-      <Text>Tuner would like some help looking for the lyrics to his song. He needs two verses with two lines apiece. I should be able to find inspiration from the galaxy itself.</Text>
+      <Text>Tuner would like some help looking for the lyrics to their song. They need two verses with two lines apiece. I should be able to find inspiration from the galaxy itself.</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>TUNERS_QUEST_COMPLETE</ID>
-      <Text>I helped Tuner find lyrics for his song. I should return to Fret and update him on my findings.</Text>
+      <Text>I helped Tuner find lyrics for their song. I should return to Fret and update him on my findings.</Text>
     </ExploreFact>
 
   </Entry>
@@ -99,16 +99,16 @@
       <ID>STRUMS_HOUSE_RUMOR</ID>
       <SourceID>STRUM</SourceID>
       <RumorName>Invitation</RumorName>
-      <Text>Strum invited me to visit what's left of his house near the south pole of Green Base.</Text>
+      <Text>Strum invited me to visit what is left of their house near the south pole of Green Base.</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>READ_STRUMS_DIARY_BANJO</ID>
-      <Text>Strum also wants to learn more about this solar system. While researching the Nomai Wall on Lost Strings, he discovered that there are three scrolls across the solar system that are tied to it.</Text>
+      <Text>Strum also wants to learn more about this solar system. While researching the Nomai Wall on Lost Strings, they discovered that there are three scrolls across the solar system that are tied to it.</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>READ_STRUMS_DIARY</ID>
-      <Text>Strum isn't telling anyone about his research because he is scared of being mocked.</Text>
+      <Text>Strum isn't telling anyone about their research because they are scared of being mocked.</Text>
     </ExploreFact>
 
   </Entry>
@@ -118,7 +118,7 @@
 
     <ExploreFact>
       <ID>TALK_TO_ERNESTO</ID>
-      <Text>I found a friendly anglerfish skeleton named Ernesto. He told me that some of his friends can be found on Dried Tears.</Text>
+      <Text>I found a friendly anglerfish named Ernesto. He told me that some of his friends can be found on Dried Tears.</Text>
     </ExploreFact>
 
   </Entry>

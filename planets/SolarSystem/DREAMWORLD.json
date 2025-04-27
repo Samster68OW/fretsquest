@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DREAMWORLD",
+	"Props": {
+		"details": [
+			{
+                "rename": "Simulated Magic Banjo",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss/Villager_HEA_Gneiss_ANIM_Tuning/Gneiss:Rig:Trajectory_Jnt/Gneiss:Rig:ROOT_Jnt/Gneiss:Rig:Spine_01_Jnt/Gneiss:Rig:Spine_02_Jnt/Gneiss:Rig:Spine_Top_Jnt/Props_HEA_Banjo/",
+				"position": {
+					"x": -38.55915,
+					"y": 97.68,
+					"z": 198.5709
+				},
+				"rotation": {
+					"x": 270.6966,
+					"y": 224.2029,
+					"z": 229.6335
+				},
+                "item": {
+                    "name": "Simulated Magic Banjo",
+                    "itemType": "MagicInstrument",
+					"dropNormal": {
+						"x": 270.6966,
+						"y": 224.2029,
+						"z": 229.6335
+					},
+					"holdRotation": {
+						"x": 350,
+						"y": 0,
+						"z": 326
+					}
+                }
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 5.0,
+				"position": {"x": -38.55915, "y": 97.68, "z": 198.5709},
+				"revealFor": "player",
+				"achievementID": "FQ_DREAMWORLD_BANJO"
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/TunersCamp.ogg",
+				"fadeSeconds": 5,
+				"loop": true,
+				"position": {"x": -38.55915, "y": 97.68, "z": 198.5709},
+				"radius": 5,
+				"track": "music",
+				"volume": 0.7
+			}
+		]
+	}
+}

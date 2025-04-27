@@ -159,16 +159,11 @@
 				"scale": 0.4
 			},
 			{
-				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth", 
-				"position" : {"x": -12.4844, "y": -154.1859, "z": 117.4195},
-				"rotation" : {"x": 344.8116, "y": 285.5757, "z": 209.2398},
-				"scale" : 0.05
-			},
-			{
-				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
-				"position" : {"x": -12.4844, "y": -154.1859, "z": 117.4195},
-				"rotation" : {"x": 344.8116, "y": 285.5757, "z": 209.2398},
-				"scale" : 0.05
+				"rename": "Ernesto",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+				"position" : {"x": 15.5392, "y": -155.8518, "z": 120.1286},
+				"rotation" : {"x": 347.5208, "y": 281.4921, "z": 215.7511},
+				"scale": 0.05
 			},
 			{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector Main Bridge/Fragment B2_MainBridge/Destructible B2_MainBridge/Props_Destructible_B2_MainBridge/Ice_BH_Stalagtite_Small_A", 
@@ -228,7 +223,7 @@
 				"xmlFile": "planets/Dialogue/Rim.xml"
 			},
 			{
-				"position": {"x": -12.4844, "y": -154.6859, "z": 117.4195},
+				"position" : {"x": 13.1392, "y": -155.2518, "z": 120.4286},
 				"radius": 2.0,
 				"xmlFile": "planets/Dialogue/Ernesto.xml"
 			},
@@ -262,7 +257,7 @@
 			},
 			{
 				"id": "ERNESTO",
-				"position": {"x": -12.4844, "y": -154.6859, "z": 117.4195}
+				"position": {"x": 13.1392, "y": -155.2518, "z": 120.4286}
 			},
 			{
 				"id": "BRIDGE_SCROLL",

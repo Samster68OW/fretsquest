@@ -78,6 +78,10 @@
                 "LOST_STRINGS_LYRICS",
                 "READ_BANJO_SCROLL"
             ]
+        },
+        {
+            "ID": "FQ_DREAMWORLD_BANJO",
+            "secret": true
         }
     ],
     "credits": [
@@ -105,6 +109,6 @@
         " ",
         "Thank you for playing \"Fret's Quest\"!"
     ],
-    "popupMessage": "MAIN_MENU_POPUP",
+    "popupMessage": "Thank you for downloading Fret's Quest! Someone is waiting for you in the Village near the geysers.",
     "repeatPopup": false
 }

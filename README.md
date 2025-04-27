@@ -1,11 +1,13 @@
-![alt text](developer/thumbnail.png?raw=true)
+![alt text](developer/thumbnail.PNG?raw=true)
 
 # Fret's Quest: 2nd Anniversary Edition
-There is a visitor in the Village. He needs you to find something powerful that was stolen from him.
+Somebody has arrived in the Village near the geysers. He need your help to find something powerful that was stolen from him.
 
-This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already explored the main game, but tries to be unobtrusive to the original narrative. Contains spoilers for the base game and mild spoilers for the Echoes of the Eye DLC. Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod. It also makes use of the [Achievements+](https://outerwildsmods.com/mods/achievements/) mod.
+This mod is a unofficial short story addon for Outer Wilds. It is designed for players that have already experienced the base game and Echoes of the Eye. Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod. It also makes use of the [Achievements+](https://outerwildsmods.com/mods/achievements/) mod. If you record/stream yourself playing this story, we would love to see it! You can find us on the [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6). Stop by and chat with us about modding!
 
-If you record/stream yourself playing this story, we would love to see it! You can find us on the [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6). Stop by and chat with us about modding!
+# Recommended Mods
+- [Achievements+](https://outerwildsmods.com/mods/achievements/): There are a number of achievements to collect!
+- [Traveler's Pack](https://outerwildsmods.com/mods/travelerspack/): Makes it easier to carry multiple items around.
 
 # Links
 - [Launch Trailer](https://youtu.be/5IvVRov0VgA)
@@ -14,8 +16,6 @@ If you record/stream yourself playing this story, we would love to see it! You c
 
 # Languages
 - English
-- Russian (Incomplete)
-- Japanese (Incomplete)
 
 # Credits
 - Samster68: Mod Author

@@ -11,7 +11,7 @@
       <ID>VILLAGE_VISITOR_RUMOR</ID>
       <SourceID>TH_VILLAGE</SourceID>
       <RumorName>A Visitor</RumorName>
-      <Text>There is a visitor somewhere in the Village.</Text>
+      <Text>There is a visitor somewhere in the Village near the geysers.</Text>
     </RumorFact>
 
     <ExploreFact>
